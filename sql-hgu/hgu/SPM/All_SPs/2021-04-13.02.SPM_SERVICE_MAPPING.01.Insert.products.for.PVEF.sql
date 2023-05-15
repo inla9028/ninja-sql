@@ -1,0 +1,127 @@
+/*
+** Display the current content...
+*/
+SELECT a.sp_code, a.soc_type, a.soc_group, a.effective_date,
+       a.expiration_date, a.comments
+  FROM spm_service_mapping a
+ORDER BY 1
+;
+
+/*
+-------  ----------------------------  --------------  -------------------
+SOC      SOC_DESCRIPTION               SALE_EFF_DATE   SPM
+-------  ----------------------------  --------------  -------------------
+SPVOC46	 SP NextGenTel MBB 5 GB	       2021-04-13      DATA_NGT_5GB
+SPVOC47	 SP NextGenTel MBB 10 GB	     2021-04-13      DATA_NGT_10GB
+SPVOC48	 SP NextGenTel MBB 25 GB	     2021-04-13      DATA_NGT_25GB
+SPVOC49	 SP NextGenTel MBB 50 GB	     2021-04-13      DATA_NGT_50GB
+SPVOC50	 SP NextGenTel MBB 100 GB	     2021-04-13      DATA_NGT_100GB
+SPVOC51	 SP NextGenTel MBB 200 GB	     2021-04-13      DATA_NGT_200GB
+SPVOC52	 SP NextGenTel MBB 300 GB	     2021-04-13      DATA_NGT_300GB
+SPVOC53	 SP Bitpro MBB 5 GB	           2021-04-13      DATA_BITPRO_5GB
+SPVOC54	 SP Bitpro MBB 10 GB	         2021-04-13      DATA_BITPRO_10GB
+SPVOC55	 SP Bitpro MBB 25 GB	         2021-04-13      DATA_BITPRO_25GB
+SPVOC56	 SP Bitpro MBB 50 GB	         2021-04-13      DATA_BITPRO_50GB
+SPVOC57	 SP Bitpro MBB 100 GB	         2021-04-13      DATA_BITPRO_100GB
+SPVOC58	 SP Bitpro MBB 200 GB	         2021-04-13      DATA_BITPRO_200GB
+SPVOC59	 SP Bitpro MBB 300 GB	         2021-04-13      DATA_BITPRO_300GB
+-------  ----------------------------  --------------  -------------------
+*/
+
+/*
+** Insert records based on the available socs for the priceplan PVEF.
+** Pro tip: Comment out the "INSERT INTO" row, and modify the query until
+** there are no SOC codes displayed as SP_CODE, the uncomment the row and run.
+*/
+INSERT INTO spm_service_mapping
+SELECT * FROM (
+SELECT DECODE(s.soc
+              --
+              -- Missing according to Ninja Rules...
+              --
+              , 'SPVOC46',   'DATA_NGT_5GB'
+              , 'SPVOC47',   'DATA_NGT_10GB'
+              , 'SPVOC48',   'DATA_NGT_25GB'
+              , 'SPVOC49',   'DATA_NGT_50GB'
+              , 'SPVOC50',   'DATA_NGT_100GB'
+              , 'SPVOC51',   'DATA_NGT_200GB'
+              , 'SPVOC52',   'DATA_NGT_300GB'
+              , 'SPVOC53',   'DATA_BITPRO_5GB'
+              , 'SPVOC54',   'DATA_BITPRO_10GB'
+              , 'SPVOC55',   'DATA_BITPRO_25GB'
+              , 'SPVOC56',   'DATA_BITPRO_50GB'
+              , 'SPVOC57',   'DATA_BITPRO_100GB'
+              , 'SPVOC58',   'DATA_BITPRO_200GB'
+              , 'SPVOC59',   'DATA_BITPRO_300GB'
+              --
+              -- Done...
+              --
+              , s.soc) AS "SP_CODE"
+     , s.soc_type, s.soc_group, sts.effective_date, sts.expiration_date
+     , NULL AS "COMMENT"
+  FROM subscription_types_socs sts, socs s
+ WHERE sts.subscription_type_id  IN ( 'PVEF' || 'REG1' )
+   AND SYSDATE BETWEEN sts.effective_date AND sts.expiration_date
+   AND sts.soc                   = s.soc
+   and sts.add_mode              = 'O'
+   AND sts.subscription_type_id != s.soc || 'REG1'
+   AND 0                         = (SELECT COUNT(1)
+                                      FROM spm_service_mapping a
+                                     WHERE a.soc_type    = s.soc_type
+                                       AND a.soc_group   = s.soc_group
+                                       AND SYSDATE BETWEEN a.effective_date AND NVL(a.expiration_date, SYSDATE + 1))
+   AND s.soc_type               != 'WAP'
+)
+--WHERE sp_code NOT IN (SELECT b.sp_code
+--                        FROM spm_service_mapping b
+--                       WHERE SYSDATE BETWEEN b.effective_date AND NVL(b.expiration_date, SYSDATE + 1))
+;
+
+/*
+** List socs we were unable to add above...
+*/
+SELECT REPLACE(sts.subscription_type_id, 'REG1', '') AS "PRICEPLAN"
+     , s.soc, s.soc_type, s.soc_group, sd.description
+  FROM subscription_types_socs sts, socs s, socs_descriptions sd
+ WHERE sts.subscription_type_id  IN ( 'PVEF' || 'REG1' )
+   AND sts.subscription_type_id != sts.soc || 'REG1'
+   AND SYSDATE             BETWEEN sts.effective_date AND sts.expiration_date
+   AND sts.soc                   = s.soc
+   and sts.add_mode              = 'O'
+   AND s.soc                     = sd.soc
+   AND sd.language_code          = 'NO'
+   AND 0                         = (SELECT COUNT(1)
+                                      FROM spm_service_mapping a
+                                     WHERE a.soc_type    = s.soc_type
+                                       AND a.soc_group   = s.soc_group
+                                       AND SYSDATE BETWEEN a.effective_date AND NVL(a.expiration_date, SYSDATE + 1))
+ORDER BY 1,2
+;
+
+
+
+--update spm_service_mapping a
+--   set a.sp_code = replace(a.sp_code, 'PROXIMO', 'NGT')
+--     , a.comments = 'Renamed from ''' || a.sp_code || ''' per request from Tor Olav Mattsson'
+-- where a.sp_code LIKE 'DATA_PROXIMO%'
+--;
+
+/*
+** List the SP-codes and products available for a certain priceplan.
+** NB! This does not check towards channel-access!
+*/
+SELECT sp.sp_code, 'maps to' AS "MAPS_TO", sp.soc_type, sp.soc_group, 'which points to' AS "POINTS_TO",
+       s.soc, d.description AS "AKA", 'which is allowed on' AS "ALLOWED_ON",
+       REPLACE(sts.subscription_type_id, 'REG1', '') AS "PRICEPLAN",
+       'since' AS "SINCE", sts.effective_date, 'until' AS "UNTIL", sts.expiration_date
+  FROM spm_service_mapping sp, subscription_types_socs sts, socs s, socs_descriptions d
+ WHERE sts.subscription_type_id IN ( 'PVEF' || 'REG1' )
+   AND SYSDATE            BETWEEN sts.effective_date AND sts.expiration_date
+   AND sts.add_mode             = 'O'
+   AND sts.soc                  = s.soc
+   AND s.soc_type               = sp.soc_type
+   AND s.soc_group              = sp.soc_group
+   AND s.soc                    = d.soc
+   AND d.language_code          = 'NO'
+ORDER BY 1
+;

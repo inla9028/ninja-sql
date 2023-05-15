@@ -1,0 +1,23 @@
+Proximo is the new name for Telio and NextGenTel.
+
+Therefore they should have access to their old Telio priceplans as well, i.e.:
+
+* They should still be using the SP code Telio
+* Map PVEC to TELIO_MBB
+* Map PVEE to NGT_VOICE
+
+New:
+* Map PW30 to FWA
+
+Api Sec Tokens:
+
+Dealer: SP01
+
+
+PT..: im0pdi2at4kow83wjmg5
+Prod: naskh39a4r735sw8ko1n
+
+
+Tmp...
+
+Bearer eyJraWQiOiJhOHpYWjZ1aXNreDZNNDBKT20xRWdzOFhCZk5fZlpxUkJ2a1IycDdtbERjIiwiYWxnIjoiUlMyNTYifQ.eyJpYXQiOjE1OTg1MzUzMjgsIm5iZiI6MTU5ODUzNTI2OCwianRpIjoiYzlybnM1RUN3cVU3ZXVDMWxqNUkwZyIsInNpZCI6ImM5cm5zNUVDd3FVN2V1QzFsajVJMGciLCJjaWQiOiJUZWxpbyIsImF6cCI6IlRlbGlvIiwiY2h0IjoiSU5UX0FQUCIsImRjIjoiU1AwMSIsImV4cCI6MTU5ODYyMTcyOCwidHIiOiJ0cnVlIn0.LmKRKFoz-yKPyhCD_8LWhDuX3Xyv_i8mnSIkb3IsMh6NFc0VZVgyECkAzW5zcpKSsxraDyEB7PHSk545T4NAuadUMby22t-kKVs3QVtfeVABMO5AVFt2ovouugHFmTmFzgcKlcTAVxjm1NAVAgeaHfs2JmFs54OvMDUk3_WZFN1qkeps-Qy7oYB79I0zBRBCVw4thf2_NrH2Wv4EC2dtjxVAIMcgiO_qQg-BiRrdOqTPXZmbWMbKSQ4UdwrGLUUN6eWO4PHGWpAh0hXayrXW1MWnl5fbHpOnpD8y_laZbDAve5_YpXjBtqgWrmVXNjDG7mWnph7VUdrhM6i8lgWtfg

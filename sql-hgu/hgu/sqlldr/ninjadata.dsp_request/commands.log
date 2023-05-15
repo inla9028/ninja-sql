@@ -1,0 +1,1 @@
+  cat ocmc.txt | awk '{i=split($0,s,";"); i2=split(s[4],s2,"."); bdate=substr(s2[3],1,4) "-" s2[2] "-" substr(s2[1],2,2); printf ";999999999;%s;%s;%s;%s;;ON_HOLD;%s\n", substr(s[2],2,length(s[2])-2), substr(s[3],2,length(s[3])-2), bdate, substr(s[7],2,length(s[7])-2), substr(s[1],2,length(s[1])-2)}' > ocmc.hgu.txt

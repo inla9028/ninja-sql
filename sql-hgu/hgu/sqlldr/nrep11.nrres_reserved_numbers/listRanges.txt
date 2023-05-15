@@ -1,0 +1,1 @@
+seq -f '%F' 40791500 40794499 | awk '{split($1,s,"."); s1=substr(s[1],0,3); s2=substr(s[1],4,2); s3=substr(s[1],6,3); printf("s:%s, s1: %s, s2: %s, s3: %s\n", s[1], s1, s2, s3)}' | head

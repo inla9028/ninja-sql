@@ -1,0 +1,740 @@
+{
+  "subscriptionTypes": [
+    {
+      "type": "VOICE",
+      "services": [
+        {
+          "service": "BAR_WHO_CALLED",
+          "properties": null
+        },
+        {
+          "service": "TRILLING_SIM_B",
+          "properties": null
+        },
+        {
+          "service": "MBB_TWIN",
+          "properties": null
+        },
+        {
+          "service": "FAX",
+          "properties": null
+        },
+        {
+          "service": "BAR_VOICEMAIL",
+          "properties": null
+        },
+        {
+          "service": "MOBILE_VOICE_RECORDER",
+          "properties": null
+        },
+        {
+          "service": "TRILLING_SIM_A",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_100",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_GOODS_AND_SERVICES",
+          "properties": null
+        },
+        {
+          "service": "BAR_CALL_INCOMING",
+          "properties": null
+        },
+        {
+          "service": "BAR_CALL_ROAMING_INCOMING",
+          "properties": null
+        },
+        {
+          "service": "BAR_CALL_ROAMING",
+          "properties": null
+        },
+        {
+          "service": "BAR_ALL_OUTGOING_CALLS",
+          "properties": null
+        },
+        {
+          "service": "BAR_ALL_OUTGOING_INTERNATIONAL",
+          "properties": null
+        },
+        {
+          "service": "CALL_TRANSFER",
+          "properties": null
+        },
+        {
+          "service": "CALL_WAIT",
+          "properties": null
+        },
+        {
+          "service": "NUMBER_PRESENTATION",
+          "properties": null
+        },
+        {
+          "service": "HIDDEN_NUMBER",
+          "properties": null
+        },
+        {
+          "service": "SMS_COPY",
+          "properties": [
+            "FORWARD-MSISDN",
+            "COPY-MSISDN",
+            "COPY-EMAIL"
+          ]
+        },
+        {
+          "service": "CONFERENCE",
+          "properties": null
+        },
+        {
+          "service": "STOP_SMS_QUOTA_NOTIFICATION",
+          "properties": null
+        },
+        {
+          "service": "ROAMING_DATA_CONTROL_AMOUNT_1000",
+          "properties": null
+        },
+        {
+          "service": "ROAMING_DATA_CONTROL_AMOUNT_3000",
+          "properties": null
+        },
+        {
+          "service": "ROAMING_DATA_CONTROL_AMOUNT_5000",
+          "properties": null
+        },
+        {
+          "service": "ROAMING_DATA_CONTROL_AMOUNT_10000",
+          "properties": null
+        },
+        {
+          "service": "ROAMING_DATA_CONTROL_AMOUNT_50000",
+          "properties": null
+        },
+        {
+          "service": "ROAMING_DATA_CONTROL_EU_DEFAULT",
+          "properties": null
+        },
+        {
+          "service": "ROAMING_DATA_CONTROL_AMOUNT_NO_LIMIT",
+          "properties": null
+        },
+        {
+          "service": "BAR_OUTGOING_CALLS_EX_HOME",
+          "properties": null
+        },
+        {
+          "service": "BAR_TELETORG_ALL",
+          "properties": null
+        },
+        {
+          "service": "BAR_DATA_ALL",
+          "properties": null
+        },
+        {
+          "service": "BAR_DATA_ROAMING",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_CONTENT",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_250",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_500",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_1000",
+          "properties": null
+        },
+        {
+          "service": "BAR_18XX",
+          "properties": null
+        },
+        {
+          "service": "BAR_8XX",
+          "properties": null
+        },
+        {
+          "service": "BAR_DONATION_NUMBERS",
+          "properties": null
+        },
+        {
+          "service": "BAR_VISUAL_VOICEMAIL",
+          "properties": null
+        },
+        {
+          "service": "GSM_DATA",
+          "properties": null
+        },
+        {
+          "service": "M2M_APN_BBS",
+          "properties": null
+        },
+        {
+          "service": "SURF_PACK_LARGE",
+          "properties": null
+        },
+        {
+          "service": "SURF_PACK_XL",
+          "properties": null
+        },
+        {
+          "service": "PRIORITY_VOICE_SIM",
+          "properties": null
+        },
+        {
+          "service": "SURF_PACK_SMALL",
+          "properties": null
+        },
+        {
+          "service": "SURF_PACK_MEDIUM",
+          "properties": null
+        },
+        {
+          "service": "BAR_TOPUP",
+          "properties": null
+        },
+        {
+          "service": "DATA_SMALL",
+          "properties": null
+        },
+        {
+          "service": "DATA_MEDIUM",
+          "properties": null
+        },
+        {
+          "service": "DATA_LARGE",
+          "properties": null
+        },
+        {
+          "service": "DATA_XL",
+          "properties": null
+        },
+        {
+          "service": "BAR_5_DIGIT_NUMBERS",
+          "properties": null
+        },
+        {
+          "service": "BAR_CALL_FORWARDING",
+          "properties": null
+        },
+        {
+          "service": "MMS",
+          "properties": null
+        },
+        {
+          "service": "GPRS",
+          "properties": null
+        },
+        {
+          "service": "DATA_CHILI_1GB_EU",
+          "properties": null
+        },
+        {
+          "service": "DATA_CHILI_250MB",
+          "properties": null
+        },
+        {
+          "service": "DATA_CHILI_250MB_EU",
+          "properties": null
+        },
+        {
+          "service": "DATA_CHILI_2GB",
+          "properties": null
+        },
+        {
+          "service": "DATA_CHILI_2GB_EU",
+          "properties": null
+        },
+        {
+          "service": "DATA_CHILI_5GB",
+          "properties": null
+        },
+        {
+          "service": "DATA_CHILI_5GB_EU",
+          "properties": null
+        },
+        {
+          "service": "DATA_CHILI_10GB",
+          "properties": null
+        },
+        {
+          "service": "DATA_CHILI_10GB_EU",
+          "properties": null
+        },
+        {
+          "service": "DATA_CHILI_25GB",
+          "properties": null
+        },
+        {
+          "service": "DATA_CHILI_25GB_EU",
+          "properties": null
+        },
+        {
+          "service": "VOLTE",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_2000",
+          "properties": null
+        },
+        {
+          "service": "BAR_WELCOME_SMS",
+          "properties": null
+        },
+        {
+          "service": "VOICEMAIL",
+          "properties": null
+        },
+        {
+          "service": "M2M_APN_NETS",
+          "properties": null
+        },
+        {
+          "service": "DATA_CHILI_3GB_EU",
+          "properties": null
+        },
+        {
+          "service": "DATA_CHILI_6GB_EU",
+          "properties": null
+        },
+        {
+          "service": "DATA_CHILI_1000GB_EU",
+          "properties": null
+        }
+      ]
+    },
+    {
+      "type": "PREPAID_B",
+      "services": [
+        {
+          "service": "BAR_WHO_CALLED",
+          "properties": null
+        },
+        {
+          "service": "BAR_VOICEMAIL",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_100",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_GOODS_AND_SERVICES",
+          "properties": null
+        },
+        {
+          "service": "BAR_CALL_INCOMING",
+          "properties": null
+        },
+        {
+          "service": "BAR_PREPAID_AWAITING_REGISTRATION",
+          "properties": null
+        },
+        {
+          "service": "BAR_CALL_ROAMING_INCOMING",
+          "properties": null
+        },
+        {
+          "service": "BAR_CALL_ROAMING",
+          "properties": null
+        },
+        {
+          "service": "BAR_ALL_OUTGOING_CALLS",
+          "properties": null
+        },
+        {
+          "service": "BAR_ALL_OUTGOING_INTERNATIONAL",
+          "properties": null
+        },
+        {
+          "service": "CALL_WAIT",
+          "properties": null
+        },
+        {
+          "service": "HIDDEN_NUMBER",
+          "properties": null
+        },
+        {
+          "service": "SMS_COPY",
+          "properties": [
+            "FORWARD-MSISDN",
+            "COPY-MSISDN",
+            "COPY-EMAIL"
+          ]
+        },
+        {
+          "service": "CONFERENCE",
+          "properties": null
+        },
+        {
+          "service": "STOP_SMS_QUOTA_NOTIFICATION",
+          "properties": null
+        },
+        {
+          "service": "BAR_OUTGOING_CALLS_EX_HOME",
+          "properties": null
+        },
+        {
+          "service": "BAR_TELETORG_ALL",
+          "properties": null
+        },
+        {
+          "service": "BAR_DATA_ALL",
+          "properties": null
+        },
+        {
+          "service": "BAR_DATA_ROAMING",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_CONTENT",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_250",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_500",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_1000",
+          "properties": null
+        },
+        {
+          "service": "BAR_18XX",
+          "properties": null
+        },
+        {
+          "service": "BAR_8XX",
+          "properties": null
+        },
+        {
+          "service": "BAR_DONATION_NUMBERS",
+          "properties": null
+        },
+        {
+          "service": "BAR_VISUAL_VOICEMAIL",
+          "properties": null
+        },
+        {
+          "service": "BAR_TOPUP",
+          "properties": null
+        },
+        {
+          "service": "BAR_5_DIGIT_NUMBERS",
+          "properties": null
+        },
+        {
+          "service": "MMS",
+          "properties": null
+        },
+        {
+          "service": "GPRS",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_2000",
+          "properties": null
+        },
+        {
+          "service": "BAR_WELCOME_SMS",
+          "properties": null
+        }
+      ]
+    },
+    {
+      "type": "PREPAID_A",
+      "services": [
+        {
+          "service": "BAR_WHO_CALLED",
+          "properties": null
+        },
+        {
+          "service": "BAR_VOICEMAIL",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_100",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_GOODS_AND_SERVICES",
+          "properties": null
+        },
+        {
+          "service": "BAR_CALL_INCOMING",
+          "properties": null
+        },
+        {
+          "service": "BAR_PREPAID_AWAITING_REGISTRATION",
+          "properties": null
+        },
+        {
+          "service": "BAR_CALL_ROAMING_INCOMING",
+          "properties": null
+        },
+        {
+          "service": "BAR_CALL_ROAMING",
+          "properties": null
+        },
+        {
+          "service": "BAR_ALL_OUTGOING_CALLS",
+          "properties": null
+        },
+        {
+          "service": "BAR_ALL_OUTGOING_INTERNATIONAL",
+          "properties": null
+        },
+        {
+          "service": "CALL_WAIT",
+          "properties": null
+        },
+        {
+          "service": "HIDDEN_NUMBER",
+          "properties": null
+        },
+        {
+          "service": "SMS_COPY",
+          "properties": [
+            "FORWARD-MSISDN",
+            "COPY-MSISDN",
+            "COPY-EMAIL"
+          ]
+        },
+        {
+          "service": "CONFERENCE",
+          "properties": null
+        },
+        {
+          "service": "STOP_SMS_QUOTA_NOTIFICATION",
+          "properties": null
+        },
+        {
+          "service": "BAR_OUTGOING_CALLS_EX_HOME",
+          "properties": null
+        },
+        {
+          "service": "BAR_TELETORG_ALL",
+          "properties": null
+        },
+        {
+          "service": "BAR_DATA_ALL",
+          "properties": null
+        },
+        {
+          "service": "BAR_DATA_ROAMING",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_CONTENT",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_250",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_500",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_1000",
+          "properties": null
+        },
+        {
+          "service": "BAR_18XX",
+          "properties": null
+        },
+        {
+          "service": "BAR_8XX",
+          "properties": null
+        },
+        {
+          "service": "BAR_DONATION_NUMBERS",
+          "properties": null
+        },
+        {
+          "service": "BAR_VISUAL_VOICEMAIL",
+          "properties": null
+        },
+        {
+          "service": "BAR_TOPUP",
+          "properties": null
+        },
+        {
+          "service": "BAR_5_DIGIT_NUMBERS",
+          "properties": null
+        },
+        {
+          "service": "MMS",
+          "properties": null
+        },
+        {
+          "service": "GPRS",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_2000",
+          "properties": null
+        },
+        {
+          "service": "BAR_WELCOME_SMS",
+          "properties": null
+        },
+        {
+          "service": "VOICEMAIL",
+          "properties": null
+        }
+      ]
+    },
+    {
+      "type": "MBB",
+      "services": [
+        {
+          "service": "MBB_TWIN",
+          "properties": null
+        },
+        {
+          "service": "BAR_VOICEMAIL",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_100",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_GOODS_AND_SERVICES",
+          "properties": null
+        },
+        {
+          "service": "TRAFFIC_QUOTA_UNLIMITED",
+          "properties": null
+        },
+        {
+          "service": "ROAMING_DATA_CONTROL_AMOUNT_1000",
+          "properties": null
+        },
+        {
+          "service": "ROAMING_DATA_CONTROL_AMOUNT_3000",
+          "properties": null
+        },
+        {
+          "service": "ROAMING_DATA_CONTROL_AMOUNT_5000",
+          "properties": null
+        },
+        {
+          "service": "ROAMING_DATA_CONTROL_AMOUNT_10000",
+          "properties": null
+        },
+        {
+          "service": "ROAMING_DATA_CONTROL_AMOUNT_50000",
+          "properties": null
+        },
+        {
+          "service": "ROAMING_DATA_CONTROL_EU_DEFAULT",
+          "properties": null
+        },
+        {
+          "service": "ROAMING_DATA_CONTROL_AMOUNT_NO_LIMIT",
+          "properties": null
+        },
+        {
+          "service": "BAR_DATA_ALL",
+          "properties": null
+        },
+        {
+          "service": "BAR_DATA_ROAMING",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_CONTENT",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_250",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_500",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_1000",
+          "properties": null
+        },
+        {
+          "service": "BAR_18XX",
+          "properties": null
+        },
+        {
+          "service": "BAR_8XX",
+          "properties": null
+        },
+        {
+          "service": "BAR_DONATION_NUMBERS",
+          "properties": null
+        },
+        {
+          "service": "BAR_VISUAL_VOICEMAIL",
+          "properties": null
+        },
+        {
+          "service": "M2M_APN_BBS",
+          "properties": null
+        },
+        {
+          "service": "BAR_TOPUP",
+          "properties": null
+        },
+        {
+          "service": "BAR_5_DIGIT_NUMBERS",
+          "properties": null
+        },
+        {
+          "service": "BAR_CALL_FORWARDING",
+          "properties": null
+        },
+        {
+          "service": "DATA_SHAPING_10MBPS",
+          "properties": null
+        },
+        {
+          "service": "DATA_5GB",
+          "properties": null
+        },
+        {
+          "service": "DATA_10GB",
+          "properties": null
+        },
+        {
+          "service": "DATA_20GB",
+          "properties": null
+        },
+        {
+          "service": "DATA_100GB",
+          "properties": null
+        },
+        {
+          "service": "BAR_CPA_AMOUNT_2000",
+          "properties": null
+        },
+        {
+          "service": "BAR_WELCOME_SMS",
+          "properties": null
+        },
+        {
+          "service": "M2M_APN_NETS",
+          "properties": null
+        }
+      ]
+    }
+  ]
+}

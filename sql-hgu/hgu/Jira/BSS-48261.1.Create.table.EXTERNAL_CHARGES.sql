@@ -1,0 +1,126 @@
+CREATE TABLE "EXTERNAL_CHARGES" (
+  "BAN"                     NUMBER(9),
+  "SUBSCRIBER_NO"           VARCHAR2(20 CHAR),
+  "SOC"                     VARCHAR2(9 CHAR),
+  "SOC_SEQ_NO"              NUMBER(9),
+  "REQUEST_SEQ_NO"          NUMBER(9),
+  "FEATURE_CODE"            VARCHAR2(6 CHAR),
+  
+  "EXT_AGR_TYPE"            VARCHAR2(9),
+  
+  "ENTER_TIME"              DATE,
+	"PROCESS_TIME"            DATE,
+	"PROCESS_STATUS"          VARCHAR2(16 CHAR) DEFAULT NULL,
+	"STATUS_DESC"             VARCHAR2(2000 CHAR),
+  
+  "CHANNEL_TYPE"            VARCHAR2(16 CHAR),
+  "DEALER_CODE"             VARCHAR2(5 CHAR),
+  
+  "PAYMENT_AGR_ID"          VARCHAR2(100 CHAR),
+  "PAYMENT_AMOUNT"          NUMBER(11,2),
+  "PAYMENT_CHARGE_ID"       VARCHAR2(128 CHAR),
+  "PAYMENT_DESC"            VARCHAR2(128 CHAR),
+  "PAYMENT_DUE_DATE"        DATE,
+  "PAYMENT_RETRY"           NUMBER(9),
+  "PAYMENT_TYPE"            VARCHAR2(128 CHAR),
+  "PRODUCT_TYPE"            VARCHAR2(128 CHAR),
+  "PURCHASE_ID"             VARCHAR2(128 CHAR),
+  
+  "REQ_STATUS"              VARCHAR2(128 CHAR),
+  "REQ_STATUS_DESC"         VARCHAR2(1000 CHAR)
+)
+;
+
+-------------------------------------------------------
+--  Indexxxes
+--------------------------------------------------------
+
+CREATE INDEX "EXTERNAL_CHARGES_IDX1" ON "EXTERNAL_CHARGES" ("PROCESS_STATUS", "PROCESS_TIME");
+
+--------------------------------------------------------
+--  Constraints for Table EXTERNAL_CHARGES
+--------------------------------------------------------
+
+--ALTER TABLE "EXTERNAL_CHARGES" DROP CONSTRAINT "EXTERNAL_CHARGES_101";
+ALTER TABLE "EXTERNAL_CHARGES" ADD  CONSTRAINT "EXTERNAL_CHARGES_101" CHECK (process_status IN ('NEW', 'PENDING', 'WAITING', 'PRSD_SUCCESS', 'PRSD_ERROR', 'ON_HOLD', 'IN_PROGRESS', 'CANCELLING', 'CANCELLED')) ENABLE NOVALIDATE;
+
+--------------------------------------------------------
+--  DDL for Trigger EXTERNAL_CHARGES_TRG1
+--------------------------------------------------------
+
+CREATE OR REPLACE TRIGGER "EXTERNAL_CHARGES_TRG1"
+ BEFORE
+  INSERT
+ ON EXTERNAL_CHARGES
+REFERENCING NEW AS NEW OLD AS OLD
+ FOR EACH ROW
+DECLARE
+    v_cnt   NUMBER DEFAULT 0;
+BEGIN
+  IF INSERTING
+  THEN
+   SELECT SYSDATE
+     INTO :new.enter_time
+     FROM dual;
+
+   IF :new.process_time IS NULL
+   THEN
+    :new.process_time := :new.enter_time;
+   END IF;
+
+   IF :new.process_status IS NULL
+   THEN
+     :new.process_status := 'NEW';
+   END IF;
+
+  END IF;
+ END;
+/
+ALTER TRIGGER "EXTERNAL_CHARGES_TRG1" ENABLE;
+
+
+-- Grants for Table
+GRANT ALTER ON EXTERNAL_CHARGES TO ninjamain_at
+/
+GRANT DELETE ON EXTERNAL_CHARGES TO ninjamain_at
+/
+GRANT INDEX ON EXTERNAL_CHARGES TO ninjamain_at
+/
+GRANT INSERT ON EXTERNAL_CHARGES TO ninjamain_at
+/
+GRANT SELECT ON EXTERNAL_CHARGES TO ninjamain_at
+/
+GRANT UPDATE ON EXTERNAL_CHARGES TO ninjamain_at
+/
+GRANT REFERENCES ON EXTERNAL_CHARGES TO ninjamain_at
+/
+GRANT ON COMMIT REFRESH ON EXTERNAL_CHARGES TO ninjamain_at
+/
+GRANT QUERY REWRITE ON EXTERNAL_CHARGES TO ninjamain_at
+/
+GRANT DEBUG ON EXTERNAL_CHARGES TO ninjamain_at
+/
+GRANT FLASHBACK ON EXTERNAL_CHARGES TO ninjamain_at
+/
+GRANT ALTER ON EXTERNAL_CHARGES TO ninjateam
+/
+GRANT DELETE ON EXTERNAL_CHARGES TO ninjateam
+/
+GRANT INDEX ON EXTERNAL_CHARGES TO ninjateam
+/
+GRANT INSERT ON EXTERNAL_CHARGES TO ninjateam
+/
+GRANT SELECT ON EXTERNAL_CHARGES TO ninjateam
+/
+GRANT UPDATE ON EXTERNAL_CHARGES TO ninjateam
+/
+GRANT REFERENCES ON EXTERNAL_CHARGES TO ninjateam
+/
+GRANT ON COMMIT REFRESH ON EXTERNAL_CHARGES TO ninjateam
+/
+GRANT QUERY REWRITE ON EXTERNAL_CHARGES TO ninjateam
+/
+GRANT DEBUG ON EXTERNAL_CHARGES TO ninjateam
+/
+GRANT FLASHBACK ON EXTERNAL_CHARGES TO ninjateam
+/

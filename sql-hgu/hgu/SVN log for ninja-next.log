@@ -1,0 +1,325 @@
+Revision: 11347
+Author: gll
+Date: 07:41:23, Tuesday, January 31, 2012
+Message:
+ITV-3254. Apply existing support for duration (eg number of months) / cut off date to optional socs (ie fokus service_type 'O'). 
+----
+Modified : /trunk/ninja-core-root/core/src/no/netcom/ninja/core/service/Soc.java
+
+Revision: 11346
+Author: gll
+Date: 07:10:51, Tuesday, January 31, 2012
+Message:
+ITV-3254. Support cut off dates for regular socs.
+----
+Modified : /trunk/ninja-core-root/core/src/no/netcom/ninja/core/service/Soc.java
+
+Revision: 11343
+Author: nha
+Date: 09:20:18, Monday, January 30, 2012
+Message:
+Test stuff: Changed default spVoiceNumberGroup from A to CN
+----
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/content.txt
+
+Revision: 11339
+Author: hgu
+Date: 10:39:50, Friday, January 27, 2012
+Message:
+Added DB config for Nede10 (Reserved Number Ranges DB)
+----
+Added : /trunk/conf/ninja/no.at.netcom/db/NumResDataSource.xml
+
+Revision: 11332
+Author: hgu
+Date: 10:04:12, Monday, January 23, 2012
+Message:
+Removed messy System.out.println(...) calls in favour of Log4J
+----
+Modified : /trunk/ninja-core-root/core/src/no/netcom/ninja/core/system/tuxedo/service/TuxedoService.java
+
+Revision: 11330
+Author: nha
+Date: 15:57:32, Friday, January 20, 2012
+Message:
+Test stuff: Fixed regression and other test suites (I hope) following the sales expiry of Chess postpaid price plans by replacing references to spPostPaidPricePlan with spPrimaryPricePlan, spPrePaidPricePlan with spSecondaryPricePlan and PVHH with PVHG.
+----
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/DevArea/GlennLittle/Suite2009Q2rel15/TestTd4161BedriftsvarForSp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/DevArea/GlennLittle/SuiteSharedWithRegression/SuitePorting/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/DevArea/GlennLittle/SuiteSharedWithRegression/SuiteSp/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/DevArea/GlennLittle/SuiteSp/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/DevArea/InaLandwehr/SuitePorting/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/DevArea/InaLandwehr/SuitePorting/TestExternal/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/DevArea/InaLandwehr/SuitePorting/TestNetCom/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/DevArea/NeilHartup/SuiteNinjaEjb/TestGetSaleEffSocList/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/DevArea/NeilHartup/SuitePortingDev/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/DevArea/NeilHartup/SuitePortingDev/TestNetComTemp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/DevArea/NeilHartup/SuitePortingDev/TestSp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/DevArea/NeilHartup/SuitePortingDev/TestTd4712SpToNetComWith2SimsManual/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/DevArea/NeilHartup/SuiteSp/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteAt2/SuitePorting/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteAt2/SuiteSp/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteChessAt/SuitePorting/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteChessAt/SuiteSp/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteChessAt2/SuitePorting/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteChessAt2/SuiteSp/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteChessPt/SuitePorting/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteChessPt/SuiteSp/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteChessSt/SuitePorting/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteChessSt/SuiteSp/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteEnv2/SuitePorting/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteEnv2/SuiteSp/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteEnv4/SuitePorting/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteEnv4/SuiteSp/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteEnv5/SuitePorting/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteEnv5/SuiteSp/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteProjectProdTest/SuitePorting/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteProjectProdTest/SuiteSp/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteRegression/SuiteBrawe/SuiteShared/SuiteProductionSafe/TestReferenceData/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteRegression/SuitePorting/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteRegression/SuitePorting/SuiteShared/TestExternal/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteRegression/SuitePorting/SuiteShared/TestNetCom/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteRegression/SuiteSp/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteRegression/SuiteSp/SuiteShared/TestPricePlanChange/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteRegression/SuiteSp/SuiteShared/TestSubscriptionSocs/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteRegression/SuiteSp/SuiteShared/TestSubscriptionStatusChanges/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteSt2/SuitePorting/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SuiteSt2/SuiteSp/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SystemTests/PortingTests/SuiteTd1123MaxPris/TestPortChessOldSocsToNetcomNewSocs/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SystemTests/SpTests/SuiteTd1123Maxpris/TestDeleteOldSoc/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SystemTests/SpTests/SuiteTd1123Maxpris/TestNewSocsManual/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SystemTests/SpTests/SuiteTd1123Maxpris/TestReplaceOldSocManual/content.txt
+
+Revision: 11328
+Author: inl
+Date: 14:37:03, Wednesday, January 18, 2012
+Message:
+ITV-3045 - fix in getPrimarySimCard() for cases when ctn is not set yet on the subscription
+----
+Modified : /trunk/ninja-core-root/core/src/no/netcom/ninja/core/subscription/Subscription.java
+
+Revision: 11326
+Author: nha
+Date: 08:42:37, Wednesday, January 18, 2012
+Message:
+Test stuff: Added "cancel for port out" support to SubscriptionCancellationFixture
+----
+Modified : /trunk/ninja-serviceprovider-root/SP/test/no/netcom/sp/ejb/SubscriptionCancellationFixture.java
+
+Revision: 11325
+Author: nha
+Date: 08:32:16, Wednesday, January 18, 2012
+Message:
+Test stuff: A few FitNesse page changes, including NetCom Fokus ST DB moving from NINJ10G2 to TEST7
+----
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/DevArea/NeilHartup/SuiteBrawe/TestGetPw/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/DevArea/NeilHartup/SuiteSp/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/DevArea/NeilHartup/SuiteSp/TestSubscriptionCancellation/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/DevArea/NeilHartup/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SystemTests/BraweTests/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SystemTests/PortingTests/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SystemTests/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SystemTests/SpTests/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SystemTests/SpTests/SuiteTd1123Maxpris/SetUp/content.txt
+Modified : /trunk/acceptancetest/wiki/MainT/NinjaTests/SystemTests/Xil2NinjaTests/content.txt
+
+Revision: 11324
+Author: hgu
+Date: 14:23:13, Tuesday, January 17, 2012
+Message:
+Corrected a previous fuck-up
+----
+Modified : /trunk/conf/ninja/dk.prod/db/FokusAppDataSource.xml
+Modified : /trunk/conf/ninja/dk.prod/db/FokusRefDataSource.xml
+Modified : /trunk/conf/ninja/dk.prod/db/NinjaDataSource.xml
+
+Revision: 11322
+Author: hgu
+Date: 12:42:04, Tuesday, January 17, 2012
+Message:
+Added configuration for DK Production
+----
+Added : /trunk/conf/ninja/dk.prod
+Added : /trunk/conf/ninja/dk.prod/Ninja.xml
+Added : /trunk/conf/ninja/dk.prod/db
+Added : /trunk/conf/ninja/dk.prod/db/FokusAppDataSource.xml
+Added : /trunk/conf/ninja/dk.prod/db/FokusRefDataSource.xml
+Added : /trunk/conf/ninja/dk.prod/db/NinjaDataSource.xml
+Added : /trunk/conf/ninja/dk.prod/jolt
+Added : /trunk/conf/ninja/dk.prod/jolt/config.xml
+
+Revision: 11321
+Author: nha
+Date: 08:36:39, Tuesday, January 17, 2012
+Message:
+CHESSMIGRATION-615: Ninja returns wrong BAN number on internal portings from Chess through xldb daemon
+
+Core changes
+  - Added new method Ban.isDefaultBrandAndNonSP().
+  - Replaced checks of Ban.ACCOUNT_TYPE_SP in MasterXLDB Processor with calls to Ban.isDefaultBrandAndNonSP().
+
+Testing
+  - Tested using combination of soapUI towards local WLS instance running against Env 4, Ninja xLDB daemon running on same instance and xLDB front-end instance running against Env 4.  Also regression tested for modification of NetCom subscription/ban.
+----
+Modified : /trunk/ninja-core-root/core/src/no/netcom/ninja/core/ban/Ban.java
+Modified : /trunk/ninja-demon-root/demons/src/no/netcom/demon/batchjobs/MasterXLDBProcessor.java
+
+Revision: 11317
+Author: inl
+Date: 15:11:42, Monday, January 16, 2012
+Message:
+ITV-3045 - don't allow adding primary SIM during subscription.activate() if there is a primary SIM, already registered for the subscription
+----
+Modified : /trunk/ninja-core-root/core/src/no/netcom/ninja/core/network/numberportability/TimePortDBHelper.java
+Modified : /trunk/ninja-core-root/core/src/no/netcom/ninja/core/subscription/Subscription.java
+
+Revision: 11312
+Author: nha
+Date: 13:30:00, Friday, January 13, 2012
+Message:
+Non-release stuff: Added ninja_dealer_fokus_user support to NinjaDBReset (to insert records where none exists for a corresponding dealer_profile record)
+----
+Modified : /trunk/ninja-core-root/tools/src/no/netcom/ninja/tools/database/NinjaDBReset.java
+
+Revision: 11310
+Author: inl
+Date: 16:00:08, Thursday, January 12, 2012
+Message:
+ITV-3227 - make TypeConverter.complexDate and TypeConverter.simpleDate private.
+----
+Modified : /trunk/developer/inl/test/DemonRunner.java
+Modified : /trunk/developer/inl/test/SMS2NinjaTester.java
+Added : /trunk/developer/inl/test/xIL2NinjaTester.java (Copy from path: /trunk/developer/hgu/clients/no/netcom/ninjatest/xIL2NinjaTester.java, Revision, 11298)
+Modified : /trunk/ninja-core-root/core/src/no/netcom/ninja/core/ban/BanTuxedoServices.java
+Modified : /trunk/ninja-core-root/core/src/no/netcom/ninja/core/service/Discount.java
+Modified : /trunk/ninja-core-root/core/src/no/netcom/ninja/core/service/FeatureParameter.java
+Modified : /trunk/ninja-core-root/core/src/no/netcom/ninja/core/util/TypeConverter.java
+Modified : /trunk/ninja-demon-root/demonTester/src/no/netcom/demon/tester/DemonTester.java
+Modified : /trunk/ninja-demon-root/demonTester/src/no/netcom/demon/tester/DemonTesterBean.java
+Modified : /trunk/ninja-demon-root/demons/src/no/netcom/demon/batchjobs/GSMInfoSMSPlussProcessor.java
+Modified : /trunk/ninja-demon-root/demons/src/no/netcom/demon/batchjobs/KontantPPConversion.java
+Modified : /trunk/ninja-demon-root/demons/src/no/netcom/demon/batchjobs/ProcessNPActivities.java
+Modified : /trunk/ninja-xil-root/xIL2Ninja/src/no/netcom/xIL2Ninja/ejb/XIL2NinjaBean.java
+
+Revision: 11296
+Author: hgu
+Date: 12:54:24, Wednesday, January 11, 2012
+Message:
+Changed db-user for Fokus per request from Berit Amingsø
+----
+Modified : /trunk/conf/ninja/dk.at/db/FokusAppDataSource.xml
+Modified : /trunk/conf/ninja/dk.at/db/FokusRefDataSource.xml
+Modified : /trunk/conf/ninja/dk.pt/db/FokusAppDataSource.xml
+Modified : /trunk/conf/ninja/dk.pt/db/FokusRefDataSource.xml
+
+Revision: 11295
+Author: nha
+Date: 15:34:03, Tuesday, January 10, 2012
+Message:
+CHESSMIGRATION-603: Expose release SIM functionality in NSL
+
+Core changes
+  - Extracted validation from SP_Business_Logic.validateSimForSP() into new method ServiceProviderNetwork.validateSimForSP(), preserving exception handling in original method for backward compatibility.
+  - Added method ServiceProviderNetwork.releaseSimForReuse() based on equivalent method in SP_Business_Logic.
+  - Added releaseSimForReuse() method signature and "non-implemented" method to TelephoneNetwork and NetComNetwork respectively.
+
+NSL interface changes
+  - Added ReleaseSimcardRequest(Base) and ReleaseSimcardResponse(Base) messages to EquipmentService.xsd (v1.2).
+
+NSL changes
+  - Added new method NetComNetworkAdapter(Impl).releaseSimcard().
+  - Added netComNetworkAdapter property to AbstractEquipmentService, along with getter and setter.
+  - Added new method EquipmentService(Impl).releaseSimcard(), as well as corresponding stub method on EquipmentServiceStub.
+  - Added ReleaseSimcardExecutor.
+  - Added aReleaseSimcardExecutor property, along with setter and handler methods, to EquipmentServiceEndpoint.
+  - Mapped error code 4012 to new exception type NINJASERVICES_SIMCARD_ILLEGAL ("The simcard is illegal") in NinjaErrorType.
+
+NSL Spring wiring changes
+  - Added netComNetworkAdapter property to equipmentService bean definition in Services.xml.
+  - Added v1_2_releaseSimcardExecutor bean definition in Executors_v1_2.xml.
+  - Added releaseSimcardExecutor property to equipmentServiceEndpoint_v1_2 bean definition in equipmentService.xml.
+
+Testing
+  - Tested using soapUI towards local WLS instance running against Env 4.  Regression tested using FitNesse tests running towards SP module of same local WLS instance.
+----
+Modified : /trunk/ninja-core-root/core/src/no/netcom/ninja/core/network/NetComNetwork.java
+Modified : /trunk/ninja-core-root/core/src/no/netcom/ninja/core/network/ServiceProviderNetwork.java
+Modified : /trunk/ninja-core-root/core/src/no/netcom/ninja/core/network/TelephoneNetwork.java
+Modified : /trunk/ninja-serviceprovider-root/SP/src/no/netcom/sp/ejb/SP_Business_Logic.java
+
+Revision: 11294
+Author: hgu
+Date: 13:29:11, Tuesday, January 10, 2012
+Message:
+Corrected the relative paths in the old but moved configuration files
+----
+Modified : /trunk/conf/ninja/no.at.netcom/Ninja.xml
+Modified : /trunk/conf/ninja/no.prod/Ninja.xml
+Modified : /trunk/conf/ninja/no.st.netcom/Ninja.xml
+
+Revision: 11293
+Author: hgu
+Date: 13:27:15, Tuesday, January 10, 2012
+Message:
+Corrected the relative paths in the new configuration files
+----
+Modified : /trunk/conf/ninja/dk.at/Ninja.xml
+Modified : /trunk/conf/ninja/dk.pt/Ninja.xml
+
+Revision: 11292
+Author: hgu
+Date: 13:26:01, Tuesday, January 10, 2012
+Message:
+Added configurations for DK AT/PT
+----
+Modified : /trunk/conf/ninja/Ninja.xml
+Added : /trunk/conf/ninja/dk.at
+Added : /trunk/conf/ninja/dk.at/Ninja.xml
+Added : /trunk/conf/ninja/dk.at/db
+Added : /trunk/conf/ninja/dk.at/db/FokusAppDataSource.xml
+Added : /trunk/conf/ninja/dk.at/db/FokusRefDataSource.xml
+Added : /trunk/conf/ninja/dk.at/db/NinjaDataSource.xml
+Added : /trunk/conf/ninja/dk.at/jolt
+Added : /trunk/conf/ninja/dk.at/jolt/config.xml
+Added : /trunk/conf/ninja/dk.pt
+Added : /trunk/conf/ninja/dk.pt/Ninja.xml
+Added : /trunk/conf/ninja/dk.pt/db
+Added : /trunk/conf/ninja/dk.pt/db/FokusAppDataSource.xml
+Added : /trunk/conf/ninja/dk.pt/db/FokusRefDataSource.xml
+Added : /trunk/conf/ninja/dk.pt/db/NinjaDataSource.xml
+Added : /trunk/conf/ninja/dk.pt/jolt
+Added : /trunk/conf/ninja/dk.pt/jolt/config.xml
+
+Revision: 11291
+Author: hgu
+Date: 13:12:47, Tuesday, January 10, 2012
+Message:
+Renamed the directories in which we store Ninja configurations.
+This is to separate between different servers/brands, etc.
+----
+Deleted : /trunk/conf/ninja/at
+Added : /trunk/conf/ninja/no.at.netcom (Copy from path: /trunk/conf/ninja/at, Revision, 11290)
+Added : /trunk/conf/ninja/no.prod (Copy from path: /trunk/conf/ninja/prod, Revision, 11290)
+Added : /trunk/conf/ninja/no.pt.netcom (Copy from path: /trunk/conf/ninja/pt, Revision, 11290)
+Added : /trunk/conf/ninja/no.st.netcom (Copy from path: /trunk/conf/ninja/st, Revision, 11290)
+Deleted : /trunk/conf/ninja/prod
+Deleted : /trunk/conf/ninja/pt
+Deleted : /trunk/conf/ninja/st
+
+Revision: 11290
+Author: nha
+Date: 14:59:20, Monday, January 09, 2012
+Message:
+CHESSMIGRATION-604: Synchronization issues cause some internal portings to happen up to a day early
+
+Core changes
+  - Made SimpleDateFormat properties of TypeConverter private where possible, as well as NumberFormat and Map properties which should also only be for internal use.
+  - Replaced calls to TypeConverter.complexDate.parse() and .format() in ProcessNPTimeCancellations and ProcessTimePortingActivations with calls to TypeConverter.stringToDate() and .dateToString() methods respectively.
+
+Testing
+  - Tested using test client and local WLS instance running against Env 4.  Increased frequency of MASTER, ProcessNPTimeCancellations and ProcessTimePortingActivations jobs to every 100ms and ran 3 instances of local test client to check conversion of current date.  Demonstrated spurious failures before fixing job caused by date returned being 24 hrs later or 12 hours earlier than current date, as expected given nature of problem.  Verified that this did not occur following a long test run after having applied the fix.  Also regression tested both batch jobs.
+----
+Modified : /trunk/ninja-core-root/core/src/no/netcom/ninja/core/util/TypeConverter.java
+Modified : /trunk/ninja-demon-root/demons/src/no/netcom/demon/batchjobs/ProcessNPTimeCancellations.java
+Modified : /trunk/ninja-demon-root/demons/src/no/netcom/demon/batchjobs/ProcessTimePortingActivations.java
+

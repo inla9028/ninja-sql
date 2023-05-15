@@ -1,0 +1,63 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Tue Apr 26 15:03:55 2022
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   nrres_reserved_numbers.ctl
+Character Set UTF8 specified for all input.
+
+Data File:      2022-04-26.Posten.txt
+  Bad File:     nrres_reserved_numbers.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table NRRES_RESERVED_NUMBERS, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+NR_SERIES                           FIRST     *   ;  O(") CHARACTER            
+NR_SERIES_SEG2                       NEXT     *   ;  O(") CHARACTER            
+NR_SERIES_SEG3                       NEXT     *   ;  O(") CHARACTER            
+RESERVATION_ID                       NEXT     *   ;  O(") CHARACTER            
+STATUS                               NEXT     *   ;  O(") CHARACTER            
+BAN                                  NEXT     *   ;  O(") CHARACTER            
+DEALER                               NEXT     *   ;  O(") CHARACTER            
+SALES_REP                            NEXT     *   ;  O(") CHARACTER            
+FORETAKSNR                           NEXT     *   ;  O(") CHARACTER            
+ACTIVATION_CODE                      NEXT     *   ;  O(") CHARACTER            
+KUNDENAVN                            NEXT     *   ;  O(") CHARACTER            
+MAN                                  NEXT     *   ;  O(") CHARACTER            
+CTN                                  NEXT     *   ;  O(") CHARACTER            
+
+
+Table NRRES_RESERVED_NUMBERS:
+  3799 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 838500 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:          3799
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Tue Apr 26 15:03:55 2022
+Run ended on Tue Apr 26 15:03:56 2022
+
+Elapsed time was:     00:00:01.40
+CPU time was:         00:00:00.06

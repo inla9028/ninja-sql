@@ -1,0 +1,63 @@
+SELECT
+       rtrim(SR.SOC_SRC)       AS SOC_SRC,
+       rtrim(S.SOC)            AS SOC,
+       rtrim(S.SOC_LEVEL_CODE) AS SOC_LEVEL_CODE,
+       rtrim(S.SOC_GROUP)      AS SOC_GROUP,
+       S.EFFECTIVE_DATE,
+       S.EXPIRATION_DATE
+  FROM
+       SOC_RELATION SR,
+       SOC S,
+       SOC_CREDIT_CLASS SCC
+ WHERE
+       S.SOC             = SR.SOC_DEST
+   AND S.SOC             = SCC.SOC
+   AND S.EFFECTIVE_DATE  = SCC.EFFECTIVE_DATE
+   AND SCC.CREDIT_CLASS >= 'X'
+   AND S.SERVICE_TYPE    = 'O'
+   AND S.SOC_STATUS      = 'A'
+   AND S.FOR_SALE_IND    = 'Y'
+   AND SR.RELATION_TYPE  = 'O'
+   AND SYSDATE     BETWEEN S.EFFECTIVE_DATE AND NVL(S.EXPIRATION_DATE, TO_DATE('47001231','YYYYMMDD'))
+   AND SR.SRC_EFFECTIVE_DATE                <= SYSDATE
+   AND SR.DEST_EFFECTIVE_DATE               <= SYSDATE
+   AND NVL(SR.EXPIRATION_DATE, SYSDATE + 1) >= SYSDATE
+ORDER BY
+       SR.SOC_SRC ASC,
+       S.SOC ASC,
+       S.SOC_LEVEL_CODE ASC
+;
+
+/*
+** Via DB Link
+*/
+
+SELECT
+       rtrim(SR.SOC_SRC)       AS SOC_SRC,
+       rtrim(S.SOC)            AS SOC,
+       rtrim(S.SOC_LEVEL_CODE) AS SOC_LEVEL_CODE,
+       rtrim(S.SOC_GROUP)      AS SOC_GROUP,
+       S.EFFECTIVE_DATE,
+       S.EXPIRATION_DATE
+  FROM
+       SOC_RELATION@fokus     SR,
+       SOC@fokus              S,
+       SOC_CREDIT_CLASS@fokus SCC
+ WHERE
+       S.SOC             = SR.SOC_DEST
+   AND S.SOC             = SCC.SOC
+   AND S.EFFECTIVE_DATE  = SCC.EFFECTIVE_DATE
+   AND SCC.CREDIT_CLASS >= 'X'
+   AND S.SERVICE_TYPE    = 'O'
+   AND S.SOC_STATUS      = 'A'
+   AND S.FOR_SALE_IND    = 'Y'
+   AND SR.RELATION_TYPE  = 'O'
+   AND SYSDATE     BETWEEN S.EFFECTIVE_DATE AND NVL(S.EXPIRATION_DATE, TO_DATE('47001231','YYYYMMDD'))
+   AND SR.SRC_EFFECTIVE_DATE                <= SYSDATE
+   AND SR.DEST_EFFECTIVE_DATE               <= SYSDATE
+   AND NVL(SR.EXPIRATION_DATE, SYSDATE + 1) >= SYSDATE
+ORDER BY
+       SR.SOC_SRC       ASC,
+       S.SOC            ASC,
+       S.SOC_LEVEL_CODE ASC
+;

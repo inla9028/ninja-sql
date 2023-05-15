@@ -1,0 +1,367 @@
+
+SQL*Loader: Release 11.2.0.1.0 - Production on Tue Feb 13 11:02:03 2018
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   hgu_dsp_request.ctl
+Data File:      C:\Projects\svn\ninja-sql\hgu\sqlldr\ninjadata.dsp_request\ocmc.hgu.txt
+  Bad File:     hgu_dsp_request.bad
+  Discard File: hgu_dsp_request.dsc 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 256000
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table HGU_DSP_REQUEST, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+REQUEST_ID                          FIRST     *   ;  O(") CHARACTER            
+CUSTOMER_ID                          NEXT     *   ;  O(") CHARACTER            
+ADR_FIRST_NAME                       NEXT     *   ;  O(") CHARACTER            
+ADR_LAST_NAME                        NEXT     *   ;  O(") CHARACTER            
+ADR_BIRTH_DATE                       NEXT     *   ;  O(") DATE YYYY-MM-DD      
+ADR_ZIP                              NEXT     *   ;  O(") CHARACTER            
+RECORD_CREATION_DATE                 NEXT     *   ;  O(") DATE YYYY-MM-DD HH24:MI
+PROCESS_STATUS                       NEXT     *   ;  O(") CHARACTER            
+REQUEST_USER_ID                      NEXT     *   ;  O(") CHARACTER            
+PROCESS_TIME                         NEXT     *   ;  O(") DATE YYYY-MM-DD HH24:MI
+STATUS_DESC                          NEXT     *   ;  O(") CHARACTER            
+
+Record 6560: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 33, maximum: 32)
+
+Record 15641: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 33, maximum: 32)
+
+Record 19229: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 48, maximum: 32)
+
+Record 43401: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 34, maximum: 32)
+
+Record 52285: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 46, maximum: 32)
+
+Record 66515: Rejected - Error on table HGU_DSP_REQUEST, column ADR_ZIP.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_ZIP" (actual: 10, maximum: 9)
+
+Record 66531: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 36, maximum: 32)
+
+Record 84202: Rejected - Error on table HGU_DSP_REQUEST.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."REQUEST_USER_ID" (actual: 138, maximum: 120)
+
+Record 132791: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 38, maximum: 32)
+
+Record 145685: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 33, maximum: 32)
+
+Record 148316: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 45, maximum: 32)
+
+Record 148317: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 45, maximum: 32)
+
+Record 150374: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 36, maximum: 32)
+
+Record 162631: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 38, maximum: 32)
+
+Record 162632: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 38, maximum: 32)
+
+Record 163439: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 34, maximum: 32)
+
+Record 163530: Rejected - Error on table HGU_DSP_REQUEST, column ADR_ZIP.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_ZIP" (actual: 10, maximum: 9)
+
+Record 165314: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 40, maximum: 32)
+
+Record 165316: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 42, maximum: 32)
+
+Record 165971: Rejected - Error on table HGU_DSP_REQUEST, column ADR_ZIP.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_ZIP" (actual: 10, maximum: 9)
+
+Record 166682: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 34, maximum: 32)
+
+Record 168754: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 35, maximum: 32)
+
+Record 168990: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 35, maximum: 32)
+
+Record 189411: Rejected - Error on table HGU_DSP_REQUEST.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."REQUEST_USER_ID" (actual: 143, maximum: 120)
+
+Record 221853: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 33, maximum: 32)
+
+Record 221854: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 33, maximum: 32)
+
+Record 222010: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 36, maximum: 32)
+
+Record 222011: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 36, maximum: 32)
+
+Record 229893: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 43, maximum: 32)
+
+Record 232880: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 45, maximum: 32)
+
+Record 245100: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 39, maximum: 32)
+
+Record 250670: Rejected - Error on table HGU_DSP_REQUEST, column ADR_BIRTH_DATE.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 259874: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 41, maximum: 32)
+
+Record 263982: Rejected - Error on table HGU_DSP_REQUEST.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."REQUEST_USER_ID" (actual: 247, maximum: 120)
+
+Record 294218: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 44, maximum: 32)
+
+Record 302362: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 35, maximum: 32)
+
+Record 303385: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 37, maximum: 32)
+
+Record 304203: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 48, maximum: 32)
+
+Record 304249: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 35, maximum: 32)
+
+Record 304250: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 35, maximum: 32)
+
+Record 309362: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 39, maximum: 32)
+
+Record 309364: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 35, maximum: 32)
+
+Record 317953: Rejected - Error on table HGU_DSP_REQUEST, column ADR_BIRTH_DATE.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 317954: Rejected - Error on table HGU_DSP_REQUEST, column ADR_BIRTH_DATE.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 343132: Rejected - Error on table HGU_DSP_REQUEST.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."REQUEST_USER_ID" (actual: 128, maximum: 120)
+
+Record 349157: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 33, maximum: 32)
+
+Record 378215: Rejected - Error on table HGU_DSP_REQUEST, column ADR_ZIP.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_ZIP" (actual: 10, maximum: 9)
+
+Record 389873: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 38, maximum: 32)
+
+Record 404511: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 33, maximum: 32)
+
+Record 420657: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 33, maximum: 32)
+
+Record 437025: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 41, maximum: 32)
+
+Record 441877: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 37, maximum: 32)
+
+Record 443393: Rejected - Error on table HGU_DSP_REQUEST, column REQUEST_USER_ID.
+Field in data file exceeds maximum length
+Record 446040: Rejected - Error on table HGU_DSP_REQUEST, column ADR_ZIP.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_ZIP" (actual: 10, maximum: 9)
+
+Record 450579: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 35, maximum: 32)
+
+Record 450580: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 35, maximum: 32)
+
+Record 453217: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 51, maximum: 32)
+
+Record 464593: Rejected - Error on table HGU_DSP_REQUEST.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."REQUEST_USER_ID" (actual: 152, maximum: 120)
+
+Record 485942: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 33, maximum: 32)
+
+Record 491535: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 34, maximum: 32)
+
+Record 499663: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 44, maximum: 32)
+
+Record 503267: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 34, maximum: 32)
+
+Record 516385: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 35, maximum: 32)
+
+Record 526083: Rejected - Error on table HGU_DSP_REQUEST, column ADR_ZIP.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_ZIP" (actual: 10, maximum: 9)
+
+Record 534814: Rejected - Error on table HGU_DSP_REQUEST.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."REQUEST_USER_ID" (actual: 133, maximum: 120)
+
+Record 534975: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 42, maximum: 32)
+
+Record 562106: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 33, maximum: 32)
+
+Record 583302: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 35, maximum: 32)
+
+Record 589255: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 38, maximum: 32)
+
+Record 590502: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 48, maximum: 32)
+
+Record 594848: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 36, maximum: 32)
+
+Record 607223: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 39, maximum: 32)
+
+Record 627363: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 53, maximum: 32)
+
+Record 627364: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 53, maximum: 32)
+
+Record 627365: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 53, maximum: 32)
+
+Record 631840: Rejected - Error on table HGU_DSP_REQUEST, column ADR_ZIP.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_ZIP" (actual: 10, maximum: 9)
+
+Record 640816: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 39, maximum: 32)
+
+Record 652071: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 34, maximum: 32)
+
+Record 653956: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 36, maximum: 32)
+
+Record 671965: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 34, maximum: 32)
+
+Record 697865: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 33, maximum: 32)
+
+Record 697866: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 33, maximum: 32)
+
+Record 699908: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 34, maximum: 32)
+
+Record 701968: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 34, maximum: 32)
+
+Record 732276: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 38, maximum: 32)
+
+Record 734374: Rejected - Error on table HGU_DSP_REQUEST.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."REQUEST_USER_ID" (actual: 191, maximum: 120)
+
+Record 749186: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 39, maximum: 32)
+
+Record 750780: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 38, maximum: 32)
+
+Record 762378: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 54, maximum: 32)
+
+Record 773774: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 33, maximum: 32)
+
+Record 775126: Rejected - Error on table HGU_DSP_REQUEST.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."REQUEST_USER_ID" (actual: 174, maximum: 120)
+
+Record 796404: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 50, maximum: 32)
+
+Record 818072: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 37, maximum: 32)
+
+Record 826484: Rejected - Error on table HGU_DSP_REQUEST.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."REQUEST_USER_ID" (actual: 133, maximum: 120)
+
+Record 827170: Rejected - Error on table HGU_DSP_REQUEST, column REQUEST_USER_ID.
+Field in data file exceeds maximum length
+Record 828992: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 43, maximum: 32)
+
+Record 834270: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 33, maximum: 32)
+
+Record 843896: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 33, maximum: 32)
+
+Record 848405: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 35, maximum: 32)
+
+Record 852862: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 39, maximum: 32)
+
+Record 854708: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 34, maximum: 32)
+
+Record 855969: Rejected - Error on table HGU_DSP_REQUEST, column ADR_ZIP.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_ZIP" (actual: 10, maximum: 9)
+
+Record 857739: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 36, maximum: 32)
+
+Record 870482: Rejected - Error on table HGU_DSP_REQUEST, column ADR_FIRST_NAME.
+ORA-12899: value too large for column "NINJATEAM"."HGU_DSP_REQUEST"."ADR_FIRST_NAME" (actual: 34, maximum: 32)
+
+
+Table HGU_DSP_REQUEST:
+  870439 Rows successfully loaded.
+  104 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 181632 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:        870543
+Total logical records rejected:       104
+Total logical records discarded:        0
+
+Run began on Tue Feb 13 11:02:03 2018
+Run ended on Tue Feb 13 11:03:48 2018
+
+Elapsed time was:     00:01:44.38
+CPU time was:         00:00:10.92

@@ -1,0 +1,7119 @@
+--run on rules schema
+delete dealers;
+
+INSERT INTO dealers 
+VALUES('N157','KlartSvar');
+INSERT INTO dealers 
+VALUES('N158','KlartSvar');
+INSERT INTO dealers 
+VALUES('N159','KlartSvar');
+INSERT INTO dealers 
+VALUES('N160','KlartSvar');
+INSERT INTO dealers 
+VALUES('N161','KlartSvar');
+INSERT INTO dealers 
+VALUES('N162','KlartSvar');
+INSERT INTO dealers 
+VALUES('N163','KlartSvar');
+INSERT INTO dealers 
+VALUES('N164','KlartSvar');
+INSERT INTO dealers 
+VALUES('N165','KlartSvar');
+INSERT INTO dealers 
+VALUES('N166','KlartSvar');
+INSERT INTO dealers 
+VALUES('N167','KlartSvar');
+INSERT INTO dealers 
+VALUES('N168','KlartSvar');
+INSERT INTO dealers 
+VALUES('N169','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC01','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC02','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC03','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC04','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC05','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC10','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC15','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC16','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC17','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC22','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC24','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC26','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC33','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC36','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC56','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC68','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC69','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC70','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC72','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC76','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC77','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC81','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC85','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC87','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC89','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC97','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC98','KlartSvar');
+INSERT INTO dealers 
+VALUES('NCCH','REGULAR');
+INSERT INTO dealers 
+VALUES('NCJC','REGULAR');
+INSERT INTO dealers 
+VALUES('X277','Expert');
+INSERT INTO dealers 
+VALUES('X278','Expert');
+INSERT INTO dealers 
+VALUES('X279','Expert');
+INSERT INTO dealers 
+VALUES('X280','Expert');
+INSERT INTO dealers 
+VALUES('X281','Expert');
+INSERT INTO dealers 
+VALUES('X282','Expert');
+INSERT INTO dealers 
+VALUES('X283','Expert');
+INSERT INTO dealers 
+VALUES('X284','Expert');
+INSERT INTO dealers 
+VALUES('X285','Expert');
+INSERT INTO dealers 
+VALUES('X286','Expert');
+INSERT INTO dealers 
+VALUES('X287','Expert');
+INSERT INTO dealers 
+VALUES('X288','Expert');
+INSERT INTO dealers 
+VALUES('X289','Expert');
+INSERT INTO dealers 
+VALUES('X290','Expert');
+INSERT INTO dealers 
+VALUES('X291','Expert');
+INSERT INTO dealers 
+VALUES('X292','Expert');
+INSERT INTO dealers 
+VALUES('X293','Expert');
+INSERT INTO dealers 
+VALUES('X294','Expert');
+INSERT INTO dealers 
+VALUES('X295','Expert');
+INSERT INTO dealers 
+VALUES('X296','Expert');
+INSERT INTO dealers 
+VALUES('X297','Expert');
+INSERT INTO dealers 
+VALUES('X298','Expert');
+INSERT INTO dealers 
+VALUES('X299','Expert');
+INSERT INTO dealers 
+VALUES('X300','Expert');
+INSERT INTO dealers 
+VALUES('X301','Expert');
+INSERT INTO dealers 
+VALUES('X302','Expert');
+INSERT INTO dealers 
+VALUES('X303','Expert');
+INSERT INTO dealers 
+VALUES('X304','Expert');
+INSERT INTO dealers 
+VALUES('X305','Expert');
+INSERT INTO dealers 
+VALUES('X306','Expert');
+INSERT INTO dealers 
+VALUES('X307','Expert');
+INSERT INTO dealers 
+VALUES('YATA','REGULAR');
+INSERT INTO dealers 
+VALUES('YU01','REGULAR');
+INSERT INTO dealers 
+VALUES('KE30','Elkjop');
+INSERT INTO dealers 
+VALUES('KE31','Elkjop');
+INSERT INTO dealers 
+VALUES('KE33','Elkjop');
+INSERT INTO dealers 
+VALUES('KE34','Elkjop');
+INSERT INTO dealers 
+VALUES('KE35','Elkjop');
+INSERT INTO dealers 
+VALUES('KE36','Elkjop');
+INSERT INTO dealers 
+VALUES('KE37','Elkjop');
+INSERT INTO dealers 
+VALUES('KE38','Elkjop');
+INSERT INTO dealers 
+VALUES('KE39','Elkjop');
+INSERT INTO dealers 
+VALUES('KE40','Elkjop');
+INSERT INTO dealers 
+VALUES('KE41','Elkjop');
+INSERT INTO dealers 
+VALUES('KE42','Elkjop');
+INSERT INTO dealers 
+VALUES('KE87','Elkjop');
+INSERT INTO dealers 
+VALUES('KE88','Elkjop');
+INSERT INTO dealers 
+VALUES('KNKJ','REGULAR');
+INSERT INTO dealers 
+VALUES('KSST','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSVN','CustomerCentre');
+INSERT INTO dealers 
+VALUES('LE01','Elkjop');
+INSERT INTO dealers 
+VALUES('LE02','Elkjop');
+INSERT INTO dealers 
+VALUES('LE03','Elkjop');
+INSERT INTO dealers 
+VALUES('LE05','Elkjop');
+INSERT INTO dealers 
+VALUES('LE06','Elkjop');
+INSERT INTO dealers 
+VALUES('LE07','Elkjop');
+INSERT INTO dealers 
+VALUES('LM01','REGULAR');
+INSERT INTO dealers 
+VALUES('MA01','REGULAR');
+INSERT INTO dealers 
+VALUES('MICO','REGULAR');
+INSERT INTO dealers 
+VALUES('MOBI','REGULAR');
+INSERT INTO dealers 
+VALUES('MP01','REGULAR');
+INSERT INTO dealers 
+VALUES('MP02','REGULAR');
+INSERT INTO dealers 
+VALUES('MP03','REGULAR');
+INSERT INTO dealers 
+VALUES('MP04','REGULAR');
+INSERT INTO dealers 
+VALUES('MP05','REGULAR');
+INSERT INTO dealers 
+VALUES('MP06','REGULAR');
+INSERT INTO dealers 
+VALUES('MP07','REGULAR');
+INSERT INTO dealers 
+VALUES('MP08','REGULAR');
+INSERT INTO dealers 
+VALUES('MP09','REGULAR');
+INSERT INTO dealers 
+VALUES('MP10','REGULAR');
+INSERT INTO dealers 
+VALUES('MP11','REGULAR');
+INSERT INTO dealers 
+VALUES('MP12','REGULAR');
+INSERT INTO dealers 
+VALUES('MP13','REGULAR');
+INSERT INTO dealers 
+VALUES('MP14','REGULAR');
+INSERT INTO dealers 
+VALUES('MP15','REGULAR');
+INSERT INTO dealers 
+VALUES('MP16','REGULAR');
+INSERT INTO dealers 
+VALUES('MP17','REGULAR');
+INSERT INTO dealers 
+VALUES('MP18','REGULAR');
+INSERT INTO dealers 
+VALUES('MP19','REGULAR');
+INSERT INTO dealers 
+VALUES('MP20','REGULAR');
+INSERT INTO dealers 
+VALUES('MP21','REGULAR');
+INSERT INTO dealers 
+VALUES('MP22','REGULAR');
+INSERT INTO dealers 
+VALUES('MP23','REGULAR');
+INSERT INTO dealers 
+VALUES('MP24','REGULAR');
+INSERT INTO dealers 
+VALUES('MP25','REGULAR');
+INSERT INTO dealers 
+VALUES('MP26','REGULAR');
+INSERT INTO dealers 
+VALUES('MP27','REGULAR');
+INSERT INTO dealers 
+VALUES('MP28','REGULAR');
+INSERT INTO dealers 
+VALUES('MP29','REGULAR');
+INSERT INTO dealers 
+VALUES('MP30','REGULAR');
+INSERT INTO dealers 
+VALUES('MP31','REGULAR');
+INSERT INTO dealers 
+VALUES('MP32','REGULAR');
+INSERT INTO dealers 
+VALUES('MP33','REGULAR');
+INSERT INTO dealers 
+VALUES('MP34','REGULAR');
+INSERT INTO dealers 
+VALUES('MP35','REGULAR');
+INSERT INTO dealers 
+VALUES('MP36','REGULAR');
+INSERT INTO dealers 
+VALUES('MP37','REGULAR');
+INSERT INTO dealers 
+VALUES('MP38','REGULAR');
+INSERT INTO dealers 
+VALUES('MP39','REGULAR');
+INSERT INTO dealers 
+VALUES('MP40','REGULAR');
+INSERT INTO dealers 
+VALUES('MP41','REGULAR');
+INSERT INTO dealers 
+VALUES('MP42','REGULAR');
+INSERT INTO dealers 
+VALUES('MP43','REGULAR');
+INSERT INTO dealers 
+VALUES('MP44','REGULAR');
+INSERT INTO dealers 
+VALUES('MP45','REGULAR');
+INSERT INTO dealers 
+VALUES('MP46','REGULAR');
+INSERT INTO dealers 
+VALUES('MP48','REGULAR');
+INSERT INTO dealers 
+VALUES('MP49','REGULAR');
+INSERT INTO dealers 
+VALUES('MP50','REGULAR');
+INSERT INTO dealers 
+VALUES('MP51','REGULAR');
+INSERT INTO dealers 
+VALUES('MP52','REGULAR');
+INSERT INTO dealers 
+VALUES('MP53','REGULAR');
+INSERT INTO dealers 
+VALUES('MPS1','REGULAR');
+INSERT INTO dealers 
+VALUES('MTX1','REGULAR');
+INSERT INTO dealers 
+VALUES('MTX2','REGULAR');
+INSERT INTO dealers 
+VALUES('MTX3','REGULAR');
+INSERT INTO dealers 
+VALUES('MTX4','REGULAR');
+INSERT INTO dealers 
+VALUES('MULT','REGULAR');
+INSERT INTO dealers 
+VALUES('N100','KlartSvar');
+INSERT INTO dealers 
+VALUES('N105','KlartSvar');
+INSERT INTO dealers 
+VALUES('N107','KlartSvar');
+INSERT INTO dealers 
+VALUES('N110','KlartSvar');
+INSERT INTO dealers 
+VALUES('N118','KlartSvar');
+INSERT INTO dealers 
+VALUES('N121','KlartSvar');
+INSERT INTO dealers 
+VALUES('N122','KlartSvar');
+INSERT INTO dealers 
+VALUES('N123','KlartSvar');
+INSERT INTO dealers 
+VALUES('N124','KlartSvar');
+INSERT INTO dealers 
+VALUES('N125','KlartSvar');
+INSERT INTO dealers 
+VALUES('N127','KlartSvar');
+INSERT INTO dealers 
+VALUES('N128','KlartSvar');
+INSERT INTO dealers 
+VALUES('N130','KlartSvar');
+INSERT INTO dealers 
+VALUES('N131','KlartSvar');
+INSERT INTO dealers 
+VALUES('N132','KlartSvar');
+INSERT INTO dealers 
+VALUES('N133','KlartSvar');
+INSERT INTO dealers 
+VALUES('N134','KlartSvar');
+INSERT INTO dealers 
+VALUES('N135','KlartSvar');
+INSERT INTO dealers 
+VALUES('N136','KlartSvar');
+INSERT INTO dealers 
+VALUES('N139','KlartSvar');
+INSERT INTO dealers 
+VALUES('N140','KlartSvar');
+INSERT INTO dealers 
+VALUES('N141','KlartSvar');
+INSERT INTO dealers 
+VALUES('N143','KlartSvar');
+INSERT INTO dealers 
+VALUES('N144','KlartSvar');
+INSERT INTO dealers 
+VALUES('N145','KlartSvar');
+INSERT INTO dealers 
+VALUES('N147','KlartSvar');
+INSERT INTO dealers 
+VALUES('N148','KlartSvar');
+INSERT INTO dealers 
+VALUES('N149','KlartSvar');
+INSERT INTO dealers 
+VALUES('N150','KlartSvar');
+INSERT INTO dealers 
+VALUES('N151','KlartSvar');
+INSERT INTO dealers 
+VALUES('N152','KlartSvar');
+INSERT INTO dealers 
+VALUES('N153','KlartSvar');
+INSERT INTO dealers 
+VALUES('N154','KlartSvar');
+INSERT INTO dealers 
+VALUES('N155','KlartSvar');
+INSERT INTO dealers 
+VALUES('X052','Expert');
+INSERT INTO dealers 
+VALUES('X053','Expert');
+INSERT INTO dealers 
+VALUES('X054','Elkjeden');
+INSERT INTO dealers 
+VALUES('X055','Elkjeden');
+INSERT INTO dealers 
+VALUES('X056','Expert');
+INSERT INTO dealers 
+VALUES('X057','Expert');
+INSERT INTO dealers 
+VALUES('X058','Expert');
+INSERT INTO dealers 
+VALUES('X059','Elkjeden');
+INSERT INTO dealers 
+VALUES('X060','Expert');
+INSERT INTO dealers 
+VALUES('X061','Expert');
+INSERT INTO dealers 
+VALUES('X062','Elkjeden');
+INSERT INTO dealers 
+VALUES('X063','Expert');
+INSERT INTO dealers 
+VALUES('X064','Expert');
+INSERT INTO dealers 
+VALUES('X065','Elkjeden');
+INSERT INTO dealers 
+VALUES('X066','Elkjeden');
+INSERT INTO dealers 
+VALUES('X067','Expert');
+INSERT INTO dealers 
+VALUES('X068','Expert');
+INSERT INTO dealers 
+VALUES('X069','Elkjeden');
+INSERT INTO dealers 
+VALUES('X070','Elkjeden');
+INSERT INTO dealers 
+VALUES('X071','Elkjeden');
+INSERT INTO dealers 
+VALUES('X072','Elkjeden');
+INSERT INTO dealers 
+VALUES('X073','Elkjeden');
+INSERT INTO dealers 
+VALUES('X074','Elkjeden');
+INSERT INTO dealers 
+VALUES('X075','Expert');
+INSERT INTO dealers 
+VALUES('X076','Expert');
+INSERT INTO dealers 
+VALUES('X077','Expert');
+INSERT INTO dealers 
+VALUES('X078','Elkjeden');
+INSERT INTO dealers 
+VALUES('X079','Elkjeden');
+INSERT INTO dealers 
+VALUES('X080','Elkjeden');
+INSERT INTO dealers 
+VALUES('X081','Expert');
+INSERT INTO dealers 
+VALUES('X082','Expert');
+INSERT INTO dealers 
+VALUES('X083','Expert');
+INSERT INTO dealers 
+VALUES('X084','Expert');
+INSERT INTO dealers 
+VALUES('X085','Elkjeden');
+INSERT INTO dealers 
+VALUES('X086','Elkjeden');
+INSERT INTO dealers 
+VALUES('X087','Expert');
+INSERT INTO dealers 
+VALUES('X088','Elkjeden');
+INSERT INTO dealers 
+VALUES('X089','Elkjeden');
+INSERT INTO dealers 
+VALUES('X090','Elkjeden');
+INSERT INTO dealers 
+VALUES('X091','Expert');
+INSERT INTO dealers 
+VALUES('X092','Expert');
+INSERT INTO dealers 
+VALUES('X093','Elkjeden');
+INSERT INTO dealers 
+VALUES('X094','Expert');
+INSERT INTO dealers 
+VALUES('X095','Expert');
+INSERT INTO dealers 
+VALUES('X096','Elkjeden');
+INSERT INTO dealers 
+VALUES('X097','Expert');
+INSERT INTO dealers 
+VALUES('X098','Expert');
+INSERT INTO dealers 
+VALUES('X099','Expert');
+INSERT INTO dealers 
+VALUES('X100','Expert');
+INSERT INTO dealers 
+VALUES('X101','Elkjeden');
+INSERT INTO dealers 
+VALUES('X102','Elkjeden');
+INSERT INTO dealers 
+VALUES('X103','Elkjeden');
+INSERT INTO dealers 
+VALUES('X104','Elkjeden');
+INSERT INTO dealers 
+VALUES('X105','Elkjeden');
+INSERT INTO dealers 
+VALUES('X106','Expert');
+INSERT INTO dealers 
+VALUES('X107','Expert');
+INSERT INTO dealers 
+VALUES('X108','Expert');
+INSERT INTO dealers 
+VALUES('X109','Expert');
+INSERT INTO dealers 
+VALUES('X110','Elkjeden');
+INSERT INTO dealers 
+VALUES('X111','Expert');
+INSERT INTO dealers 
+VALUES('X112','Elkjeden');
+INSERT INTO dealers 
+VALUES('X113','Expert');
+INSERT INTO dealers 
+VALUES('X114','Expert');
+INSERT INTO dealers 
+VALUES('X115','Expert');
+INSERT INTO dealers 
+VALUES('X116','Expert');
+INSERT INTO dealers 
+VALUES('X117','Expert');
+INSERT INTO dealers 
+VALUES('X118','Expert');
+INSERT INTO dealers 
+VALUES('X119','Elkjeden');
+INSERT INTO dealers 
+VALUES('X120','Elkjeden');
+INSERT INTO dealers 
+VALUES('X121','Expert');
+INSERT INTO dealers 
+VALUES('X122','Elkjeden');
+INSERT INTO dealers 
+VALUES('X123','Expert');
+INSERT INTO dealers 
+VALUES('X124','Elkjeden');
+INSERT INTO dealers 
+VALUES('X125','Expert');
+INSERT INTO dealers 
+VALUES('X126','Expert');
+INSERT INTO dealers 
+VALUES('X127','Expert');
+INSERT INTO dealers 
+VALUES('X128','Expert');
+INSERT INTO dealers 
+VALUES('ECM1','ID_GSM');
+INSERT INTO dealers 
+VALUES('ECM2','ID_GSM');
+INSERT INTO dealers 
+VALUES('F209','REGULAR');
+INSERT INTO dealers 
+VALUES('F210','REGULAR');
+INSERT INTO dealers 
+VALUES('F211','REGULAR');
+INSERT INTO dealers 
+VALUES('F212','REGULAR');
+INSERT INTO dealers 
+VALUES('F213','REGULAR');
+INSERT INTO dealers 
+VALUES('F208','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('X308','Expert');
+INSERT INTO dealers 
+VALUES('X309','Expert');
+INSERT INTO dealers 
+VALUES('X310','Expert');
+INSERT INTO dealers 
+VALUES('X312','Expert');
+INSERT INTO dealers 
+VALUES('X311','Expert');
+INSERT INTO dealers 
+VALUES('P096','REGULAR');
+INSERT INTO dealers 
+VALUES('P097','REGULAR');
+INSERT INTO dealers 
+VALUES('P098','REGULAR');
+INSERT INTO dealers 
+VALUES('P099','REGULAR');
+INSERT INTO dealers 
+VALUES('P100','REGULAR');
+INSERT INTO dealers 
+VALUES('P101','REGULAR');
+INSERT INTO dealers 
+VALUES('N170','KlartSvar');
+INSERT INTO dealers 
+VALUES('41200','REGULAR');
+INSERT INTO dealers 
+VALUES('EM01','REGULAR');
+INSERT INTO dealers 
+VALUES('EM02','REGULAR');
+INSERT INTO dealers 
+VALUES('EM03','REGULAR');
+INSERT INTO dealers 
+VALUES('EM04','REGULAR');
+INSERT INTO dealers 
+VALUES('EM05','REGULAR');
+INSERT INTO dealers 
+VALUES('EM06','REGULAR');
+INSERT INTO dealers 
+VALUES('EM07','REGULAR');
+INSERT INTO dealers 
+VALUES('EM08','REGULAR');
+INSERT INTO dealers 
+VALUES('EM09','REGULAR');
+INSERT INTO dealers 
+VALUES('F214','Systempartner');
+INSERT INTO dealers 
+VALUES('P103','REGULAR');
+INSERT INTO dealers 
+VALUES('P104','REGULAR');
+INSERT INTO dealers 
+VALUES('P105','REGULAR');
+INSERT INTO dealers 
+VALUES('P106','REGULAR');
+INSERT INTO dealers 
+VALUES('F215','REGULAR');
+INSERT INTO dealers 
+VALUES('X313','Expert');
+INSERT INTO dealers 
+VALUES('F216','REGULAR');
+INSERT INTO dealers 
+VALUES('F217','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F218','REGULAR');
+INSERT INTO dealers 
+VALUES('P113','REGULAR');
+INSERT INTO dealers 
+VALUES('P114','REGULAR');
+INSERT INTO dealers 
+VALUES('P107','REGULAR');
+INSERT INTO dealers 
+VALUES('P108','REGULAR');
+INSERT INTO dealers 
+VALUES('P109','REGULAR');
+INSERT INTO dealers 
+VALUES('P110','REGULAR');
+INSERT INTO dealers 
+VALUES('P111','REGULAR');
+INSERT INTO dealers 
+VALUES('P112','REGULAR');
+INSERT INTO dealers 
+VALUES('X314','Expert');
+INSERT INTO dealers 
+VALUES('OT11','KlartSvar');
+INSERT INTO dealers 
+VALUES('X315','Expert');
+INSERT INTO dealers 
+VALUES('F219','REGULAR');
+INSERT INTO dealers 
+VALUES('KE09','Elkjop');
+INSERT INTO dealers 
+VALUES('TB50','Telebutikken');
+INSERT INTO dealers 
+VALUES('X316','Expert');
+INSERT INTO dealers 
+VALUES('P115','REGULAR');
+INSERT INTO dealers 
+VALUES('P116','REGULAR');
+INSERT INTO dealers 
+VALUES('P117','REGULAR');
+INSERT INTO dealers 
+VALUES('P118','REGULAR');
+INSERT INTO dealers 
+VALUES('P119','REGULAR');
+INSERT INTO dealers 
+VALUES('P120','REGULAR');
+INSERT INTO dealers 
+VALUES('F221','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F220','REGULAR');
+INSERT INTO dealers 
+VALUES('X317','Expert');
+INSERT INTO dealers 
+VALUES('OT14','KlartSvar');
+INSERT INTO dealers 
+VALUES('OT12','KlartSvar');
+INSERT INTO dealers 
+VALUES('OT13','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('OT15','KlartSvar');
+INSERT INTO dealers 
+VALUES('OT16','KlartSvar');
+INSERT INTO dealers 
+VALUES('OT17','KlartSvar');
+INSERT INTO dealers 
+VALUES('OT18','KlartSvar');
+INSERT INTO dealers 
+VALUES('OT19','KlartSvar');
+INSERT INTO dealers 
+VALUES('OT20','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('P121','REGULAR');
+INSERT INTO dealers 
+VALUES('P122','REGULAR');
+INSERT INTO dealers 
+VALUES('P123','REGULAR');
+INSERT INTO dealers 
+VALUES('P124','REGULAR');
+INSERT INTO dealers 
+VALUES('P125','REGULAR');
+INSERT INTO dealers 
+VALUES('P126','REGULAR');
+INSERT INTO dealers 
+VALUES('P127','REGULAR');
+INSERT INTO dealers 
+VALUES('P128','REGULAR');
+INSERT INTO dealers 
+VALUES('P129','REGULAR');
+INSERT INTO dealers 
+VALUES('P130','REGULAR');
+INSERT INTO dealers 
+VALUES('P131','REGULAR');
+INSERT INTO dealers 
+VALUES('P132','REGULAR');
+INSERT INTO dealers 
+VALUES('P133','REGULAR');
+INSERT INTO dealers 
+VALUES('P134','REGULAR');
+INSERT INTO dealers 
+VALUES('X318','Expert');
+INSERT INTO dealers 
+VALUES('X319','Expert');
+INSERT INTO dealers 
+VALUES('P140','REGULAR');
+INSERT INTO dealers 
+VALUES('P135','REGULAR');
+INSERT INTO dealers 
+VALUES('P136','REGULAR');
+INSERT INTO dealers 
+VALUES('P137','REGULAR');
+INSERT INTO dealers 
+VALUES('P138','REGULAR');
+INSERT INTO dealers 
+VALUES('P139','REGULAR');
+INSERT INTO dealers 
+VALUES('P141','REGULAR');
+INSERT INTO dealers 
+VALUES('P142','REGULAR');
+INSERT INTO dealers 
+VALUES('P143','REGULAR');
+INSERT INTO dealers 
+VALUES('P144','REGULAR');
+INSERT INTO dealers 
+VALUES('P145','REGULAR');
+INSERT INTO dealers 
+VALUES('F222','Aker');
+INSERT INTO dealers 
+VALUES('OT21','KlartSvar');
+INSERT INTO dealers 
+VALUES('X320','Expert');
+INSERT INTO dealers 
+VALUES('X321','Expert');
+INSERT INTO dealers 
+VALUES('X322','Expert');
+INSERT INTO dealers 
+VALUES('X323','Expert');
+INSERT INTO dealers 
+VALUES('X324','Expert');
+INSERT INTO dealers 
+VALUES('X325','Expert');
+INSERT INTO dealers 
+VALUES('X326','Expert');
+INSERT INTO dealers 
+VALUES('X327','Expert');
+INSERT INTO dealers 
+VALUES('X328','Expert');
+INSERT INTO dealers 
+VALUES('X329','Expert');
+INSERT INTO dealers 
+VALUES('KSPO','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSFO','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSBE','TM_Bedrift');
+INSERT INTO dealers 
+VALUES('KSTA','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSTS','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSTC','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSFT','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSTD','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSTB','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSF1','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSF2','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSPT','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSBT','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSSK','TM_Bedrift');
+INSERT INTO dealers 
+VALUES('TOM','REGULAR');
+INSERT INTO dealers 
+VALUES('ACN1','REGULAR');
+INSERT INTO dealers 
+VALUES('MMO1','REGULAR');
+INSERT INTO dealers 
+VALUES('P999','REGULAR');
+INSERT INTO dealers 
+VALUES('X330','Expert');
+INSERT INTO dealers 
+VALUES('41300','REGULAR');
+INSERT INTO dealers 
+VALUES('NRAF','REGULAR');
+INSERT INTO dealers 
+VALUES('F169','REGULAR');
+INSERT INTO dealers 
+VALUES('LE04','Elkjop');
+INSERT INTO dealers 
+VALUES('N113','KlartSvar');
+INSERT INTO dealers 
+VALUES('N114','KlartSvar');
+INSERT INTO dealers 
+VALUES('N117','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC09','KlartSvar');
+INSERT INTO dealers 
+VALUES('N002','KlartSvar');
+INSERT INTO dealers 
+VALUES('N003','KlartSvar');
+INSERT INTO dealers 
+VALUES('N004','KlartSvar');
+INSERT INTO dealers 
+VALUES('N005','KlartSvar');
+INSERT INTO dealers 
+VALUES('NCA1','REGULAR');
+INSERT INTO dealers 
+VALUES('NCB1','REGULAR');
+INSERT INTO dealers 
+VALUES('NCC1','REGULAR');
+INSERT INTO dealers 
+VALUES('NCD1','REGULAR');
+INSERT INTO dealers 
+VALUES('OF01','REGULAR');
+INSERT INTO dealers 
+VALUES('TOTA','REGULAR');
+INSERT INTO dealers 
+VALUES('YYYY','REGULAR');
+INSERT INTO dealers 
+VALUES('ZZZZ','REGULAR');
+INSERT INTO dealers 
+VALUES('NC83','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC84','KlartSvar');
+INSERT INTO dealers 
+VALUES('7005','REGULAR');
+INSERT INTO dealers 
+VALUES('F141','REGULAR');
+INSERT INTO dealers 
+VALUES('HICO','REGULAR');
+INSERT INTO dealers 
+VALUES('MB01','REGULAR');
+INSERT INTO dealers 
+VALUES('MB02','REGULAR');
+INSERT INTO dealers 
+VALUES('MB03','REGULAR');
+INSERT INTO dealers 
+VALUES('MB04','REGULAR');
+INSERT INTO dealers 
+VALUES('KE20','Elkjop');
+INSERT INTO dealers 
+VALUES('7026','REGULAR');
+INSERT INTO dealers 
+VALUES('A419','REGULAR');
+INSERT INTO dealers 
+VALUES('AMT1','REGULAR');
+INSERT INTO dealers 
+VALUES('7028','REGULAR');
+INSERT INTO dealers 
+VALUES('F101','REGULAR');
+INSERT INTO dealers 
+VALUES('7029','REGULAR');
+INSERT INTO dealers 
+VALUES('F103','REGULAR');
+INSERT INTO dealers 
+VALUES('F104','REGULAR');
+INSERT INTO dealers 
+VALUES('7030','REGULAR');
+INSERT INTO dealers 
+VALUES('F115','REGULAR');
+INSERT INTO dealers 
+VALUES('7032','REGULAR');
+INSERT INTO dealers 
+VALUES('F121','REGULAR');
+INSERT INTO dealers 
+VALUES('7033','REGULAR');
+INSERT INTO dealers 
+VALUES('7036','REGULAR');
+INSERT INTO dealers 
+VALUES('0783','REGULAR');
+INSERT INTO dealers 
+VALUES('8002','REGULAR');
+INSERT INTO dealers 
+VALUES('8003','REGULAR');
+INSERT INTO dealers 
+VALUES('2486','REGULAR');
+INSERT INTO dealers 
+VALUES('8005','REGULAR');
+INSERT INTO dealers 
+VALUES('8006','REGULAR');
+INSERT INTO dealers 
+VALUES('8007','REGULAR');
+INSERT INTO dealers 
+VALUES('GB02','REGULAR');
+INSERT INTO dealers 
+VALUES('8008','REGULAR');
+INSERT INTO dealers 
+VALUES('GB03','REGULAR');
+INSERT INTO dealers 
+VALUES('NKC1','REGULAR');
+INSERT INTO dealers 
+VALUES('NKC2','REGULAR');
+INSERT INTO dealers 
+VALUES('DAVI','REGULAR');
+INSERT INTO dealers 
+VALUES('VIKE','REGULAR');
+INSERT INTO dealers 
+VALUES('OF02','REGULAR');
+INSERT INTO dealers 
+VALUES('1380','REGULAR');
+INSERT INTO dealers 
+VALUES('1381','REGULAR');
+INSERT INTO dealers 
+VALUES('1382','REGULAR');
+INSERT INTO dealers 
+VALUES('N116','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC47','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC48','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC49','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC59','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC63','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC65','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC74','KlartSvar');
+INSERT INTO dealers 
+VALUES('9004','REGULAR');
+INSERT INTO dealers 
+VALUES('9005','REGULAR');
+INSERT INTO dealers 
+VALUES('6005','REGULAR');
+INSERT INTO dealers 
+VALUES('9006','REGULAR');
+INSERT INTO dealers 
+VALUES('9007','REGULAR');
+INSERT INTO dealers 
+VALUES('9008','REGULAR');
+INSERT INTO dealers 
+VALUES('6006','REGULAR');
+INSERT INTO dealers 
+VALUES('9009','REGULAR');
+INSERT INTO dealers 
+VALUES('6007','REGULAR');
+INSERT INTO dealers 
+VALUES('0901','REGULAR');
+INSERT INTO dealers 
+VALUES('6009','REGULAR');
+INSERT INTO dealers 
+VALUES('9010','REGULAR');
+INSERT INTO dealers 
+VALUES('6012','REGULAR');
+INSERT INTO dealers 
+VALUES('9011','REGULAR');
+INSERT INTO dealers 
+VALUES('9012','REGULAR');
+INSERT INTO dealers 
+VALUES('9013','REGULAR');
+INSERT INTO dealers 
+VALUES('6502','REGULAR');
+INSERT INTO dealers 
+VALUES('6503','REGULAR');
+INSERT INTO dealers 
+VALUES('9014','REGULAR');
+INSERT INTO dealers 
+VALUES('6504','REGULAR');
+INSERT INTO dealers 
+VALUES('6505','REGULAR');
+INSERT INTO dealers 
+VALUES('7003','REGULAR');
+INSERT INTO dealers 
+VALUES('7004','REGULAR');
+INSERT INTO dealers 
+VALUES('7007','REGULAR');
+INSERT INTO dealers 
+VALUES('7008','REGULAR');
+INSERT INTO dealers 
+VALUES('7011','REGULAR');
+INSERT INTO dealers 
+VALUES('9017','REGULAR');
+INSERT INTO dealers 
+VALUES('9018','REGULAR');
+INSERT INTO dealers 
+VALUES('7012','REGULAR');
+INSERT INTO dealers 
+VALUES('9020','REGULAR');
+INSERT INTO dealers 
+VALUES('7013','REGULAR');
+INSERT INTO dealers 
+VALUES('9021','REGULAR');
+INSERT INTO dealers 
+VALUES('7015','REGULAR');
+INSERT INTO dealers 
+VALUES('9022','REGULAR');
+INSERT INTO dealers 
+VALUES('9023','REGULAR');
+INSERT INTO dealers 
+VALUES('9027','REGULAR');
+INSERT INTO dealers 
+VALUES('7016','REGULAR');
+INSERT INTO dealers 
+VALUES('9028','REGULAR');
+INSERT INTO dealers 
+VALUES('7022','REGULAR');
+INSERT INTO dealers 
+VALUES('7023','REGULAR');
+INSERT INTO dealers 
+VALUES('0962','REGULAR');
+INSERT INTO dealers 
+VALUES('7025','REGULAR');
+INSERT INTO dealers 
+VALUES('A411','REGULAR');
+INSERT INTO dealers 
+VALUES('3014','REGULAR');
+INSERT INTO dealers 
+VALUES('S503','REGULAR');
+INSERT INTO dealers 
+VALUES('3107','REGULAR');
+INSERT INTO dealers 
+VALUES('S504','REGULAR');
+INSERT INTO dealers 
+VALUES('3135','REGULAR');
+INSERT INTO dealers 
+VALUES('S507','REGULAR');
+INSERT INTO dealers 
+VALUES('S508','REGULAR');
+INSERT INTO dealers 
+VALUES('S509','REGULAR');
+INSERT INTO dealers 
+VALUES('3167','REGULAR');
+INSERT INTO dealers 
+VALUES('3172','REGULAR');
+INSERT INTO dealers 
+VALUES('T001','Telering');
+INSERT INTO dealers 
+VALUES('XXXX','REGULAR');
+INSERT INTO dealers 
+VALUES('3280','REGULAR');
+INSERT INTO dealers 
+VALUES('3281','REGULAR');
+INSERT INTO dealers 
+VALUES('3396','REGULAR');
+INSERT INTO dealers 
+VALUES('34','REGULAR');
+INSERT INTO dealers 
+VALUES('3411','REGULAR');
+INSERT INTO dealers 
+VALUES('3477','REGULAR');
+INSERT INTO dealers 
+VALUES('3498','REGULAR');
+INSERT INTO dealers 
+VALUES('3505','REGULAR');
+INSERT INTO dealers 
+VALUES('3508','REGULAR');
+INSERT INTO dealers 
+VALUES('3513','REGULAR');
+INSERT INTO dealers 
+VALUES('3514','REGULAR');
+INSERT INTO dealers 
+VALUES('3526','REGULAR');
+INSERT INTO dealers 
+VALUES('0498','REGULAR');
+INSERT INTO dealers 
+VALUES('8009','REGULAR');
+INSERT INTO dealers 
+VALUES('8010','REGULAR');
+INSERT INTO dealers 
+VALUES('5239','REGULAR');
+INSERT INTO dealers 
+VALUES('8011','REGULAR');
+INSERT INTO dealers 
+VALUES('0534','REGULAR');
+INSERT INTO dealers 
+VALUES('6001','REGULAR');
+INSERT INTO dealers 
+VALUES('8012','REGULAR');
+INSERT INTO dealers 
+VALUES('8014','REGULAR');
+INSERT INTO dealers 
+VALUES('8015','REGULAR');
+INSERT INTO dealers 
+VALUES('8016','REGULAR');
+INSERT INTO dealers 
+VALUES('9000','REGULAR');
+INSERT INTO dealers 
+VALUES('6002','REGULAR');
+INSERT INTO dealers 
+VALUES('9001','REGULAR');
+INSERT INTO dealers 
+VALUES('9002','REGULAR');
+INSERT INTO dealers 
+VALUES('6003','REGULAR');
+INSERT INTO dealers 
+VALUES('9003','REGULAR');
+INSERT INTO dealers 
+VALUES('6004','REGULAR');
+INSERT INTO dealers 
+VALUES('S407','REGULAR');
+INSERT INTO dealers 
+VALUES('2089','REGULAR');
+INSERT INTO dealers 
+VALUES('S408','REGULAR');
+INSERT INTO dealers 
+VALUES('2106','REGULAR');
+INSERT INTO dealers 
+VALUES('S409','REGULAR');
+INSERT INTO dealers 
+VALUES('S410','REGULAR');
+INSERT INTO dealers 
+VALUES('S411','REGULAR');
+INSERT INTO dealers 
+VALUES('2172','REGULAR');
+INSERT INTO dealers 
+VALUES('S412','REGULAR');
+INSERT INTO dealers 
+VALUES('2394','REGULAR');
+INSERT INTO dealers 
+VALUES('S413','REGULAR');
+INSERT INTO dealers 
+VALUES('24','REGULAR');
+INSERT INTO dealers 
+VALUES('S414','REGULAR');
+INSERT INTO dealers 
+VALUES('S415','REGULAR');
+INSERT INTO dealers 
+VALUES('2604','REGULAR');
+INSERT INTO dealers 
+VALUES('S416','REGULAR');
+INSERT INTO dealers 
+VALUES('2745','REGULAR');
+INSERT INTO dealers 
+VALUES('S418','REGULAR');
+INSERT INTO dealers 
+VALUES('S419','REGULAR');
+INSERT INTO dealers 
+VALUES('2750','REGULAR');
+INSERT INTO dealers 
+VALUES('S420','REGULAR');
+INSERT INTO dealers 
+VALUES('2768','REGULAR');
+INSERT INTO dealers 
+VALUES('S421','REGULAR');
+INSERT INTO dealers 
+VALUES('2798','REGULAR');
+INSERT INTO dealers 
+VALUES('S422','REGULAR');
+INSERT INTO dealers 
+VALUES('2841','REGULAR');
+INSERT INTO dealers 
+VALUES('S423','REGULAR');
+INSERT INTO dealers 
+VALUES('S424','REGULAR');
+INSERT INTO dealers 
+VALUES('2904','REGULAR');
+INSERT INTO dealers 
+VALUES('S425','REGULAR');
+INSERT INTO dealers 
+VALUES('S426','REGULAR');
+INSERT INTO dealers 
+VALUES('291','REGULAR');
+INSERT INTO dealers 
+VALUES('S427','REGULAR');
+INSERT INTO dealers 
+VALUES('S428','REGULAR');
+INSERT INTO dealers 
+VALUES('S429','REGULAR');
+INSERT INTO dealers 
+VALUES('2915','REGULAR');
+INSERT INTO dealers 
+VALUES('S430','REGULAR');
+INSERT INTO dealers 
+VALUES('2918','REGULAR');
+INSERT INTO dealers 
+VALUES('S431','REGULAR');
+INSERT INTO dealers 
+VALUES('2941','REGULAR');
+INSERT INTO dealers 
+VALUES('S500','REGULAR');
+INSERT INTO dealers 
+VALUES('S501','REGULAR');
+INSERT INTO dealers 
+VALUES('S502','REGULAR');
+INSERT INTO dealers 
+VALUES('S201','REGULAR');
+INSERT INTO dealers 
+VALUES('S202','REGULAR');
+INSERT INTO dealers 
+VALUES('S203','REGULAR');
+INSERT INTO dealers 
+VALUES('7009','REGULAR');
+INSERT INTO dealers 
+VALUES('7010','REGULAR');
+INSERT INTO dealers 
+VALUES('0080','REGULAR');
+INSERT INTO dealers 
+VALUES('0103','REGULAR');
+INSERT INTO dealers 
+VALUES('0301','REGULAR');
+INSERT INTO dealers 
+VALUES('0609','REGULAR');
+INSERT INTO dealers 
+VALUES('S204','REGULAR');
+INSERT INTO dealers 
+VALUES('S205','REGULAR');
+INSERT INTO dealers 
+VALUES('S206','REGULAR');
+INSERT INTO dealers 
+VALUES('S207','REGULAR');
+INSERT INTO dealers 
+VALUES('0797','REGULAR');
+INSERT INTO dealers 
+VALUES('S208','REGULAR');
+INSERT INTO dealers 
+VALUES('0871','REGULAR');
+INSERT INTO dealers 
+VALUES('S300','REGULAR');
+INSERT INTO dealers 
+VALUES('S301','REGULAR');
+INSERT INTO dealers 
+VALUES('S302','REGULAR');
+INSERT INTO dealers 
+VALUES('S303','REGULAR');
+INSERT INTO dealers 
+VALUES('S304','REGULAR');
+INSERT INTO dealers 
+VALUES('0932','REGULAR');
+INSERT INTO dealers 
+VALUES('S305','REGULAR');
+INSERT INTO dealers 
+VALUES('1184','REGULAR');
+INSERT INTO dealers 
+VALUES('S306','REGULAR');
+INSERT INTO dealers 
+VALUES('1223','REGULAR');
+INSERT INTO dealers 
+VALUES('S307','REGULAR');
+INSERT INTO dealers 
+VALUES('S308','REGULAR');
+INSERT INTO dealers 
+VALUES('1233','REGULAR');
+INSERT INTO dealers 
+VALUES('S310','REGULAR');
+INSERT INTO dealers 
+VALUES('1366','REGULAR');
+INSERT INTO dealers 
+VALUES('S400','REGULAR');
+INSERT INTO dealers 
+VALUES('1479','REGULAR');
+INSERT INTO dealers 
+VALUES('S401','REGULAR');
+INSERT INTO dealers 
+VALUES('1480','REGULAR');
+INSERT INTO dealers 
+VALUES('S402','REGULAR');
+INSERT INTO dealers 
+VALUES('1797','REGULAR');
+INSERT INTO dealers 
+VALUES('S403','REGULAR');
+INSERT INTO dealers 
+VALUES('S404','REGULAR');
+INSERT INTO dealers 
+VALUES('1808','REGULAR');
+INSERT INTO dealers 
+VALUES('S405','REGULAR');
+INSERT INTO dealers 
+VALUES('1822','REGULAR');
+INSERT INTO dealers 
+VALUES('S406','REGULAR');
+INSERT INTO dealers 
+VALUES('1981','REGULAR');
+INSERT INTO dealers 
+VALUES('S006','REGULAR');
+INSERT INTO dealers 
+VALUES('S007','REGULAR');
+INSERT INTO dealers 
+VALUES('S008','REGULAR');
+INSERT INTO dealers 
+VALUES('S009','REGULAR');
+INSERT INTO dealers 
+VALUES('S010','REGULAR');
+INSERT INTO dealers 
+VALUES('S011','REGULAR');
+INSERT INTO dealers 
+VALUES('S012','REGULAR');
+INSERT INTO dealers 
+VALUES('S046','REGULAR');
+INSERT INTO dealers 
+VALUES('S047','REGULAR');
+INSERT INTO dealers 
+VALUES('2626','REGULAR');
+INSERT INTO dealers 
+VALUES('S048','REGULAR');
+INSERT INTO dealers 
+VALUES('S049','REGULAR');
+INSERT INTO dealers 
+VALUES('S050','REGULAR');
+INSERT INTO dealers 
+VALUES('3282','REGULAR');
+INSERT INTO dealers 
+VALUES('S051','REGULAR');
+INSERT INTO dealers 
+VALUES('S052','REGULAR');
+INSERT INTO dealers 
+VALUES('0614','REGULAR');
+INSERT INTO dealers 
+VALUES('S053','REGULAR');
+INSERT INTO dealers 
+VALUES('S054','REGULAR');
+INSERT INTO dealers 
+VALUES('S055','REGULAR');
+INSERT INTO dealers 
+VALUES('S057','REGULAR');
+INSERT INTO dealers 
+VALUES('8017','REGULAR');
+INSERT INTO dealers 
+VALUES('F125','REGULAR');
+INSERT INTO dealers 
+VALUES('F138','REGULAR');
+INSERT INTO dealers 
+VALUES('S100','REGULAR');
+INSERT INTO dealers 
+VALUES('S101','REGULAR');
+INSERT INTO dealers 
+VALUES('S102','REGULAR');
+INSERT INTO dealers 
+VALUES('OBOW','REGULAR');
+INSERT INTO dealers 
+VALUES('S103','REGULAR');
+INSERT INTO dealers 
+VALUES('0659','REGULAR');
+INSERT INTO dealers 
+VALUES('S104','REGULAR');
+INSERT INTO dealers 
+VALUES('S106','REGULAR');
+INSERT INTO dealers 
+VALUES('S107','REGULAR');
+INSERT INTO dealers 
+VALUES('S108','REGULAR');
+INSERT INTO dealers 
+VALUES('S110','REGULAR');
+INSERT INTO dealers 
+VALUES('S111','REGULAR');
+INSERT INTO dealers 
+VALUES('S112','REGULAR');
+INSERT INTO dealers 
+VALUES('S113','REGULAR');
+INSERT INTO dealers 
+VALUES('S114','REGULAR');
+INSERT INTO dealers 
+VALUES('S115','REGULAR');
+INSERT INTO dealers 
+VALUES('S116','REGULAR');
+INSERT INTO dealers 
+VALUES('S117','REGULAR');
+INSERT INTO dealers 
+VALUES('S200','REGULAR');
+INSERT INTO dealers 
+VALUES('15','REGULAR');
+INSERT INTO dealers 
+VALUES('NC40','KlartSvar');
+INSERT INTO dealers 
+VALUES('1828','REGULAR');
+INSERT INTO dealers 
+VALUES('2104','REGULAR');
+INSERT INTO dealers 
+VALUES('2141','REGULAR');
+INSERT INTO dealers 
+VALUES('2395','REGULAR');
+INSERT INTO dealers 
+VALUES('3002','REGULAR');
+INSERT INTO dealers 
+VALUES('3311','REGULAR');
+INSERT INTO dealers 
+VALUES('0619','REGULAR');
+INSERT INTO dealers 
+VALUES('7001','REGULAR');
+INSERT INTO dealers 
+VALUES('NC41','KlartSvar');
+INSERT INTO dealers 
+VALUES('A400','REGULAR');
+INSERT INTO dealers 
+VALUES('NC51','KlartSvar');
+INSERT INTO dealers 
+VALUES('A426','REGULAR');
+INSERT INTO dealers 
+VALUES('NC53','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC57','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC58','KlartSvar');
+INSERT INTO dealers 
+VALUES('DV01','REGULAR');
+INSERT INTO dealers 
+VALUES('NC80','KlartSvar');
+INSERT INTO dealers 
+VALUES('DV02','REGULAR');
+INSERT INTO dealers 
+VALUES('NCB3','REGULAR');
+INSERT INTO dealers 
+VALUES('DV03','REGULAR');
+INSERT INTO dealers 
+VALUES('DV04','REGULAR');
+INSERT INTO dealers 
+VALUES('DV05','REGULAR');
+INSERT INTO dealers 
+VALUES('DV06','REGULAR');
+INSERT INTO dealers 
+VALUES('DV07','REGULAR');
+INSERT INTO dealers 
+VALUES('NETØ','REGULAR');
+INSERT INTO dealers 
+VALUES('0193','REGULAR');
+INSERT INTO dealers 
+VALUES('ROAM','REGULAR');
+INSERT INTO dealers 
+VALUES('S001','REGULAR');
+INSERT INTO dealers 
+VALUES('ID11','COOP');
+INSERT INTO dealers 
+VALUES('ID12','Ideel');
+INSERT INTO dealers 
+VALUES('T023','Telering');
+INSERT INTO dealers 
+VALUES('T024','Telering');
+INSERT INTO dealers 
+VALUES('T026','Telering');
+INSERT INTO dealers 
+VALUES('T036','Telering');
+INSERT INTO dealers 
+VALUES('P308','REGULAR');
+INSERT INTO dealers 
+VALUES('T064','Telering');
+INSERT INTO dealers 
+VALUES('F223','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('X332','Expert');
+INSERT INTO dealers 
+VALUES('X333','Expert');
+INSERT INTO dealers 
+VALUES('X334','Expert');
+INSERT INTO dealers 
+VALUES('F224','Systempartner');
+INSERT INTO dealers 
+VALUES('F225','REGULAR');
+INSERT INTO dealers 
+VALUES('T065','Telering');
+INSERT INTO dealers 
+VALUES('KE44','Elkjop');
+INSERT INTO dealers 
+VALUES('KE45','Elkjop');
+INSERT INTO dealers 
+VALUES('T066','Telering');
+INSERT INTO dealers 
+VALUES('41500','REGULAR');
+INSERT INTO dealers 
+VALUES('EN02','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('EN05','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('EN03','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('EN04','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('X335','Expert');
+INSERT INTO dealers 
+VALUES('T068','Telering');
+INSERT INTO dealers 
+VALUES('T067','Telering');
+INSERT INTO dealers 
+VALUES('X336','Expert');
+INSERT INTO dealers 
+VALUES('T010','Telering');
+INSERT INTO dealers 
+VALUES('F226','Systempartner');
+INSERT INTO dealers 
+VALUES('N171','KlartSvar');
+INSERT INTO dealers 
+VALUES('KSAA','CustomerCentre');
+INSERT INTO dealers 
+VALUES('N174','KlartSvar');
+INSERT INTO dealers 
+VALUES('N175','KlartSvar');
+INSERT INTO dealers 
+VALUES('N172','KlartSvar');
+INSERT INTO dealers 
+VALUES('N173','KlartSvar');
+INSERT INTO dealers 
+VALUES('F228','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F227','Servicepartner');
+INSERT INTO dealers 
+VALUES('40200','REGULAR');
+INSERT INTO dealers 
+VALUES('41600','REGULAR');
+INSERT INTO dealers 
+VALUES('40100','REGULAR');
+INSERT INTO dealers 
+VALUES('F229','REGULAR');
+INSERT INTO dealers 
+VALUES('SIB4','REGULAR');
+INSERT INTO dealers 
+VALUES('F230','REGULAR');
+INSERT INTO dealers 
+VALUES('F231','REGULAR');
+INSERT INTO dealers 
+VALUES('X337','Expert');
+INSERT INTO dealers 
+VALUES('N176','KlartSvar');
+INSERT INTO dealers 
+VALUES('ID37','Ideel');
+INSERT INTO dealers 
+VALUES('F232','REGULAR');
+INSERT INTO dealers 
+VALUES('F233','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F234','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('OSD','REGULAR');
+INSERT INTO dealers 
+VALUES('KSPR','CustomerCentre');
+INSERT INTO dealers 
+VALUES('CH01','REGULAR');
+INSERT INTO dealers 
+VALUES('X338','Expert');
+INSERT INTO dealers 
+VALUES('F235','Salgspartner');
+INSERT INTO dealers 
+VALUES('X339','Expert');
+INSERT INTO dealers 
+VALUES('OE13','COOP');
+INSERT INTO dealers 
+VALUES('KSTE','CustomerCentre');
+INSERT INTO dealers 
+VALUES('X340','Expert');
+INSERT INTO dealers 
+VALUES('X341','Expert');
+INSERT INTO dealers 
+VALUES('F236','REGULAR');
+INSERT INTO dealers 
+VALUES('F237','REGULAR');
+INSERT INTO dealers 
+VALUES('F238','REGULAR');
+INSERT INTO dealers 
+VALUES('ID38','Ideel');
+INSERT INTO dealers 
+VALUES('F239','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('T069','Telering');
+INSERT INTO dealers 
+VALUES('F240','Servicepartner');
+INSERT INTO dealers 
+VALUES('NESC','REGULAR');
+INSERT INTO dealers 
+VALUES('F241','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F242','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('X342','Expert');
+INSERT INTO dealers 
+VALUES('F243','Salgspartner');
+INSERT INTO dealers 
+VALUES('T070','Telering');
+INSERT INTO dealers 
+VALUES('X343','Expert');
+INSERT INTO dealers 
+VALUES('X344','Expert');
+INSERT INTO dealers 
+VALUES('OT22','KlartSvar');
+INSERT INTO dealers 
+VALUES('OT23','KlartSvar');
+INSERT INTO dealers 
+VALUES('KE46','Elkjop');
+INSERT INTO dealers 
+VALUES('F244','Partner');
+INSERT INTO dealers 
+VALUES('IQ01','REGULAR');
+INSERT INTO dealers 
+VALUES('SF01','REGULAR');
+INSERT INTO dealers 
+VALUES('TF01','REGULAR');
+INSERT INTO dealers 
+VALUES('F245','REGULAR');
+INSERT INTO dealers 
+VALUES('F246','REGULAR');
+INSERT INTO dealers 
+VALUES('KE47','Elkjop');
+INSERT INTO dealers 
+VALUES('F247','REGULAR');
+INSERT INTO dealers 
+VALUES('X345','Expert');
+INSERT INTO dealers 
+VALUES('ECM3','ID_GSM');
+INSERT INTO dealers 
+VALUES('2981','REGULAR');
+INSERT INTO dealers 
+VALUES('T071','Telering');
+INSERT INTO dealers 
+VALUES('41700','REGULAR');
+INSERT INTO dealers 
+VALUES('KE48','Elkjop');
+INSERT INTO dealers 
+VALUES('LE08','Elkjop');
+INSERT INTO dealers 
+VALUES('F248','REGULAR');
+INSERT INTO dealers 
+VALUES('X346','Expert');
+INSERT INTO dealers 
+VALUES('F249','REGULAR');
+INSERT INTO dealers 
+VALUES('ET03','REGULAR');
+INSERT INTO dealers 
+VALUES('F117','REGULAR');
+INSERT INTO dealers 
+VALUES('KVIA','REGULAR');
+INSERT INTO dealers 
+VALUES('MOBS','REGULAR');
+INSERT INTO dealers 
+VALUES('RING','REGULAR');
+INSERT INTO dealers 
+VALUES('V007','REGULAR');
+INSERT INTO dealers 
+VALUES('V008','REGULAR');
+INSERT INTO dealers 
+VALUES('F165','REGULAR');
+INSERT INTO dealers 
+VALUES('3157','REGULAR');
+INSERT INTO dealers 
+VALUES('3158','REGULAR');
+INSERT INTO dealers 
+VALUES('3159','REGULAR');
+INSERT INTO dealers 
+VALUES('3160','REGULAR');
+INSERT INTO dealers 
+VALUES('3161','REGULAR');
+INSERT INTO dealers 
+VALUES('3169','REGULAR');
+INSERT INTO dealers 
+VALUES('3180','REGULAR');
+INSERT INTO dealers 
+VALUES('KA26','REGULAR');
+INSERT INTO dealers 
+VALUES('3181','REGULAR');
+INSERT INTO dealers 
+VALUES('3182','REGULAR');
+INSERT INTO dealers 
+VALUES('NC78','KlartSvar');
+INSERT INTO dealers 
+VALUES('CTG','REGULAR');
+INSERT INTO dealers 
+VALUES('S309','REGULAR');
+INSERT INTO dealers 
+VALUES('GB04','REGULAR');
+INSERT INTO dealers 
+VALUES('GS04','REGULAR');
+INSERT INTO dealers 
+VALUES('F110','REGULAR');
+INSERT INTO dealers 
+VALUES('ES06','REGULAR');
+INSERT INTO dealers 
+VALUES('NC13','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC19','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC20','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC21','KlartSvar');
+INSERT INTO dealers 
+VALUES('3240','REGULAR');
+INSERT INTO dealers 
+VALUES('NC25','KlartSvar');
+INSERT INTO dealers 
+VALUES('9016','REGULAR');
+INSERT INTO dealers 
+VALUES('NC27','KlartSvar');
+INSERT INTO dealers 
+VALUES('A045','REGULAR');
+INSERT INTO dealers 
+VALUES('NC28','KlartSvar');
+INSERT INTO dealers 
+VALUES('F132','REGULAR');
+INSERT INTO dealers 
+VALUES('F134','REGULAR');
+INSERT INTO dealers 
+VALUES('NC29','KlartSvar');
+INSERT INTO dealers 
+VALUES('F148','REGULAR');
+INSERT INTO dealers 
+VALUES('F161','REGULAR');
+INSERT INTO dealers 
+VALUES('NC30','KlartSvar');
+INSERT INTO dealers 
+VALUES('TVJØ','REGULAR');
+INSERT INTO dealers 
+VALUES('3340','REGULAR');
+INSERT INTO dealers 
+VALUES('NC93','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC94','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC95','KlartSvar');
+INSERT INTO dealers 
+VALUES('N102','KlartSvar');
+INSERT INTO dealers 
+VALUES('N104','KlartSvar');
+INSERT INTO dealers 
+VALUES('N106','KlartSvar');
+INSERT INTO dealers 
+VALUES('N108','KlartSvar');
+INSERT INTO dealers 
+VALUES('N115','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC35','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC38','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC39','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC42','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC43','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC44','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC45','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC46','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC52','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC55','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC60','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC61','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC62','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC64','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC66','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC67','KlartSvar');
+INSERT INTO dealers 
+VALUES('2098','REGULAR');
+INSERT INTO dealers 
+VALUES('S016','REGULAR');
+INSERT INTO dealers 
+VALUES('S017','REGULAR');
+INSERT INTO dealers 
+VALUES('S018','REGULAR');
+INSERT INTO dealers 
+VALUES('S019','REGULAR');
+INSERT INTO dealers 
+VALUES('S020','REGULAR');
+INSERT INTO dealers 
+VALUES('S021','REGULAR');
+INSERT INTO dealers 
+VALUES('S022','REGULAR');
+INSERT INTO dealers 
+VALUES('S023','REGULAR');
+INSERT INTO dealers 
+VALUES('S024','REGULAR');
+INSERT INTO dealers 
+VALUES('S025','REGULAR');
+INSERT INTO dealers 
+VALUES('S026','REGULAR');
+INSERT INTO dealers 
+VALUES('S027','REGULAR');
+INSERT INTO dealers 
+VALUES('S028','REGULAR');
+INSERT INTO dealers 
+VALUES('S029','REGULAR');
+INSERT INTO dealers 
+VALUES('S030','REGULAR');
+INSERT INTO dealers 
+VALUES('NC88','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC91','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC92','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC18','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC23','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC79','KlartSvar');
+INSERT INTO dealers 
+VALUES('MULI','REGULAR');
+INSERT INTO dealers 
+VALUES('MUME','REGULAR');
+INSERT INTO dealers 
+VALUES('MAAA','REGULAR');
+INSERT INTO dealers 
+VALUES('NE01','REGULAR');
+INSERT INTO dealers 
+VALUES('NE02','REGULAR');
+INSERT INTO dealers 
+VALUES('NE03','REGULAR');
+INSERT INTO dealers 
+VALUES('NE05','REGULAR');
+INSERT INTO dealers 
+VALUES('NE06','REGULAR');
+INSERT INTO dealers 
+VALUES('NE07','REGULAR');
+INSERT INTO dealers 
+VALUES('NE08','REGULAR');
+INSERT INTO dealers 
+VALUES('NE09','REGULAR');
+INSERT INTO dealers 
+VALUES('NECO','REGULAR');
+INSERT INTO dealers 
+VALUES('NSHO','REGULAR');
+INSERT INTO dealers 
+VALUES('NSLA','REGULAR');
+INSERT INTO dealers 
+VALUES('O&AA','REGULAR');
+INSERT INTO dealers 
+VALUES('RADI','REGULAR');
+INSERT INTO dealers 
+VALUES('RAMB','REGULAR');
+INSERT INTO dealers 
+VALUES('RESP','REGULAR');
+INSERT INTO dealers 
+VALUES('RIND','REGULAR');
+INSERT INTO dealers 
+VALUES('RN01','REGULAR');
+INSERT INTO dealers 
+VALUES('RN02','REGULAR');
+INSERT INTO dealers 
+VALUES('SINI','REGULAR');
+INSERT INTO dealers 
+VALUES('SISY','REGULAR');
+INSERT INTO dealers 
+VALUES('TKN','REGULAR');
+INSERT INTO dealers 
+VALUES('TRIA','REGULAR');
+INSERT INTO dealers 
+VALUES('UNIC','REGULAR');
+INSERT INTO dealers 
+VALUES('N112','KlartSvar');
+INSERT INTO dealers 
+VALUES('UNTK','REGULAR');
+INSERT INTO dealers 
+VALUES('V004','REGULAR');
+INSERT INTO dealers 
+VALUES('V005','REGULAR');
+INSERT INTO dealers 
+VALUES('V006','REGULAR');
+INSERT INTO dealers 
+VALUES('V009','REGULAR');
+INSERT INTO dealers 
+VALUES('VANY','REGULAR');
+INSERT INTO dealers 
+VALUES('EBLA','REGULAR');
+INSERT INTO dealers 
+VALUES('KA01','REGULAR');
+INSERT INTO dealers 
+VALUES('SO14','REGULAR');
+INSERT INTO dealers 
+VALUES('SO45','REGULAR');
+INSERT INTO dealers 
+VALUES('TEL1','REGULAR');
+INSERT INTO dealers 
+VALUES('3259','REGULAR');
+INSERT INTO dealers 
+VALUES('647','REGULAR');
+INSERT INTO dealers 
+VALUES('LEDE','REGULAR');
+INSERT INTO dealers 
+VALUES('LINQ','REGULAR');
+INSERT INTO dealers 
+VALUES('LYBI','REGULAR');
+INSERT INTO dealers 
+VALUES('MARI','REGULAR');
+INSERT INTO dealers 
+VALUES('9015','REGULAR');
+INSERT INTO dealers 
+VALUES('9019','REGULAR');
+INSERT INTO dealers 
+VALUES('9026','REGULAR');
+INSERT INTO dealers 
+VALUES('9029','REGULAR');
+INSERT INTO dealers 
+VALUES('9999','REGULAR');
+INSERT INTO dealers 
+VALUES('A113','REGULAR');
+INSERT INTO dealers 
+VALUES('A405','REGULAR');
+INSERT INTO dealers 
+VALUES('A422','REGULAR');
+INSERT INTO dealers 
+VALUES('A506','REGULAR');
+INSERT INTO dealers 
+VALUES('CICO','REGULAR');
+INSERT INTO dealers 
+VALUES('GB01','REGULAR');
+INSERT INTO dealers 
+VALUES('GENI','REGULAR');
+INSERT INTO dealers 
+VALUES('GS03','REGULAR');
+INSERT INTO dealers 
+VALUES('HEKK','REGULAR');
+INSERT INTO dealers 
+VALUES('HILD','REGULAR');
+INSERT INTO dealers 
+VALUES('INF1','REGULAR');
+INSERT INTO dealers 
+VALUES('INF2','REGULAR');
+INSERT INTO dealers 
+VALUES('INF3','REGULAR');
+INSERT INTO dealers 
+VALUES('INF4','REGULAR');
+INSERT INTO dealers 
+VALUES('INF5','REGULAR');
+INSERT INTO dealers 
+VALUES('ITAL','REGULAR');
+INSERT INTO dealers 
+VALUES('JOTV','REGULAR');
+INSERT INTO dealers 
+VALUES('JÆRE','REGULAR');
+INSERT INTO dealers 
+VALUES('KARA','REGULAR');
+INSERT INTO dealers 
+VALUES('KIMT','REGULAR');
+INSERT INTO dealers 
+VALUES('DALI','REGULAR');
+INSERT INTO dealers 
+VALUES('DASK','REGULAR');
+INSERT INTO dealers 
+VALUES('DATK','REGULAR');
+INSERT INTO dealers 
+VALUES('DLKO','REGULAR');
+INSERT INTO dealers 
+VALUES('DV10','REGULAR');
+INSERT INTO dealers 
+VALUES('DV11','REGULAR');
+INSERT INTO dealers 
+VALUES('DATR','REGULAR');
+INSERT INTO dealers 
+VALUES('E600','REGULAR');
+INSERT INTO dealers 
+VALUES('EMBLA','REGULAR');
+INSERT INTO dealers 
+VALUES('EKJØ','REGULAR');
+INSERT INTO dealers 
+VALUES('ELEK','REGULAR');
+INSERT INTO dealers 
+VALUES('ES08','REGULAR');
+INSERT INTO dealers 
+VALUES('ES84','REGULAR');
+INSERT INTO dealers 
+VALUES('ET01','REGULAR');
+INSERT INTO dealers 
+VALUES('ET02','REGULAR');
+INSERT INTO dealers 
+VALUES('0269','REGULAR');
+INSERT INTO dealers 
+VALUES('0610','REGULAR');
+INSERT INTO dealers 
+VALUES('0814','REGULAR');
+INSERT INTO dealers 
+VALUES('0837','REGULAR');
+INSERT INTO dealers 
+VALUES('1377','REGULAR');
+INSERT INTO dealers 
+VALUES('1764','REGULAR');
+INSERT INTO dealers 
+VALUES('2337','REGULAR');
+INSERT INTO dealers 
+VALUES('2508','REGULAR');
+INSERT INTO dealers 
+VALUES('2541','REGULAR');
+INSERT INTO dealers 
+VALUES('2699','REGULAR');
+INSERT INTO dealers 
+VALUES('3056','REGULAR');
+INSERT INTO dealers 
+VALUES('3058','REGULAR');
+INSERT INTO dealers 
+VALUES('3125','REGULAR');
+INSERT INTO dealers 
+VALUES('3225','REGULAR');
+INSERT INTO dealers 
+VALUES('3292','REGULAR');
+INSERT INTO dealers 
+VALUES('3296','REGULAR');
+INSERT INTO dealers 
+VALUES('6501','REGULAR');
+INSERT INTO dealers 
+VALUES('0071','REGULAR');
+INSERT INTO dealers 
+VALUES('NC82','KlartSvar');
+INSERT INTO dealers 
+VALUES('F102','REGULAR');
+INSERT INTO dealers 
+VALUES('F112','REGULAR');
+INSERT INTO dealers 
+VALUES('F114','REGULAR');
+INSERT INTO dealers 
+VALUES('F118','REGULAR');
+INSERT INTO dealers 
+VALUES('F119','REGULAR');
+INSERT INTO dealers 
+VALUES('F123','REGULAR');
+INSERT INTO dealers 
+VALUES('F128','REGULAR');
+INSERT INTO dealers 
+VALUES('F130','REGULAR');
+INSERT INTO dealers 
+VALUES('F135','REGULAR');
+INSERT INTO dealers 
+VALUES('F136','REGULAR');
+INSERT INTO dealers 
+VALUES('F137','REGULAR');
+INSERT INTO dealers 
+VALUES('F140','REGULAR');
+INSERT INTO dealers 
+VALUES('F142','REGULAR');
+INSERT INTO dealers 
+VALUES('F143','REGULAR');
+INSERT INTO dealers 
+VALUES('F144','REGULAR');
+INSERT INTO dealers 
+VALUES('F146','REGULAR');
+INSERT INTO dealers 
+VALUES('F154','REGULAR');
+INSERT INTO dealers 
+VALUES('F155','REGULAR');
+INSERT INTO dealers 
+VALUES('F157','REGULAR');
+INSERT INTO dealers 
+VALUES('F158','REGULAR');
+INSERT INTO dealers 
+VALUES('F162','REGULAR');
+INSERT INTO dealers 
+VALUES('CP00','REGULAR');
+INSERT INTO dealers 
+VALUES('DABE','REGULAR');
+INSERT INTO dealers 
+VALUES('DADI','REGULAR');
+INSERT INTO dealers 
+VALUES('DAJE','REGULAR');
+INSERT INTO dealers 
+VALUES('9881','REGULAR');
+INSERT INTO dealers 
+VALUES('40700','REGULAR');
+INSERT INTO dealers 
+VALUES('40800','REGULAR');
+INSERT INTO dealers 
+VALUES('40900','REGULAR');
+INSERT INTO dealers 
+VALUES('41000','REGULAR');
+INSERT INTO dealers 
+VALUES('41100','REGULAR');
+INSERT INTO dealers 
+VALUES('4500','Elkjop');
+INSERT INTO dealers 
+VALUES('4501','Elkjop');
+INSERT INTO dealers 
+VALUES('5923','REGULAR');
+INSERT INTO dealers 
+VALUES('8370','REGULAR');
+INSERT INTO dealers 
+VALUES('90000','REGULAR');
+INSERT INTO dealers 
+VALUES('90100','REGULAR');
+INSERT INTO dealers 
+VALUES('9882','REGULAR');
+INSERT INTO dealers 
+VALUES('A013','REGULAR');
+INSERT INTO dealers 
+VALUES('A014','REGULAR');
+INSERT INTO dealers 
+VALUES('A015','REGULAR');
+INSERT INTO dealers 
+VALUES('A016','REGULAR');
+INSERT INTO dealers 
+VALUES('A017','REGULAR');
+INSERT INTO dealers 
+VALUES('A018','REGULAR');
+INSERT INTO dealers 
+VALUES('A019','REGULAR');
+INSERT INTO dealers 
+VALUES('A020','REGULAR');
+INSERT INTO dealers 
+VALUES('A021','REGULAR');
+INSERT INTO dealers 
+VALUES('A022','REGULAR');
+INSERT INTO dealers 
+VALUES('A023','REGULAR');
+INSERT INTO dealers 
+VALUES('A024','REGULAR');
+INSERT INTO dealers 
+VALUES('A025','REGULAR');
+INSERT INTO dealers 
+VALUES('A026','REGULAR');
+INSERT INTO dealers 
+VALUES('A027','REGULAR');
+INSERT INTO dealers 
+VALUES('A028','REGULAR');
+INSERT INTO dealers 
+VALUES('A029','REGULAR');
+INSERT INTO dealers 
+VALUES('A030','REGULAR');
+INSERT INTO dealers 
+VALUES('A031','REGULAR');
+INSERT INTO dealers 
+VALUES('A032','REGULAR');
+INSERT INTO dealers 
+VALUES('A033','REGULAR');
+INSERT INTO dealers 
+VALUES('A034','REGULAR');
+INSERT INTO dealers 
+VALUES('A035','REGULAR');
+INSERT INTO dealers 
+VALUES('A036','REGULAR');
+INSERT INTO dealers 
+VALUES('A037','REGULAR');
+INSERT INTO dealers 
+VALUES('A038','REGULAR');
+INSERT INTO dealers 
+VALUES('A039','REGULAR');
+INSERT INTO dealers 
+VALUES('A040','REGULAR');
+INSERT INTO dealers 
+VALUES('A041','REGULAR');
+INSERT INTO dealers 
+VALUES('A042','REGULAR');
+INSERT INTO dealers 
+VALUES('A043','REGULAR');
+INSERT INTO dealers 
+VALUES('A044','REGULAR');
+INSERT INTO dealers 
+VALUES('A046','REGULAR');
+INSERT INTO dealers 
+VALUES('A056','REGULAR');
+INSERT INTO dealers 
+VALUES('A059','REGULAR');
+INSERT INTO dealers 
+VALUES('A061','REGULAR');
+INSERT INTO dealers 
+VALUES('A063','REGULAR');
+INSERT INTO dealers 
+VALUES('AJOU','REGULAR');
+INSERT INTO dealers 
+VALUES('AL01','Systempartner');
+INSERT INTO dealers 
+VALUES('AMRI','REGULAR');
+INSERT INTO dealers 
+VALUES('ANKE','REGULAR');
+INSERT INTO dealers 
+VALUES('APSE','REGULAR');
+INSERT INTO dealers 
+VALUES('AREN','REGULAR');
+INSERT INTO dealers 
+VALUES('BIK1','REGULAR');
+INSERT INTO dealers 
+VALUES('BP01','REGULAR');
+INSERT INTO dealers 
+VALUES('BS01','REGULAR');
+INSERT INTO dealers 
+VALUES('BS02','REGULAR');
+INSERT INTO dealers 
+VALUES('BS03','REGULAR');
+INSERT INTO dealers 
+VALUES('BS04','REGULAR');
+INSERT INTO dealers 
+VALUES('BS05','REGULAR');
+INSERT INTO dealers 
+VALUES('BS06','REGULAR');
+INSERT INTO dealers 
+VALUES('BS07','REGULAR');
+INSERT INTO dealers 
+VALUES('BS08','REGULAR');
+INSERT INTO dealers 
+VALUES('BS09','REGULAR');
+INSERT INTO dealers 
+VALUES('BS10','REGULAR');
+INSERT INTO dealers 
+VALUES('BS11','REGULAR');
+INSERT INTO dealers 
+VALUES('BS12','REGULAR');
+INSERT INTO dealers 
+VALUES('BS13','REGULAR');
+INSERT INTO dealers 
+VALUES('BS14','REGULAR');
+INSERT INTO dealers 
+VALUES('BS15','REGULAR');
+INSERT INTO dealers 
+VALUES('BS16','REGULAR');
+INSERT INTO dealers 
+VALUES('BS17','REGULAR');
+INSERT INTO dealers 
+VALUES('BS18','REGULAR');
+INSERT INTO dealers 
+VALUES('BS19','REGULAR');
+INSERT INTO dealers 
+VALUES('BS20','REGULAR');
+INSERT INTO dealers 
+VALUES('BS21','REGULAR');
+INSERT INTO dealers 
+VALUES('BS22','REGULAR');
+INSERT INTO dealers 
+VALUES('BS23','REGULAR');
+INSERT INTO dealers 
+VALUES('BS24','REGULAR');
+INSERT INTO dealers 
+VALUES('BS25','REGULAR');
+INSERT INTO dealers 
+VALUES('BS26','REGULAR');
+INSERT INTO dealers 
+VALUES('BS27','REGULAR');
+INSERT INTO dealers 
+VALUES('BS29','REGULAR');
+INSERT INTO dealers 
+VALUES('BS30','REGULAR');
+INSERT INTO dealers 
+VALUES('BS31','REGULAR');
+INSERT INTO dealers 
+VALUES('BS32','REGULAR');
+INSERT INTO dealers 
+VALUES('BS33','REGULAR');
+INSERT INTO dealers 
+VALUES('BS34','REGULAR');
+INSERT INTO dealers 
+VALUES('BS35','REGULAR');
+INSERT INTO dealers 
+VALUES('BS37','REGULAR');
+INSERT INTO dealers 
+VALUES('BS38','REGULAR');
+INSERT INTO dealers 
+VALUES('BS39','REGULAR');
+INSERT INTO dealers 
+VALUES('BU01','REGULAR');
+INSERT INTO dealers 
+VALUES('CCST','REGULAR');
+INSERT INTO dealers 
+VALUES('CD18','REGULAR');
+INSERT INTO dealers 
+VALUES('CENC','Cencom');
+INSERT INTO dealers 
+VALUES('CF01','REGULAR');
+INSERT INTO dealers 
+VALUES('CF02','REGULAR');
+INSERT INTO dealers 
+VALUES('CF03','REGULAR');
+INSERT INTO dealers 
+VALUES('CF04','REGULAR');
+INSERT INTO dealers 
+VALUES('CF05','REGULAR');
+INSERT INTO dealers 
+VALUES('CF06','REGULAR');
+INSERT INTO dealers 
+VALUES('CF07','REGULAR');
+INSERT INTO dealers 
+VALUES('CF08','REGULAR');
+INSERT INTO dealers 
+VALUES('CF10','REGULAR');
+INSERT INTO dealers 
+VALUES('CF12','REGULAR');
+INSERT INTO dealers 
+VALUES('CF13','REGULAR');
+INSERT INTO dealers 
+VALUES('CF16','REGULAR');
+INSERT INTO dealers 
+VALUES('CF17','REGULAR');
+INSERT INTO dealers 
+VALUES('CF18','REGULAR');
+INSERT INTO dealers 
+VALUES('CF19','REGULAR');
+INSERT INTO dealers 
+VALUES('CF20','REGULAR');
+INSERT INTO dealers 
+VALUES('CF21','REGULAR');
+INSERT INTO dealers 
+VALUES('CF23','REGULAR');
+INSERT INTO dealers 
+VALUES('CF24','REGULAR');
+INSERT INTO dealers 
+VALUES('CF25','REGULAR');
+INSERT INTO dealers 
+VALUES('CF27','REGULAR');
+INSERT INTO dealers 
+VALUES('CF29','REGULAR');
+INSERT INTO dealers 
+VALUES('CF30','REGULAR');
+INSERT INTO dealers 
+VALUES('CF31','REGULAR');
+INSERT INTO dealers 
+VALUES('CF37','REGULAR');
+INSERT INTO dealers 
+VALUES('CF39','REGULAR');
+INSERT INTO dealers 
+VALUES('CF42','REGULAR');
+INSERT INTO dealers 
+VALUES('CF56','REGULAR');
+INSERT INTO dealers 
+VALUES('CF65','REGULAR');
+INSERT INTO dealers 
+VALUES('CF70','REGULAR');
+INSERT INTO dealers 
+VALUES('CITY','REGULAR');
+INSERT INTO dealers 
+VALUES('CL00','REGULAR');
+INSERT INTO dealers 
+VALUES('CL01','REGULAR');
+INSERT INTO dealers 
+VALUES('CL02','REGULAR');
+INSERT INTO dealers 
+VALUES('CL03','REGULAR');
+INSERT INTO dealers 
+VALUES('CL04','REGULAR');
+INSERT INTO dealers 
+VALUES('CL05','REGULAR');
+INSERT INTO dealers 
+VALUES('CL06','REGULAR');
+INSERT INTO dealers 
+VALUES('CL07','REGULAR');
+INSERT INTO dealers 
+VALUES('CL08','REGULAR');
+INSERT INTO dealers 
+VALUES('CL09','REGULAR');
+INSERT INTO dealers 
+VALUES('CL10','REGULAR');
+INSERT INTO dealers 
+VALUES('CL11','REGULAR');
+INSERT INTO dealers 
+VALUES('CL12','REGULAR');
+INSERT INTO dealers 
+VALUES('CL13','REGULAR');
+INSERT INTO dealers 
+VALUES('CL14','REGULAR');
+INSERT INTO dealers 
+VALUES('CL15','REGULAR');
+INSERT INTO dealers 
+VALUES('CL16','REGULAR');
+INSERT INTO dealers 
+VALUES('CL17','REGULAR');
+INSERT INTO dealers 
+VALUES('CL18','REGULAR');
+INSERT INTO dealers 
+VALUES('CL19','REGULAR');
+INSERT INTO dealers 
+VALUES('CL20','REGULAR');
+INSERT INTO dealers 
+VALUES('CL21','REGULAR');
+INSERT INTO dealers 
+VALUES('CL22','REGULAR');
+INSERT INTO dealers 
+VALUES('CL23','REGULAR');
+INSERT INTO dealers 
+VALUES('CL24','REGULAR');
+INSERT INTO dealers 
+VALUES('CL25','REGULAR');
+INSERT INTO dealers 
+VALUES('CL26','REGULAR');
+INSERT INTO dealers 
+VALUES('CL27','REGULAR');
+INSERT INTO dealers 
+VALUES('CL28','REGULAR');
+INSERT INTO dealers 
+VALUES('CL29','REGULAR');
+INSERT INTO dealers 
+VALUES('CL30','REGULAR');
+INSERT INTO dealers 
+VALUES('CL31','REGULAR');
+INSERT INTO dealers 
+VALUES('CL32','REGULAR');
+INSERT INTO dealers 
+VALUES('CL33','REGULAR');
+INSERT INTO dealers 
+VALUES('CL34','REGULAR');
+INSERT INTO dealers 
+VALUES('CL35','REGULAR');
+INSERT INTO dealers 
+VALUES('CL36','REGULAR');
+INSERT INTO dealers 
+VALUES('CL37','REGULAR');
+INSERT INTO dealers 
+VALUES('CL38','REGULAR');
+INSERT INTO dealers 
+VALUES('CL39','REGULAR');
+INSERT INTO dealers 
+VALUES('CL40','REGULAR');
+INSERT INTO dealers 
+VALUES('CL41','REGULAR');
+INSERT INTO dealers 
+VALUES('CL42','REGULAR');
+INSERT INTO dealers 
+VALUES('CL43','REGULAR');
+INSERT INTO dealers 
+VALUES('CL44','REGULAR');
+INSERT INTO dealers 
+VALUES('CL45','REGULAR');
+INSERT INTO dealers 
+VALUES('CL46','REGULAR');
+INSERT INTO dealers 
+VALUES('CL47','REGULAR');
+INSERT INTO dealers 
+VALUES('CL48','REGULAR');
+INSERT INTO dealers 
+VALUES('CL49','REGULAR');
+INSERT INTO dealers 
+VALUES('CL62','REGULAR');
+INSERT INTO dealers 
+VALUES('CL63','REGULAR');
+INSERT INTO dealers 
+VALUES('CL64','REGULAR');
+INSERT INTO dealers 
+VALUES('CL65','REGULAR');
+INSERT INTO dealers 
+VALUES('CL66','REGULAR');
+INSERT INTO dealers 
+VALUES('CL67','REGULAR');
+INSERT INTO dealers 
+VALUES('CL68','REGULAR');
+INSERT INTO dealers 
+VALUES('CL69','REGULAR');
+INSERT INTO dealers 
+VALUES('CL70','REGULAR');
+INSERT INTO dealers 
+VALUES('CL71','REGULAR');
+INSERT INTO dealers 
+VALUES('COM1','REGULAR');
+INSERT INTO dealers 
+VALUES('CP02','REGULAR');
+INSERT INTO dealers 
+VALUES('CP03','REGULAR');
+INSERT INTO dealers 
+VALUES('CP04','REGULAR');
+INSERT INTO dealers 
+VALUES('CP05','REGULAR');
+INSERT INTO dealers 
+VALUES('CP06','REGULAR');
+INSERT INTO dealers 
+VALUES('CP07','REGULAR');
+INSERT INTO dealers 
+VALUES('CP08','REGULAR');
+INSERT INTO dealers 
+VALUES('CP09','REGULAR');
+INSERT INTO dealers 
+VALUES('CP10','REGULAR');
+INSERT INTO dealers 
+VALUES('CP11','REGULAR');
+INSERT INTO dealers 
+VALUES('CP12','REGULAR');
+INSERT INTO dealers 
+VALUES('CP13','REGULAR');
+INSERT INTO dealers 
+VALUES('CX01','REGULAR');
+INSERT INTO dealers 
+VALUES('CX02','REGULAR');
+INSERT INTO dealers 
+VALUES('CX03','REGULAR');
+INSERT INTO dealers 
+VALUES('CX04','REGULAR');
+INSERT INTO dealers 
+VALUES('CX05','REGULAR');
+INSERT INTO dealers 
+VALUES('CX06','REGULAR');
+INSERT INTO dealers 
+VALUES('CX07','REGULAR');
+INSERT INTO dealers 
+VALUES('CX08','REGULAR');
+INSERT INTO dealers 
+VALUES('CX09','REGULAR');
+INSERT INTO dealers 
+VALUES('CX10','REGULAR');
+INSERT INTO dealers 
+VALUES('CX11','REGULAR');
+INSERT INTO dealers 
+VALUES('CX12','REGULAR');
+INSERT INTO dealers 
+VALUES('CX13','REGULAR');
+INSERT INTO dealers 
+VALUES('CX14','REGULAR');
+INSERT INTO dealers 
+VALUES('CX15','REGULAR');
+INSERT INTO dealers 
+VALUES('CX16','REGULAR');
+INSERT INTO dealers 
+VALUES('CX17','REGULAR');
+INSERT INTO dealers 
+VALUES('CX18','REGULAR');
+INSERT INTO dealers 
+VALUES('DAIN','REGULAR');
+INSERT INTO dealers 
+VALUES('DATE','Systempartner');
+INSERT INTO dealers 
+VALUES('DC07','REGULAR');
+INSERT INTO dealers 
+VALUES('DC09','REGULAR');
+INSERT INTO dealers 
+VALUES('DC1','REGULAR');
+INSERT INTO dealers 
+VALUES('DC10','REGULAR');
+INSERT INTO dealers 
+VALUES('DC12','REGULAR');
+INSERT INTO dealers 
+VALUES('DC13','REGULAR');
+INSERT INTO dealers 
+VALUES('DC14','REGULAR');
+INSERT INTO dealers 
+VALUES('DC15','REGULAR');
+INSERT INTO dealers 
+VALUES('DC16','REGULAR');
+INSERT INTO dealers 
+VALUES('DC17','REGULAR');
+INSERT INTO dealers 
+VALUES('DC18','REGULAR');
+INSERT INTO dealers 
+VALUES('DC2','REGULAR');
+INSERT INTO dealers 
+VALUES('DC3','REGULAR');
+INSERT INTO dealers 
+VALUES('DC4','REGULAR');
+INSERT INTO dealers 
+VALUES('DC5','REGULAR');
+INSERT INTO dealers 
+VALUES('DC6','REGULAR');
+INSERT INTO dealers 
+VALUES('DC7','REGULAR');
+INSERT INTO dealers 
+VALUES('DC8','REGULAR');
+INSERT INTO dealers 
+VALUES('DC9','REGULAR');
+INSERT INTO dealers 
+VALUES('ECOM','REGULAR');
+INSERT INTO dealers 
+VALUES('EL01','REGULAR');
+INSERT INTO dealers 
+VALUES('EMBL','REGULAR');
+INSERT INTO dealers 
+VALUES('EN01','REGULAR');
+INSERT INTO dealers 
+VALUES('EUCA','REGULAR');
+INSERT INTO dealers 
+VALUES('EURO','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('EUTB','REGULAR');
+INSERT INTO dealers 
+VALUES('EWEB','REGULAR');
+INSERT INTO dealers 
+VALUES('F109','REGULAR');
+INSERT INTO dealers 
+VALUES('F124','REGULAR');
+INSERT INTO dealers 
+VALUES('F126','REGULAR');
+INSERT INTO dealers 
+VALUES('F127','REGULAR');
+INSERT INTO dealers 
+VALUES('F131','REGULAR');
+INSERT INTO dealers 
+VALUES('F145','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F150','REGULAR');
+INSERT INTO dealers 
+VALUES('F163','REGULAR');
+INSERT INTO dealers 
+VALUES('F164','REGULAR');
+INSERT INTO dealers 
+VALUES('F166','Systempartner');
+INSERT INTO dealers 
+VALUES('F167','REGULAR');
+INSERT INTO dealers 
+VALUES('F168','REGULAR');
+INSERT INTO dealers 
+VALUES('F170','REGULAR');
+INSERT INTO dealers 
+VALUES('F171','REGULAR');
+INSERT INTO dealers 
+VALUES('F172','REGULAR');
+INSERT INTO dealers 
+VALUES('F173','REGULAR');
+INSERT INTO dealers 
+VALUES('F174','REGULAR');
+INSERT INTO dealers 
+VALUES('F175','REGULAR');
+INSERT INTO dealers 
+VALUES('F177','REGULAR');
+INSERT INTO dealers 
+VALUES('F178','REGULAR');
+INSERT INTO dealers 
+VALUES('F179','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F180','Systempartner');
+INSERT INTO dealers 
+VALUES('F181','Systempartner');
+INSERT INTO dealers 
+VALUES('F182','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F183','Partner');
+INSERT INTO dealers 
+VALUES('F184','REGULAR');
+INSERT INTO dealers 
+VALUES('F185','REGULAR');
+INSERT INTO dealers 
+VALUES('F186','REGULAR');
+INSERT INTO dealers 
+VALUES('F187','REGULAR');
+INSERT INTO dealers 
+VALUES('F188','REGULAR');
+INSERT INTO dealers 
+VALUES('F189','REGULAR');
+INSERT INTO dealers 
+VALUES('F190','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F191','REGULAR');
+INSERT INTO dealers 
+VALUES('F192','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F193','REGULAR');
+INSERT INTO dealers 
+VALUES('F194','REGULAR');
+INSERT INTO dealers 
+VALUES('F195','Systempartner');
+INSERT INTO dealers 
+VALUES('F196','REGULAR');
+INSERT INTO dealers 
+VALUES('F197','REGULAR');
+INSERT INTO dealers 
+VALUES('F198','REGULAR');
+INSERT INTO dealers 
+VALUES('F199','Partner');
+INSERT INTO dealers 
+VALUES('F200','REGULAR');
+INSERT INTO dealers 
+VALUES('F201','REGULAR');
+INSERT INTO dealers 
+VALUES('F202','REGULAR');
+INSERT INTO dealers 
+VALUES('F203','REGULAR');
+INSERT INTO dealers 
+VALUES('F204','REGULAR');
+INSERT INTO dealers 
+VALUES('F205','REGULAR');
+INSERT INTO dealers 
+VALUES('F206','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F207','Systempartner');
+INSERT INTO dealers 
+VALUES('FABO','REGULAR');
+INSERT INTO dealers 
+VALUES('FOVI','REGULAR');
+INSERT INTO dealers 
+VALUES('GB06','REGULAR');
+INSERT INTO dealers 
+VALUES('GSMD','REGULAR');
+INSERT INTO dealers 
+VALUES('GT01','REGULAR');
+INSERT INTO dealers 
+VALUES('I019','REGULAR');
+INSERT INTO dealers 
+VALUES('ID01','COOP');
+INSERT INTO dealers 
+VALUES('ID02','COOP');
+INSERT INTO dealers 
+VALUES('ID03','Ideel');
+INSERT INTO dealers 
+VALUES('ID04','COOP');
+INSERT INTO dealers 
+VALUES('ID05','Ideel');
+INSERT INTO dealers 
+VALUES('ID06','Ideel');
+INSERT INTO dealers 
+VALUES('ID07','COOP');
+INSERT INTO dealers 
+VALUES('ID08','Ideel');
+INSERT INTO dealers 
+VALUES('ID09','Ideel');
+INSERT INTO dealers 
+VALUES('ID10','COOP');
+INSERT INTO dealers 
+VALUES('TB09','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB10','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB11','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB12','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB13','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB14','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB15','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB16','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB17','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB18','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB19','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB20','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB21','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB22','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB23','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB24','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB25','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB26','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB27','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB28','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB29','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB30','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB31','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB32','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB99','Telebutikken');
+INSERT INTO dealers 
+VALUES('TE01','REGULAR');
+INSERT INTO dealers 
+VALUES('TH00','REGULAR');
+INSERT INTO dealers 
+VALUES('TH01','REGULAR');
+INSERT INTO dealers 
+VALUES('TH02','REGULAR');
+INSERT INTO dealers 
+VALUES('TH03','REGULAR');
+INSERT INTO dealers 
+VALUES('TH04','REGULAR');
+INSERT INTO dealers 
+VALUES('TH05','REGULAR');
+INSERT INTO dealers 
+VALUES('TH06','REGULAR');
+INSERT INTO dealers 
+VALUES('TH07','REGULAR');
+INSERT INTO dealers 
+VALUES('TH08','REGULAR');
+INSERT INTO dealers 
+VALUES('TH09','REGULAR');
+INSERT INTO dealers 
+VALUES('TH11','REGULAR');
+INSERT INTO dealers 
+VALUES('TH12','REGULAR');
+INSERT INTO dealers 
+VALUES('TH13','REGULAR');
+INSERT INTO dealers 
+VALUES('TH15','REGULAR');
+INSERT INTO dealers 
+VALUES('TH16','REGULAR');
+INSERT INTO dealers 
+VALUES('TH17','REGULAR');
+INSERT INTO dealers 
+VALUES('TH18','REGULAR');
+INSERT INTO dealers 
+VALUES('TH20','REGULAR');
+INSERT INTO dealers 
+VALUES('TH21','REGULAR');
+INSERT INTO dealers 
+VALUES('TH22','REGULAR');
+INSERT INTO dealers 
+VALUES('TH23','REGULAR');
+INSERT INTO dealers 
+VALUES('TH24','REGULAR');
+INSERT INTO dealers 
+VALUES('TH25','REGULAR');
+INSERT INTO dealers 
+VALUES('TH26','REGULAR');
+INSERT INTO dealers 
+VALUES('TH27','REGULAR');
+INSERT INTO dealers 
+VALUES('TH28','REGULAR');
+INSERT INTO dealers 
+VALUES('TH30','REGULAR');
+INSERT INTO dealers 
+VALUES('TH31','REGULAR');
+INSERT INTO dealers 
+VALUES('TH32','REGULAR');
+INSERT INTO dealers 
+VALUES('TH34','REGULAR');
+INSERT INTO dealers 
+VALUES('TH35','REGULAR');
+INSERT INTO dealers 
+VALUES('TH36','REGULAR');
+INSERT INTO dealers 
+VALUES('UNIS','REGULAR');
+INSERT INTO dealers 
+VALUES('UNIT','REGULAR');
+INSERT INTO dealers 
+VALUES('V001','REGULAR');
+INSERT INTO dealers 
+VALUES('V003','REGULAR');
+INSERT INTO dealers 
+VALUES('VG01','REGULAR');
+INSERT INTO dealers 
+VALUES('VG02','REGULAR');
+INSERT INTO dealers 
+VALUES('VG03','REGULAR');
+INSERT INTO dealers 
+VALUES('VG04','REGULAR');
+INSERT INTO dealers 
+VALUES('VGRP','REGULAR');
+INSERT INTO dealers 
+VALUES('VKS1','REGULAR');
+INSERT INTO dealers 
+VALUES('X001','Expert');
+INSERT INTO dealers 
+VALUES('X002','Expert');
+INSERT INTO dealers 
+VALUES('X003','Expert');
+INSERT INTO dealers 
+VALUES('X004','Expert');
+INSERT INTO dealers 
+VALUES('X005','Expert');
+INSERT INTO dealers 
+VALUES('X006','Expert');
+INSERT INTO dealers 
+VALUES('X007','Expert');
+INSERT INTO dealers 
+VALUES('X008','Expert');
+INSERT INTO dealers 
+VALUES('X009','Expert');
+INSERT INTO dealers 
+VALUES('X010','Expert');
+INSERT INTO dealers 
+VALUES('X011','Expert');
+INSERT INTO dealers 
+VALUES('X012','Expert');
+INSERT INTO dealers 
+VALUES('X013','Expert');
+INSERT INTO dealers 
+VALUES('X014','Expert');
+INSERT INTO dealers 
+VALUES('X015','Expert');
+INSERT INTO dealers 
+VALUES('X016','Expert');
+INSERT INTO dealers 
+VALUES('X017','Expert');
+INSERT INTO dealers 
+VALUES('X018','Expert');
+INSERT INTO dealers 
+VALUES('X019','Expert');
+INSERT INTO dealers 
+VALUES('X020','Expert');
+INSERT INTO dealers 
+VALUES('X021','Expert');
+INSERT INTO dealers 
+VALUES('X022','Expert');
+INSERT INTO dealers 
+VALUES('X023','Expert');
+INSERT INTO dealers 
+VALUES('X024','Expert');
+INSERT INTO dealers 
+VALUES('X025','Expert');
+INSERT INTO dealers 
+VALUES('X026','Expert');
+INSERT INTO dealers 
+VALUES('X027','Expert');
+INSERT INTO dealers 
+VALUES('X028','Expert');
+INSERT INTO dealers 
+VALUES('X029','Expert');
+INSERT INTO dealers 
+VALUES('X030','Expert');
+INSERT INTO dealers 
+VALUES('X031','Expert');
+INSERT INTO dealers 
+VALUES('X032','Expert');
+INSERT INTO dealers 
+VALUES('X033','Expert');
+INSERT INTO dealers 
+VALUES('X034','Elkjeden');
+INSERT INTO dealers 
+VALUES('X035','Expert');
+INSERT INTO dealers 
+VALUES('X036','Elkjeden');
+INSERT INTO dealers 
+VALUES('X037','Elkjeden');
+INSERT INTO dealers 
+VALUES('X038','Elkjeden');
+INSERT INTO dealers 
+VALUES('X039','Elkjeden');
+INSERT INTO dealers 
+VALUES('X040','Elkjeden');
+INSERT INTO dealers 
+VALUES('X041','Expert');
+INSERT INTO dealers 
+VALUES('X042','Expert');
+INSERT INTO dealers 
+VALUES('X043','Expert');
+INSERT INTO dealers 
+VALUES('X044','Elkjeden');
+INSERT INTO dealers 
+VALUES('X045','Expert');
+INSERT INTO dealers 
+VALUES('X046','Expert');
+INSERT INTO dealers 
+VALUES('X047','Expert');
+INSERT INTO dealers 
+VALUES('X048','Elkjeden');
+INSERT INTO dealers 
+VALUES('X049','Expert');
+INSERT INTO dealers 
+VALUES('X050','Elkjeden');
+INSERT INTO dealers 
+VALUES('X051','Elkjeden');
+INSERT INTO dealers 
+VALUES('ID13','Ideel');
+INSERT INTO dealers 
+VALUES('ID14','Ideel');
+INSERT INTO dealers 
+VALUES('ID15','Ideel');
+INSERT INTO dealers 
+VALUES('ID16','Ideel');
+INSERT INTO dealers 
+VALUES('ID17','Ideel');
+INSERT INTO dealers 
+VALUES('ID18','Ideel');
+INSERT INTO dealers 
+VALUES('ID19','Ideel');
+INSERT INTO dealers 
+VALUES('ID20','Ideel');
+INSERT INTO dealers 
+VALUES('ID21','Ideel');
+INSERT INTO dealers 
+VALUES('ID22','Ideel');
+INSERT INTO dealers 
+VALUES('ID23','COOP');
+INSERT INTO dealers 
+VALUES('ID24','Ideel');
+INSERT INTO dealers 
+VALUES('ID25','COOP');
+INSERT INTO dealers 
+VALUES('ID26','COOP');
+INSERT INTO dealers 
+VALUES('ID27','Ideel');
+INSERT INTO dealers 
+VALUES('ID28','Ideel');
+INSERT INTO dealers 
+VALUES('ID29','Ideel');
+INSERT INTO dealers 
+VALUES('ID30','COOP');
+INSERT INTO dealers 
+VALUES('ID31','COOP');
+INSERT INTO dealers 
+VALUES('ID32','COOP');
+INSERT INTO dealers 
+VALUES('ID33','Ideel');
+INSERT INTO dealers 
+VALUES('ID34','COOP');
+INSERT INTO dealers 
+VALUES('ID35','Ideel');
+INSERT INTO dealers 
+VALUES('ID36','COOP');
+INSERT INTO dealers 
+VALUES('INTC','REGULAR');
+INSERT INTO dealers 
+VALUES('ITKO','REGULAR');
+INSERT INTO dealers 
+VALUES('J001','REGULAR');
+INSERT INTO dealers 
+VALUES('J002','REGULAR');
+INSERT INTO dealers 
+VALUES('JIP1','REGULAR');
+INSERT INTO dealers 
+VALUES('JP01','REGULAR');
+INSERT INTO dealers 
+VALUES('JP02','REGULAR');
+INSERT INTO dealers 
+VALUES('JP03','REGULAR');
+INSERT INTO dealers 
+VALUES('JP04','REGULAR');
+INSERT INTO dealers 
+VALUES('JP05','REGULAR');
+INSERT INTO dealers 
+VALUES('JP06','REGULAR');
+INSERT INTO dealers 
+VALUES('JP07','REGULAR');
+INSERT INTO dealers 
+VALUES('JP08','REGULAR');
+INSERT INTO dealers 
+VALUES('JP09','REGULAR');
+INSERT INTO dealers 
+VALUES('JP10','REGULAR');
+INSERT INTO dealers 
+VALUES('JP11','REGULAR');
+INSERT INTO dealers 
+VALUES('JP12','REGULAR');
+INSERT INTO dealers 
+VALUES('JP13','REGULAR');
+INSERT INTO dealers 
+VALUES('JP14','REGULAR');
+INSERT INTO dealers 
+VALUES('JP15','REGULAR');
+INSERT INTO dealers 
+VALUES('JP16','REGULAR');
+INSERT INTO dealers 
+VALUES('JP17','REGULAR');
+INSERT INTO dealers 
+VALUES('JP18','REGULAR');
+INSERT INTO dealers 
+VALUES('JP19','REGULAR');
+INSERT INTO dealers 
+VALUES('JP20','REGULAR');
+INSERT INTO dealers 
+VALUES('JP22','REGULAR');
+INSERT INTO dealers 
+VALUES('JP23','REGULAR');
+INSERT INTO dealers 
+VALUES('JP24','REGULAR');
+INSERT INTO dealers 
+VALUES('KAKO','REGULAR');
+INSERT INTO dealers 
+VALUES('KB55','REGULAR');
+INSERT INTO dealers 
+VALUES('KB83','REGULAR');
+INSERT INTO dealers 
+VALUES('KE01','Elkjop');
+INSERT INTO dealers 
+VALUES('KE03','Elkjop');
+INSERT INTO dealers 
+VALUES('KE04','Elkjop');
+INSERT INTO dealers 
+VALUES('KE06','Elkjop');
+INSERT INTO dealers 
+VALUES('KE07','Elkjop');
+INSERT INTO dealers 
+VALUES('KE10','Elkjop');
+INSERT INTO dealers 
+VALUES('KE11','Elkjop');
+INSERT INTO dealers 
+VALUES('KE14','Elkjop');
+INSERT INTO dealers 
+VALUES('KE15','Elkjop');
+INSERT INTO dealers 
+VALUES('KE16','Elkjop');
+INSERT INTO dealers 
+VALUES('KE17','Elkjop');
+INSERT INTO dealers 
+VALUES('KE19','Elkjop');
+INSERT INTO dealers 
+VALUES('KE21','Elkjop');
+INSERT INTO dealers 
+VALUES('KE22','Elkjop');
+INSERT INTO dealers 
+VALUES('KE23','Elkjop');
+INSERT INTO dealers 
+VALUES('KE25','Elkjop');
+INSERT INTO dealers 
+VALUES('KE27','Elkjop');
+INSERT INTO dealers 
+VALUES('KE29','Elkjop');
+INSERT INTO dealers 
+VALUES('NCLO','REGULAR');
+INSERT INTO dealers 
+VALUES('NCRE','REGULAR');
+INSERT INTO dealers 
+VALUES('NET','REGULAR');
+INSERT INTO dealers 
+VALUES('NETC','Netcombiz');
+INSERT INTO dealers 
+VALUES('NJES','REGULAR');
+INSERT INTO dealers 
+VALUES('NKC3','REGULAR');
+INSERT INTO dealers 
+VALUES('NKV1','Netcomshop');
+INSERT INTO dealers 
+VALUES('NKV2','REGULAR');
+INSERT INTO dealers 
+VALUES('NTKU','REGULAR');
+INSERT INTO dealers 
+VALUES('OE01','REGULAR');
+INSERT INTO dealers 
+VALUES('OE02','COOP');
+INSERT INTO dealers 
+VALUES('OE03','REGULAR');
+INSERT INTO dealers 
+VALUES('OE04','COOP');
+INSERT INTO dealers 
+VALUES('OE05','COOP');
+INSERT INTO dealers 
+VALUES('OE06','COOP');
+INSERT INTO dealers 
+VALUES('OE07','REGULAR');
+INSERT INTO dealers 
+VALUES('OE08','COOP');
+INSERT INTO dealers 
+VALUES('OE09','REGULAR');
+INSERT INTO dealers 
+VALUES('OE10','COOP');
+INSERT INTO dealers 
+VALUES('OE11','REGULAR');
+INSERT INTO dealers 
+VALUES('OF03','REGULAR');
+INSERT INTO dealers 
+VALUES('OF04','REGULAR');
+INSERT INTO dealers 
+VALUES('OF05','REGULAR');
+INSERT INTO dealers 
+VALUES('OFFI','REGULAR');
+INSERT INTO dealers 
+VALUES('OT00','KlartSvar');
+INSERT INTO dealers 
+VALUES('OT01','KlartSvar');
+INSERT INTO dealers 
+VALUES('OT02','KlartSvar');
+INSERT INTO dealers 
+VALUES('OT03','KlartSvar');
+INSERT INTO dealers 
+VALUES('OT04','KlartSvar');
+INSERT INTO dealers 
+VALUES('OT05','KlartSvar');
+INSERT INTO dealers 
+VALUES('OT06','KlartSvar');
+INSERT INTO dealers 
+VALUES('OT07','KlartSvar');
+INSERT INTO dealers 
+VALUES('OT08','KlartSvar');
+INSERT INTO dealers 
+VALUES('CL50','REGULAR');
+INSERT INTO dealers 
+VALUES('CL51','REGULAR');
+INSERT INTO dealers 
+VALUES('CL52','REGULAR');
+INSERT INTO dealers 
+VALUES('CL53','REGULAR');
+INSERT INTO dealers 
+VALUES('CL54','REGULAR');
+INSERT INTO dealers 
+VALUES('CL55','REGULAR');
+INSERT INTO dealers 
+VALUES('CL56','REGULAR');
+INSERT INTO dealers 
+VALUES('CL57','REGULAR');
+INSERT INTO dealers 
+VALUES('CL58','REGULAR');
+INSERT INTO dealers 
+VALUES('CL59','REGULAR');
+INSERT INTO dealers 
+VALUES('CL60','REGULAR');
+INSERT INTO dealers 
+VALUES('CL61','REGULAR');
+INSERT INTO dealers 
+VALUES('0087','REGULAR');
+INSERT INTO dealers 
+VALUES('0091','REGULAR');
+INSERT INTO dealers 
+VALUES('0515','Elkjop');
+INSERT INTO dealers 
+VALUES('0594','REGULAR');
+INSERT INTO dealers 
+VALUES('0643','REGULAR');
+INSERT INTO dealers 
+VALUES('0706','Elkjop');
+INSERT INTO dealers 
+VALUES('0710','Elkjop');
+INSERT INTO dealers 
+VALUES('0813','REGULAR');
+INSERT INTO dealers 
+VALUES('0838','REGULAR');
+INSERT INTO dealers 
+VALUES('0874','REGULAR');
+INSERT INTO dealers 
+VALUES('0883','Elkjop');
+INSERT INTO dealers 
+VALUES('10100','REGULAR');
+INSERT INTO dealers 
+VALUES('1135','Elkjop');
+INSERT INTO dealers 
+VALUES('1269','Elkjop');
+INSERT INTO dealers 
+VALUES('1321','Elkjop');
+INSERT INTO dealers 
+VALUES('1640','Elkjop');
+INSERT INTO dealers 
+VALUES('20500','REGULAR');
+INSERT INTO dealers 
+VALUES('20600','REGULAR');
+INSERT INTO dealers 
+VALUES('20700','REGULAR');
+INSERT INTO dealers 
+VALUES('20800','REGULAR');
+INSERT INTO dealers 
+VALUES('20900','REGULAR');
+INSERT INTO dealers 
+VALUES('21000','REGULAR');
+INSERT INTO dealers 
+VALUES('21100','REGULAR');
+INSERT INTO dealers 
+VALUES('21200','REGULAR');
+INSERT INTO dealers 
+VALUES('21300','REGULAR');
+INSERT INTO dealers 
+VALUES('21400','REGULAR');
+INSERT INTO dealers 
+VALUES('2335','Elkjop');
+INSERT INTO dealers 
+VALUES('25000','REGULAR');
+INSERT INTO dealers 
+VALUES('25100','REGULAR');
+INSERT INTO dealers 
+VALUES('2821','Elkjop');
+INSERT INTO dealers 
+VALUES('30200','REGULAR');
+INSERT INTO dealers 
+VALUES('3086','Elkjop');
+INSERT INTO dealers 
+VALUES('3087','Elkjop');
+INSERT INTO dealers 
+VALUES('3088','Elkjop');
+INSERT INTO dealers 
+VALUES('3090','Elkjop');
+INSERT INTO dealers 
+VALUES('3091','Elkjop');
+INSERT INTO dealers 
+VALUES('3092','Elkjop');
+INSERT INTO dealers 
+VALUES('3093','Elkjop');
+INSERT INTO dealers 
+VALUES('3095','Elkjop');
+INSERT INTO dealers 
+VALUES('3096','Elkjop');
+INSERT INTO dealers 
+VALUES('3097','Elkjop');
+INSERT INTO dealers 
+VALUES('3104','Elkjop');
+INSERT INTO dealers 
+VALUES('3105','Elkjop');
+INSERT INTO dealers 
+VALUES('3108','Elkjop');
+INSERT INTO dealers 
+VALUES('3109','Elkjop');
+INSERT INTO dealers 
+VALUES('3110','Elkjop');
+INSERT INTO dealers 
+VALUES('3118','Elkjop');
+INSERT INTO dealers 
+VALUES('3121','Elkjop');
+INSERT INTO dealers 
+VALUES('3124','REGULAR');
+INSERT INTO dealers 
+VALUES('3150','Elkjop');
+INSERT INTO dealers 
+VALUES('3156','Elkjop');
+INSERT INTO dealers 
+VALUES('3170','Elkjop');
+INSERT INTO dealers 
+VALUES('3177','Elkjop');
+INSERT INTO dealers 
+VALUES('3194','Elkjop');
+INSERT INTO dealers 
+VALUES('3202','REGULAR');
+INSERT INTO dealers 
+VALUES('3207','Elkjop');
+INSERT INTO dealers 
+VALUES('3208','REGULAR');
+INSERT INTO dealers 
+VALUES('3214','Elkjop');
+INSERT INTO dealers 
+VALUES('3222','Elkjop');
+INSERT INTO dealers 
+VALUES('3231','Elkjop');
+INSERT INTO dealers 
+VALUES('3232','Elkjop');
+INSERT INTO dealers 
+VALUES('3239','Elkjop');
+INSERT INTO dealers 
+VALUES('3264','REGULAR');
+INSERT INTO dealers 
+VALUES('3267','REGULAR');
+INSERT INTO dealers 
+VALUES('3272','REGULAR');
+INSERT INTO dealers 
+VALUES('3273','Elkjop');
+INSERT INTO dealers 
+VALUES('3275','Elkjop');
+INSERT INTO dealers 
+VALUES('3276','REGULAR');
+INSERT INTO dealers 
+VALUES('3339','Elkjop');
+INSERT INTO dealers 
+VALUES('3357','Elkjop');
+INSERT INTO dealers 
+VALUES('3358','REGULAR');
+INSERT INTO dealers 
+VALUES('3413','Elkjop');
+INSERT INTO dealers 
+VALUES('3424','Systempartner');
+INSERT INTO dealers 
+VALUES('3447','Elkjop');
+INSERT INTO dealers 
+VALUES('3800','Elkjop');
+INSERT INTO dealers 
+VALUES('40600','REGULAR');
+INSERT INTO dealers 
+VALUES('X129','Expert');
+INSERT INTO dealers 
+VALUES('X130','Expert');
+INSERT INTO dealers 
+VALUES('X131','Expert');
+INSERT INTO dealers 
+VALUES('X132','Expert');
+INSERT INTO dealers 
+VALUES('X133','Expert');
+INSERT INTO dealers 
+VALUES('X134','Expert');
+INSERT INTO dealers 
+VALUES('X135','Expert');
+INSERT INTO dealers 
+VALUES('X136','Expert');
+INSERT INTO dealers 
+VALUES('X137','Expert');
+INSERT INTO dealers 
+VALUES('X138','Expert');
+INSERT INTO dealers 
+VALUES('X139','Expert');
+INSERT INTO dealers 
+VALUES('X140','Expert');
+INSERT INTO dealers 
+VALUES('X141','Expert');
+INSERT INTO dealers 
+VALUES('X142','Expert');
+INSERT INTO dealers 
+VALUES('X143','Expert');
+INSERT INTO dealers 
+VALUES('X144','Expert');
+INSERT INTO dealers 
+VALUES('X145','Expert');
+INSERT INTO dealers 
+VALUES('X146','Expert');
+INSERT INTO dealers 
+VALUES('X147','Expert');
+INSERT INTO dealers 
+VALUES('X148','Expert');
+INSERT INTO dealers 
+VALUES('X149','Expert');
+INSERT INTO dealers 
+VALUES('X150','Expert');
+INSERT INTO dealers 
+VALUES('X151','Expert');
+INSERT INTO dealers 
+VALUES('X152','Expert');
+INSERT INTO dealers 
+VALUES('X153','Expert');
+INSERT INTO dealers 
+VALUES('X154','Expert');
+INSERT INTO dealers 
+VALUES('X155','Expert');
+INSERT INTO dealers 
+VALUES('X156','Expert');
+INSERT INTO dealers 
+VALUES('X157','Expert');
+INSERT INTO dealers 
+VALUES('X158','Expert');
+INSERT INTO dealers 
+VALUES('X159','Expert');
+INSERT INTO dealers 
+VALUES('X160','Expert');
+INSERT INTO dealers 
+VALUES('X161','Expert');
+INSERT INTO dealers 
+VALUES('X162','Expert');
+INSERT INTO dealers 
+VALUES('X163','Expert');
+INSERT INTO dealers 
+VALUES('X164','Expert');
+INSERT INTO dealers 
+VALUES('X165','Expert');
+INSERT INTO dealers 
+VALUES('X166','Expert');
+INSERT INTO dealers 
+VALUES('X167','Expert');
+INSERT INTO dealers 
+VALUES('X168','Expert');
+INSERT INTO dealers 
+VALUES('X169','Expert');
+INSERT INTO dealers 
+VALUES('X170','Expert');
+INSERT INTO dealers 
+VALUES('X171','Expert');
+INSERT INTO dealers 
+VALUES('X172','Expert');
+INSERT INTO dealers 
+VALUES('X173','Expert');
+INSERT INTO dealers 
+VALUES('X174','Expert');
+INSERT INTO dealers 
+VALUES('X175','Expert');
+INSERT INTO dealers 
+VALUES('X176','Expert');
+INSERT INTO dealers 
+VALUES('X177','Expert');
+INSERT INTO dealers 
+VALUES('X178','Expert');
+INSERT INTO dealers 
+VALUES('X179','Expert');
+INSERT INTO dealers 
+VALUES('X180','Expert');
+INSERT INTO dealers 
+VALUES('X181','Expert');
+INSERT INTO dealers 
+VALUES('X182','Elkjeden');
+INSERT INTO dealers 
+VALUES('X183','Expert');
+INSERT INTO dealers 
+VALUES('X184','Expert');
+INSERT INTO dealers 
+VALUES('X185','Expert');
+INSERT INTO dealers 
+VALUES('X186','Expert');
+INSERT INTO dealers 
+VALUES('X187','Expert');
+INSERT INTO dealers 
+VALUES('X188','Expert');
+INSERT INTO dealers 
+VALUES('X189','Expert');
+INSERT INTO dealers 
+VALUES('X190','Expert');
+INSERT INTO dealers 
+VALUES('X191','Expert');
+INSERT INTO dealers 
+VALUES('X192','Expert');
+INSERT INTO dealers 
+VALUES('X193','Expert');
+INSERT INTO dealers 
+VALUES('X194','Expert');
+INSERT INTO dealers 
+VALUES('X195','Expert');
+INSERT INTO dealers 
+VALUES('X196','Expert');
+INSERT INTO dealers 
+VALUES('X197','Expert');
+INSERT INTO dealers 
+VALUES('X198','Expert');
+INSERT INTO dealers 
+VALUES('X199','Expert');
+INSERT INTO dealers 
+VALUES('X200','Expert');
+INSERT INTO dealers 
+VALUES('X201','Expert');
+INSERT INTO dealers 
+VALUES('X202','Expert');
+INSERT INTO dealers 
+VALUES('X203','Expert');
+INSERT INTO dealers 
+VALUES('X204','Expert');
+INSERT INTO dealers 
+VALUES('X205','Expert');
+INSERT INTO dealers 
+VALUES('X206','Expert');
+INSERT INTO dealers 
+VALUES('X207','Expert');
+INSERT INTO dealers 
+VALUES('X208','Expert');
+INSERT INTO dealers 
+VALUES('X209','Expert');
+INSERT INTO dealers 
+VALUES('X210','Expert');
+INSERT INTO dealers 
+VALUES('X211','Expert');
+INSERT INTO dealers 
+VALUES('X212','Expert');
+INSERT INTO dealers 
+VALUES('X213','Expert');
+INSERT INTO dealers 
+VALUES('X214','Expert');
+INSERT INTO dealers 
+VALUES('X215','Expert');
+INSERT INTO dealers 
+VALUES('X216','Elkjeden');
+INSERT INTO dealers 
+VALUES('X217','Expert');
+INSERT INTO dealers 
+VALUES('X218','Expert');
+INSERT INTO dealers 
+VALUES('X219','Expert');
+INSERT INTO dealers 
+VALUES('X220','Expert');
+INSERT INTO dealers 
+VALUES('X221','Expert');
+INSERT INTO dealers 
+VALUES('X222','Expert');
+INSERT INTO dealers 
+VALUES('X223','Expert');
+INSERT INTO dealers 
+VALUES('X224','Expert');
+INSERT INTO dealers 
+VALUES('X225','Expert');
+INSERT INTO dealers 
+VALUES('X226','Expert');
+INSERT INTO dealers 
+VALUES('X227','Expert');
+INSERT INTO dealers 
+VALUES('X228','Expert');
+INSERT INTO dealers 
+VALUES('X229','Expert');
+INSERT INTO dealers 
+VALUES('X230','Expert');
+INSERT INTO dealers 
+VALUES('X231','Expert');
+INSERT INTO dealers 
+VALUES('X232','Expert');
+INSERT INTO dealers 
+VALUES('X233','Expert');
+INSERT INTO dealers 
+VALUES('X234','Expert');
+INSERT INTO dealers 
+VALUES('X235','Expert');
+INSERT INTO dealers 
+VALUES('X236','Expert');
+INSERT INTO dealers 
+VALUES('X237','Expert');
+INSERT INTO dealers 
+VALUES('X238','Expert');
+INSERT INTO dealers 
+VALUES('X239','Expert');
+INSERT INTO dealers 
+VALUES('X240','Expert');
+INSERT INTO dealers 
+VALUES('X241','Expert');
+INSERT INTO dealers 
+VALUES('X242','Expert');
+INSERT INTO dealers 
+VALUES('X243','Expert');
+INSERT INTO dealers 
+VALUES('X244','Expert');
+INSERT INTO dealers 
+VALUES('X245','Expert');
+INSERT INTO dealers 
+VALUES('X246','Expert');
+INSERT INTO dealers 
+VALUES('X247','Expert');
+INSERT INTO dealers 
+VALUES('X248','Expert');
+INSERT INTO dealers 
+VALUES('X249','Expert');
+INSERT INTO dealers 
+VALUES('X250','Expert');
+INSERT INTO dealers 
+VALUES('X251','Expert');
+INSERT INTO dealers 
+VALUES('X252','Expert');
+INSERT INTO dealers 
+VALUES('X253','Expert');
+INSERT INTO dealers 
+VALUES('X254','Expert');
+INSERT INTO dealers 
+VALUES('X255','Expert');
+INSERT INTO dealers 
+VALUES('X256','Expert');
+INSERT INTO dealers 
+VALUES('X257','Expert');
+INSERT INTO dealers 
+VALUES('X258','Expert');
+INSERT INTO dealers 
+VALUES('X259','Expert');
+INSERT INTO dealers 
+VALUES('X260','Expert');
+INSERT INTO dealers 
+VALUES('X261','Expert');
+INSERT INTO dealers 
+VALUES('X262','Expert');
+INSERT INTO dealers 
+VALUES('X263','Expert');
+INSERT INTO dealers 
+VALUES('X264','Expert');
+INSERT INTO dealers 
+VALUES('X265','Expert');
+INSERT INTO dealers 
+VALUES('X266','Expert');
+INSERT INTO dealers 
+VALUES('X267','Expert');
+INSERT INTO dealers 
+VALUES('X268','Expert');
+INSERT INTO dealers 
+VALUES('X269','Expert');
+INSERT INTO dealers 
+VALUES('X270','Expert');
+INSERT INTO dealers 
+VALUES('X271','Expert');
+INSERT INTO dealers 
+VALUES('X272','Expert');
+INSERT INTO dealers 
+VALUES('X273','Expert');
+INSERT INTO dealers 
+VALUES('X274','Expert');
+INSERT INTO dealers 
+VALUES('X275','Expert');
+INSERT INTO dealers 
+VALUES('X276','Expert');
+INSERT INTO dealers 
+VALUES('OT09','KlartSvar');
+INSERT INTO dealers 
+VALUES('OT10','KlartSvar');
+INSERT INTO dealers 
+VALUES('P002','REGULAR');
+INSERT INTO dealers 
+VALUES('P003','REGULAR');
+INSERT INTO dealers 
+VALUES('P004','REGULAR');
+INSERT INTO dealers 
+VALUES('P005','REGULAR');
+INSERT INTO dealers 
+VALUES('P006','REGULAR');
+INSERT INTO dealers 
+VALUES('P007','REGULAR');
+INSERT INTO dealers 
+VALUES('P008','REGULAR');
+INSERT INTO dealers 
+VALUES('P009','REGULAR');
+INSERT INTO dealers 
+VALUES('P010','REGULAR');
+INSERT INTO dealers 
+VALUES('P011','REGULAR');
+INSERT INTO dealers 
+VALUES('P012','REGULAR');
+INSERT INTO dealers 
+VALUES('P013','REGULAR');
+INSERT INTO dealers 
+VALUES('P014','REGULAR');
+INSERT INTO dealers 
+VALUES('P015','REGULAR');
+INSERT INTO dealers 
+VALUES('P016','REGULAR');
+INSERT INTO dealers 
+VALUES('P017','REGULAR');
+INSERT INTO dealers 
+VALUES('P018','REGULAR');
+INSERT INTO dealers 
+VALUES('P019','REGULAR');
+INSERT INTO dealers 
+VALUES('P020','REGULAR');
+INSERT INTO dealers 
+VALUES('P021','REGULAR');
+INSERT INTO dealers 
+VALUES('P022','REGULAR');
+INSERT INTO dealers 
+VALUES('P023','REGULAR');
+INSERT INTO dealers 
+VALUES('P024','REGULAR');
+INSERT INTO dealers 
+VALUES('P025','REGULAR');
+INSERT INTO dealers 
+VALUES('P026','REGULAR');
+INSERT INTO dealers 
+VALUES('P027','REGULAR');
+INSERT INTO dealers 
+VALUES('P028','REGULAR');
+INSERT INTO dealers 
+VALUES('P029','REGULAR');
+INSERT INTO dealers 
+VALUES('P030','REGULAR');
+INSERT INTO dealers 
+VALUES('P031','REGULAR');
+INSERT INTO dealers 
+VALUES('P032','REGULAR');
+INSERT INTO dealers 
+VALUES('P033','REGULAR');
+INSERT INTO dealers 
+VALUES('P034','REGULAR');
+INSERT INTO dealers 
+VALUES('P035','REGULAR');
+INSERT INTO dealers 
+VALUES('P036','REGULAR');
+INSERT INTO dealers 
+VALUES('P037','REGULAR');
+INSERT INTO dealers 
+VALUES('P038','REGULAR');
+INSERT INTO dealers 
+VALUES('P039','REGULAR');
+INSERT INTO dealers 
+VALUES('P040','REGULAR');
+INSERT INTO dealers 
+VALUES('P041','REGULAR');
+INSERT INTO dealers 
+VALUES('P042','REGULAR');
+INSERT INTO dealers 
+VALUES('P043','REGULAR');
+INSERT INTO dealers 
+VALUES('P044','REGULAR');
+INSERT INTO dealers 
+VALUES('P045','REGULAR');
+INSERT INTO dealers 
+VALUES('P046','REGULAR');
+INSERT INTO dealers 
+VALUES('P047','REGULAR');
+INSERT INTO dealers 
+VALUES('P048','REGULAR');
+INSERT INTO dealers 
+VALUES('P049','REGULAR');
+INSERT INTO dealers 
+VALUES('P050','REGULAR');
+INSERT INTO dealers 
+VALUES('P051','REGULAR');
+INSERT INTO dealers 
+VALUES('P052','REGULAR');
+INSERT INTO dealers 
+VALUES('P053','REGULAR');
+INSERT INTO dealers 
+VALUES('P054','REGULAR');
+INSERT INTO dealers 
+VALUES('P055','REGULAR');
+INSERT INTO dealers 
+VALUES('P056','REGULAR');
+INSERT INTO dealers 
+VALUES('P057','REGULAR');
+INSERT INTO dealers 
+VALUES('P058','REGULAR');
+INSERT INTO dealers 
+VALUES('P059','REGULAR');
+INSERT INTO dealers 
+VALUES('P060','REGULAR');
+INSERT INTO dealers 
+VALUES('P061','REGULAR');
+INSERT INTO dealers 
+VALUES('P062','REGULAR');
+INSERT INTO dealers 
+VALUES('P063','REGULAR');
+INSERT INTO dealers 
+VALUES('P064','REGULAR');
+INSERT INTO dealers 
+VALUES('P065','REGULAR');
+INSERT INTO dealers 
+VALUES('P066','REGULAR');
+INSERT INTO dealers 
+VALUES('P067','REGULAR');
+INSERT INTO dealers 
+VALUES('P068','REGULAR');
+INSERT INTO dealers 
+VALUES('P069','REGULAR');
+INSERT INTO dealers 
+VALUES('P070','REGULAR');
+INSERT INTO dealers 
+VALUES('P071','REGULAR');
+INSERT INTO dealers 
+VALUES('P072','REGULAR');
+INSERT INTO dealers 
+VALUES('P073','REGULAR');
+INSERT INTO dealers 
+VALUES('P074','REGULAR');
+INSERT INTO dealers 
+VALUES('P075','REGULAR');
+INSERT INTO dealers 
+VALUES('P076','REGULAR');
+INSERT INTO dealers 
+VALUES('P077','REGULAR');
+INSERT INTO dealers 
+VALUES('P078','REGULAR');
+INSERT INTO dealers 
+VALUES('P079','REGULAR');
+INSERT INTO dealers 
+VALUES('P080','REGULAR');
+INSERT INTO dealers 
+VALUES('P081','REGULAR');
+INSERT INTO dealers 
+VALUES('P082','REGULAR');
+INSERT INTO dealers 
+VALUES('P083','REGULAR');
+INSERT INTO dealers 
+VALUES('P084','REGULAR');
+INSERT INTO dealers 
+VALUES('P085','REGULAR');
+INSERT INTO dealers 
+VALUES('P086','REGULAR');
+INSERT INTO dealers 
+VALUES('P087','REGULAR');
+INSERT INTO dealers 
+VALUES('P088','REGULAR');
+INSERT INTO dealers 
+VALUES('P089','REGULAR');
+INSERT INTO dealers 
+VALUES('P090','REGULAR');
+INSERT INTO dealers 
+VALUES('P091','REGULAR');
+INSERT INTO dealers 
+VALUES('P092','REGULAR');
+INSERT INTO dealers 
+VALUES('P093','REGULAR');
+INSERT INTO dealers 
+VALUES('P094','REGULAR');
+INSERT INTO dealers 
+VALUES('P095','REGULAR');
+INSERT INTO dealers 
+VALUES('P102','REGULAR');
+INSERT INTO dealers 
+VALUES('PF01','REGULAR');
+INSERT INTO dealers 
+VALUES('PF02','REGULAR');
+INSERT INTO dealers 
+VALUES('PF03','REGULAR');
+INSERT INTO dealers 
+VALUES('PF04','REGULAR');
+INSERT INTO dealers 
+VALUES('PF05','REGULAR');
+INSERT INTO dealers 
+VALUES('PF06','REGULAR');
+INSERT INTO dealers 
+VALUES('PF07','REGULAR');
+INSERT INTO dealers 
+VALUES('PF08','REGULAR');
+INSERT INTO dealers 
+VALUES('PF09','REGULAR');
+INSERT INTO dealers 
+VALUES('PF10','REGULAR');
+INSERT INTO dealers 
+VALUES('PF11','REGULAR');
+INSERT INTO dealers 
+VALUES('PF12','REGULAR');
+INSERT INTO dealers 
+VALUES('PF13','REGULAR');
+INSERT INTO dealers 
+VALUES('PF14','REGULAR');
+INSERT INTO dealers 
+VALUES('PF15','REGULAR');
+INSERT INTO dealers 
+VALUES('PF16','REGULAR');
+INSERT INTO dealers 
+VALUES('PF17','REGULAR');
+INSERT INTO dealers 
+VALUES('PF18','REGULAR');
+INSERT INTO dealers 
+VALUES('PF19','REGULAR');
+INSERT INTO dealers 
+VALUES('PF20','REGULAR');
+INSERT INTO dealers 
+VALUES('PF21','REGULAR');
+INSERT INTO dealers 
+VALUES('PF22','REGULAR');
+INSERT INTO dealers 
+VALUES('PF23','REGULAR');
+INSERT INTO dealers 
+VALUES('PF24','REGULAR');
+INSERT INTO dealers 
+VALUES('PF25','REGULAR');
+INSERT INTO dealers 
+VALUES('PF26','REGULAR');
+INSERT INTO dealers 
+VALUES('PF27','REGULAR');
+INSERT INTO dealers 
+VALUES('PF28','REGULAR');
+INSERT INTO dealers 
+VALUES('PF29','REGULAR');
+INSERT INTO dealers 
+VALUES('PF30','REGULAR');
+INSERT INTO dealers 
+VALUES('PF31','REGULAR');
+INSERT INTO dealers 
+VALUES('PF32','REGULAR');
+INSERT INTO dealers 
+VALUES('PF33','REGULAR');
+INSERT INTO dealers 
+VALUES('PF34','REGULAR');
+INSERT INTO dealers 
+VALUES('PF35','REGULAR');
+INSERT INTO dealers 
+VALUES('PF36','REGULAR');
+INSERT INTO dealers 
+VALUES('PF37','REGULAR');
+INSERT INTO dealers 
+VALUES('PF38','REGULAR');
+INSERT INTO dealers 
+VALUES('PF39','REGULAR');
+INSERT INTO dealers 
+VALUES('PF40','REGULAR');
+INSERT INTO dealers 
+VALUES('PF41','REGULAR');
+INSERT INTO dealers 
+VALUES('PO15','REGULAR');
+INSERT INTO dealers 
+VALUES('RASE','REGULAR');
+INSERT INTO dealers 
+VALUES('SBI1','REGULAR');
+INSERT INTO dealers 
+VALUES('SBI2','REGULAR');
+INSERT INTO dealers 
+VALUES('SC01','REGULAR');
+INSERT INTO dealers 
+VALUES('SDIV','REGULAR');
+INSERT INTO dealers 
+VALUES('SHOP','REGULAR');
+INSERT INTO dealers 
+VALUES('SIB2','REGULAR');
+INSERT INTO dealers 
+VALUES('SIB3','REGULAR');
+INSERT INTO dealers 
+VALUES('SKAN','REGULAR');
+INSERT INTO dealers 
+VALUES('SMC0','REGULAR');
+INSERT INTO dealers 
+VALUES('SMC1','SmartClub');
+INSERT INTO dealers 
+VALUES('SMC2','SmartClub');
+INSERT INTO dealers 
+VALUES('SMC3','SmartClub');
+INSERT INTO dealers 
+VALUES('SMC4','REGULAR');
+INSERT INTO dealers 
+VALUES('SOHO','REGULAR');
+INSERT INTO dealers 
+VALUES('STSP','REGULAR');
+INSERT INTO dealers 
+VALUES('SØEB','REGULAR');
+INSERT INTO dealers 
+VALUES('SØET','REGULAR');
+INSERT INTO dealers 
+VALUES('TAXI','REGULAR');
+INSERT INTO dealers 
+VALUES('TB01','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB02','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB03','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB04','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB05','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB06','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB07','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB08','Telebutikken');
+INSERT INTO dealers 
+VALUES('T020','Telering');
+INSERT INTO dealers 
+VALUES('T021','Telering');
+INSERT INTO dealers 
+VALUES('T022','Telering');
+INSERT INTO dealers 
+VALUES('T025','Telering');
+INSERT INTO dealers 
+VALUES('T027','Telering');
+INSERT INTO dealers 
+VALUES('T028','Telering');
+INSERT INTO dealers 
+VALUES('T029','Telering');
+INSERT INTO dealers 
+VALUES('T030','Telering');
+INSERT INTO dealers 
+VALUES('T031','Telering');
+INSERT INTO dealers 
+VALUES('T032','Telering');
+INSERT INTO dealers 
+VALUES('T033','Telering');
+INSERT INTO dealers 
+VALUES('T034','Telering');
+INSERT INTO dealers 
+VALUES('T035','Telering');
+INSERT INTO dealers 
+VALUES('T037','Telering');
+INSERT INTO dealers 
+VALUES('T038','Telering');
+INSERT INTO dealers 
+VALUES('T039','Telering');
+INSERT INTO dealers 
+VALUES('T040','Telering');
+INSERT INTO dealers 
+VALUES('T041','Telering');
+INSERT INTO dealers 
+VALUES('T042','Telering');
+INSERT INTO dealers 
+VALUES('T043','Telering');
+INSERT INTO dealers 
+VALUES('T044','Telering');
+INSERT INTO dealers 
+VALUES('T045','Telering');
+INSERT INTO dealers 
+VALUES('T046','Telering');
+INSERT INTO dealers 
+VALUES('T047','Telering');
+INSERT INTO dealers 
+VALUES('T048','Telering');
+INSERT INTO dealers 
+VALUES('T049','Telering');
+INSERT INTO dealers 
+VALUES('T050','Telering');
+INSERT INTO dealers 
+VALUES('T051','Telering');
+INSERT INTO dealers 
+VALUES('T052','Telering');
+INSERT INTO dealers 
+VALUES('T053','Telering');
+INSERT INTO dealers 
+VALUES('T054','Telering');
+INSERT INTO dealers 
+VALUES('T055','Telering');
+INSERT INTO dealers 
+VALUES('T056','Telering');
+INSERT INTO dealers 
+VALUES('T057','Telering');
+INSERT INTO dealers 
+VALUES('T058','Telering');
+INSERT INTO dealers 
+VALUES('T059','Telering');
+INSERT INTO dealers 
+VALUES('T060','Telering');
+INSERT INTO dealers 
+VALUES('T061','Telering');
+INSERT INTO dealers 
+VALUES('T062','Telering');
+INSERT INTO dealers 
+VALUES('T063','Telering');
+INSERT INTO dealers 
+VALUES('T005','Telering');
+INSERT INTO dealers 
+VALUES('T015','Telering');
+INSERT INTO dealers 
+VALUES('N156','KlartSvar');
+INSERT INTO dealers 
+VALUES('MO01','REGULAR');
+INSERT INTO dealers 
+VALUES('F307','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('KSTG','CustomerCentre');
+INSERT INTO dealers 
+VALUES('F306','REGULAR');
+INSERT INTO dealers 
+VALUES('N191','KlartSvar');
+INSERT INTO dealers 
+VALUES('X376','Expert');
+INSERT INTO dealers 
+VALUES('TB47','Telebutikken');
+INSERT INTO dealers 
+VALUES('42500','REGULAR');
+INSERT INTO dealers 
+VALUES('SW01','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW02','SW_web');
+INSERT INTO dealers 
+VALUES('SW03','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW04','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW05','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW06','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW07','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW08','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW09','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW10','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW11','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW12','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW13','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW14','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW15','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW16','Spaceworld');
+INSERT INTO dealers 
+VALUES('F308','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('T110','Telering');
+INSERT INTO dealers 
+VALUES('T111','Telering');
+INSERT INTO dealers 
+VALUES('T112','Telering');
+INSERT INTO dealers 
+VALUES('SW17','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW18','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW19','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW20','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW21','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW22','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW23','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW24','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW25','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW26','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW27','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW37','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW28','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW29','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW30','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW31','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW32','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW33','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW34','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW35','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW36','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW38','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW39','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW40','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW41','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW42','Spaceworld');
+INSERT INTO dealers 
+VALUES('T113','Telering');
+INSERT INTO dealers 
+VALUES('F309','REGULAR');
+INSERT INTO dealers 
+VALUES('KSRT','CustomerCentre');
+INSERT INTO dealers 
+VALUES('DT06','REGULAR');
+INSERT INTO dealers 
+VALUES('DT07','REGULAR');
+INSERT INTO dealers 
+VALUES('DT08','REGULAR');
+INSERT INTO dealers 
+VALUES('NETP','REGULAR');
+INSERT INTO dealers 
+VALUES('SW43','Spaceworld');
+INSERT INTO dealers 
+VALUES('NO01','REGULAR');
+INSERT INTO dealers 
+VALUES('F311','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('DX01','REGULAR');
+INSERT INTO dealers 
+VALUES('TC01','Trigcom');
+INSERT INTO dealers 
+VALUES('F310','Partner');
+INSERT INTO dealers 
+VALUES('T114','Telering');
+INSERT INTO dealers 
+VALUES('T115','Telering');
+INSERT INTO dealers 
+VALUES('SW44','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW45','Spaceworld');
+INSERT INTO dealers 
+VALUES('F312','Salgspartner');
+INSERT INTO dealers 
+VALUES('TB48','Telebutikken');
+INSERT INTO dealers 
+VALUES('X377','Expert');
+INSERT INTO dealers 
+VALUES('F313','REGULAR');
+INSERT INTO dealers 
+VALUES('DT09','REGULAR');
+INSERT INTO dealers 
+VALUES('F314','REGULAR');
+INSERT INTO dealers 
+VALUES('F315','REGULAR');
+INSERT INTO dealers 
+VALUES('F316','REGULAR');
+INSERT INTO dealers 
+VALUES('F317','Partner');
+INSERT INTO dealers 
+VALUES('F318','EliteFoto');
+INSERT INTO dealers 
+VALUES('F319','REGULAR');
+INSERT INTO dealers 
+VALUES('F320','REGULAR');
+INSERT INTO dealers 
+VALUES('F321','Partner');
+INSERT INTO dealers 
+VALUES('DT10','REGULAR');
+INSERT INTO dealers 
+VALUES('DT11','REGULAR');
+INSERT INTO dealers 
+VALUES('F324','Partner');
+INSERT INTO dealers 
+VALUES('F322','Partner');
+INSERT INTO dealers 
+VALUES('F323','Partner');
+INSERT INTO dealers 
+VALUES('SW46','Spaceworld');
+INSERT INTO dealers 
+VALUES('F325','Partner');
+INSERT INTO dealers 
+VALUES('SW47','Spaceworld');
+INSERT INTO dealers 
+VALUES('N192','KlartSvar');
+INSERT INTO dealers 
+VALUES('BIS9','SIBA');
+INSERT INTO dealers 
+VALUES('X378','Expert');
+INSERT INTO dealers 
+VALUES('T116','Telering');
+INSERT INTO dealers 
+VALUES('KSBA','TM_Bedrift');
+INSERT INTO dealers 
+VALUES('F326','Partner');
+INSERT INTO dealers 
+VALUES('X379','Elkjeden');
+INSERT INTO dealers 
+VALUES('TB49','Telebutikken');
+INSERT INTO dealers 
+VALUES('DT13','REGULAR');
+INSERT INTO dealers 
+VALUES('X380','Expert');
+INSERT INTO dealers 
+VALUES('DT14','REGULAR');
+INSERT INTO dealers 
+VALUES('T117','Telering');
+INSERT INTO dealers 
+VALUES('F327','Partner');
+INSERT INTO dealers 
+VALUES('DT12','REGULAR');
+INSERT INTO dealers 
+VALUES('TB51','Telebutikken');
+INSERT INTO dealers 
+VALUES('SW48','Spaceworld');
+INSERT INTO dealers 
+VALUES('TB52','Telebutikken');
+INSERT INTO dealers 
+VALUES('N193','KlartSvar');
+INSERT INTO dealers 
+VALUES('KE53','Elkjop');
+INSERT INTO dealers 
+VALUES('42501','REGULAR');
+INSERT INTO dealers 
+VALUES('SX00','Narvesen');
+INSERT INTO dealers 
+VALUES('SX01','Spaceworld');
+INSERT INTO dealers 
+VALUES('SX02','Spaceworld');
+INSERT INTO dealers 
+VALUES('SX03','Spaceworld');
+INSERT INTO dealers 
+VALUES('SX04','Spaceworld');
+INSERT INTO dealers 
+VALUES('SX05','REGULAR');
+INSERT INTO dealers 
+VALUES('SX06','REGULAR');
+INSERT INTO dealers 
+VALUES('T118','Telering');
+INSERT INTO dealers 
+VALUES('T119','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F328','REGULAR');
+INSERT INTO dealers 
+VALUES('T121','Telering');
+INSERT INTO dealers 
+VALUES('T120','Telering');
+INSERT INTO dealers 
+VALUES('NASP','REGULAR');
+INSERT INTO dealers 
+VALUES('F330','Partner');
+INSERT INTO dealers 
+VALUES('T122','Telering');
+INSERT INTO dealers 
+VALUES('DT15','Partner');
+INSERT INTO dealers 
+VALUES('TB53','Telebutikken');
+INSERT INTO dealers 
+VALUES('F329','Partner');
+INSERT INTO dealers 
+VALUES('T123','Telering');
+INSERT INTO dealers 
+VALUES('T124','Telering');
+INSERT INTO dealers 
+VALUES('T125','Telering');
+INSERT INTO dealers 
+VALUES('T126','Telering');
+INSERT INTO dealers 
+VALUES('N194','KlartSvar');
+INSERT INTO dealers 
+VALUES('CM01','REGULAR');
+INSERT INTO dealers 
+VALUES('PN01','REGULAR');
+INSERT INTO dealers 
+VALUES('X381','Expert');
+INSERT INTO dealers 
+VALUES('DT16','REGULAR');
+INSERT INTO dealers 
+VALUES('N196','KlartSvar');
+INSERT INTO dealers 
+VALUES('TB54','Telebutikken');
+INSERT INTO dealers 
+VALUES('N195','KlartSvar');
+INSERT INTO dealers 
+VALUES('N197','KlartSvar');
+INSERT INTO dealers 
+VALUES('BI10','SIBA');
+INSERT INTO dealers 
+VALUES('DT17','REGULAR');
+INSERT INTO dealers 
+VALUES('TB55','Telebutikken');
+INSERT INTO dealers 
+VALUES('30500','REGULAR');
+INSERT INTO dealers 
+VALUES('X382','Expert');
+INSERT INTO dealers 
+VALUES('LE11','Elkjop');
+INSERT INTO dealers 
+VALUES('CT00','REGULAR');
+INSERT INTO dealers 
+VALUES('F331','REGULAR');
+INSERT INTO dealers 
+VALUES('SMC6','REGULAR');
+INSERT INTO dealers 
+VALUES('DT19','REGULAR');
+INSERT INTO dealers 
+VALUES('SW49','Spaceworld');
+INSERT INTO dealers 
+VALUES('DT18','REGULAR');
+INSERT INTO dealers 
+VALUES('KE54','Elkjop');
+INSERT INTO dealers 
+VALUES('TB56','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB57','Telebutikken');
+INSERT INTO dealers 
+VALUES('T127','Telering');
+INSERT INTO dealers 
+VALUES('SW50','Spaceworld');
+INSERT INTO dealers 
+VALUES('DT20','Partner');
+INSERT INTO dealers 
+VALUES('SW51','Spaceworld');
+INSERT INTO dealers 
+VALUES('TB58','Telebutikken');
+INSERT INTO dealers 
+VALUES('SX07','REGULAR');
+INSERT INTO dealers 
+VALUES('F332','REGULAR');
+INSERT INTO dealers 
+VALUES('F333','REGULAR');
+INSERT INTO dealers 
+VALUES('TB59','Telebutikken');
+INSERT INTO dealers 
+VALUES('SW52','Spaceworld');
+INSERT INTO dealers 
+VALUES('T128','Telering');
+INSERT INTO dealers 
+VALUES('TB60','Telebutikken');
+INSERT INTO dealers 
+VALUES('SW53','Spaceworld');
+INSERT INTO dealers 
+VALUES('F334','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F335','Partner');
+INSERT INTO dealers 
+VALUES('F336','Partner');
+INSERT INTO dealers 
+VALUES('SW54','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW55','Spaceworld');
+INSERT INTO dealers 
+VALUES('F337','Partner');
+INSERT INTO dealers 
+VALUES('F338','Partner');
+INSERT INTO dealers 
+VALUES('T129','Telering');
+INSERT INTO dealers 
+VALUES('F339','Partner');
+INSERT INTO dealers 
+VALUES('T130','Telering');
+INSERT INTO dealers 
+VALUES('X383','Expert');
+INSERT INTO dealers 
+VALUES('F340','REGULAR');
+INSERT INTO dealers 
+VALUES('SW56','Spaceworld');
+INSERT INTO dealers 
+VALUES('X384','Expert');
+INSERT INTO dealers 
+VALUES('T131','Telering');
+INSERT INTO dealers 
+VALUES('T132','Telering');
+INSERT INTO dealers 
+VALUES('DT21','REGULAR');
+INSERT INTO dealers 
+VALUES('40601','REGULAR');
+INSERT INTO dealers 
+VALUES('NETA','REGULAR');
+INSERT INTO dealers 
+VALUES('T133','Telering');
+INSERT INTO dealers 
+VALUES('NETB','REGULAR');
+INSERT INTO dealers 
+VALUES('NETE','REGULAR');
+INSERT INTO dealers 
+VALUES('NETF','REGULAR');
+INSERT INTO dealers 
+VALUES('NETG','REGULAR');
+INSERT INTO dealers 
+VALUES('F341','Partner');
+INSERT INTO dealers 
+VALUES('DT22','REGULAR');
+INSERT INTO dealers 
+VALUES('DT23','REGULAR');
+INSERT INTO dealers 
+VALUES('T134','Telering');
+INSERT INTO dealers 
+VALUES('T135','Telering');
+INSERT INTO dealers 
+VALUES('ID88','COOP');
+INSERT INTO dealers 
+VALUES('ID87','COOP');
+INSERT INTO dealers 
+VALUES('ID86','COOP');
+INSERT INTO dealers 
+VALUES('ID85','COOP');
+INSERT INTO dealers 
+VALUES('ID89','COOP');
+INSERT INTO dealers 
+VALUES('SW57','Spaceworld');
+INSERT INTO dealers 
+VALUES('F342','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('TB61','Telebutikken');
+INSERT INTO dealers 
+VALUES('T136','Telering');
+INSERT INTO dealers 
+VALUES('SW58','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW59','Spaceworld');
+INSERT INTO dealers 
+VALUES('F343','Partner');
+INSERT INTO dealers 
+VALUES('F344','REGULAR');
+INSERT INTO dealers 
+VALUES('X385','Expert');
+INSERT INTO dealers 
+VALUES('T137','Telering');
+INSERT INTO dealers 
+VALUES('DT24','REGULAR');
+INSERT INTO dealers 
+VALUES('F345','Partner');
+INSERT INTO dealers 
+VALUES('NETJ','REGULAR');
+INSERT INTO dealers 
+VALUES('NETX','REGULAR');
+INSERT INTO dealers 
+VALUES('X386','Expert');
+INSERT INTO dealers 
+VALUES('DT25','REGULAR');
+INSERT INTO dealers 
+VALUES('TB62','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB63','Telebutikken');
+INSERT INTO dealers 
+VALUES('F346','REGULAR');
+INSERT INTO dealers 
+VALUES('T138','Telering');
+INSERT INTO dealers 
+VALUES('F347','REGULAR');
+INSERT INTO dealers 
+VALUES('T139','Telering');
+INSERT INTO dealers 
+VALUES('F348','Partner');
+INSERT INTO dealers 
+VALUES('T140','Telering');
+INSERT INTO dealers 
+VALUES('F349','Netcomshop');
+INSERT INTO dealers 
+VALUES('TB64','Telebutikken');
+INSERT INTO dealers 
+VALUES('T141','Telering');
+INSERT INTO dealers 
+VALUES('F350','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('TB69','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB70','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB65','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB66','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB67','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB68','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB71','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB72','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB75','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB73','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB74','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB76','Telebutikken');
+INSERT INTO dealers 
+VALUES('NETY','REGULAR');
+INSERT INTO dealers 
+VALUES('X387','Expert');
+INSERT INTO dealers 
+VALUES('KE55','Elkjop');
+INSERT INTO dealers 
+VALUES('F351','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F352','REGULAR');
+INSERT INTO dealers 
+VALUES('X388','Expert');
+INSERT INTO dealers 
+VALUES('F354','REGULAR');
+INSERT INTO dealers 
+VALUES('F353','REGULAR');
+INSERT INTO dealers 
+VALUES('F355','REGULAR');
+INSERT INTO dealers 
+VALUES('TB77','Telebutikken');
+INSERT INTO dealers 
+VALUES('SW60','Spaceworld');
+INSERT INTO dealers 
+VALUES('F356','Partner');
+INSERT INTO dealers 
+VALUES('T142','Telering');
+INSERT INTO dealers 
+VALUES('NETL','MinBedrift');
+INSERT INTO dealers 
+VALUES('TB78','Telebutikken');
+INSERT INTO dealers 
+VALUES('T143','Telering');
+INSERT INTO dealers 
+VALUES('TB79','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB80','Telebutikken');
+INSERT INTO dealers 
+VALUES('X389','Expert');
+INSERT INTO dealers 
+VALUES('KE56','Elkjop');
+INSERT INTO dealers 
+VALUES('SW61','Spaceworld');
+INSERT INTO dealers 
+VALUES('LE12','Elkjop');
+INSERT INTO dealers 
+VALUES('T144','Telering');
+INSERT INTO dealers 
+VALUES('T145','Telering');
+INSERT INTO dealers 
+VALUES('T146','Telering');
+INSERT INTO dealers 
+VALUES('F357','Partner');
+INSERT INTO dealers 
+VALUES('X390','Expert');
+INSERT INTO dealers 
+VALUES('X391','Expert');
+INSERT INTO dealers 
+VALUES('T148','Telering');
+INSERT INTO dealers 
+VALUES('T147','Telering');
+INSERT INTO dealers 
+VALUES('T149','Telering');
+INSERT INTO dealers 
+VALUES('X392','Expert');
+INSERT INTO dealers 
+VALUES('T150','Telering');
+INSERT INTO dealers 
+VALUES('F358','REGULAR');
+INSERT INTO dealers 
+VALUES('KE57','Elkjop');
+INSERT INTO dealers 
+VALUES('F359','REGULAR');
+INSERT INTO dealers 
+VALUES('F360','REGULAR');
+INSERT INTO dealers 
+VALUES('KE59','Elkjop');
+INSERT INTO dealers 
+VALUES('KE58','Elkjop');
+INSERT INTO dealers 
+VALUES('X393','Expert');
+INSERT INTO dealers 
+VALUES('X394','Expert');
+INSERT INTO dealers 
+VALUES('T151','Telering');
+INSERT INTO dealers 
+VALUES('T152','Telering');
+INSERT INTO dealers 
+VALUES('T153','Telering');
+INSERT INTO dealers 
+VALUES('T154','Telering');
+INSERT INTO dealers 
+VALUES('T155','Telering');
+INSERT INTO dealers 
+VALUES('NETT','REGULAR');
+INSERT INTO dealers 
+VALUES('F361','Telering');
+INSERT INTO dealers 
+VALUES('T156','Telering');
+INSERT INTO dealers 
+VALUES('X395','Expert');
+INSERT INTO dealers 
+VALUES('N199','KlartSvar');
+INSERT INTO dealers 
+VALUES('N198','KlartSvar');
+INSERT INTO dealers 
+VALUES('SW62','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW63','Spaceworld');
+INSERT INTO dealers 
+VALUES('KSGU','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSS1','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSS2','CustomerCentre');
+INSERT INTO dealers 
+VALUES('X396','Expert');
+INSERT INTO dealers 
+VALUES('KSWB','CustomerCentre');
+INSERT INTO dealers 
+VALUES('NETQ','Netcombiz');
+INSERT INTO dealers 
+VALUES('KSTM','CustomerCentre');
+INSERT INTO dealers 
+VALUES('F362','REGULAR');
+INSERT INTO dealers 
+VALUES('T157','Telering');
+INSERT INTO dealers 
+VALUES('NETR','REGULAR');
+INSERT INTO dealers 
+VALUES('NETZ','REGULAR');
+INSERT INTO dealers 
+VALUES('NKVA','REGULAR');
+INSERT INTO dealers 
+VALUES('NKVB','TM_Bedrift');
+INSERT INTO dealers 
+VALUES('LE13','Elkjop');
+INSERT INTO dealers 
+VALUES('ID45','COOP');
+INSERT INTO dealers 
+VALUES('X397','Expert');
+INSERT INTO dealers 
+VALUES('F363','Partner');
+INSERT INTO dealers 
+VALUES('F364','REGULAR');
+INSERT INTO dealers 
+VALUES('LE14','Elkjop');
+INSERT INTO dealers 
+VALUES('N200','KlartSvar');
+INSERT INTO dealers 
+VALUES('F365','Partner');
+INSERT INTO dealers 
+VALUES('F366','Partner');
+INSERT INTO dealers 
+VALUES('F367','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('KE60','Elkjop');
+INSERT INTO dealers 
+VALUES('F368','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('JEO','REGULAR');
+INSERT INTO dealers 
+VALUES('F376','Partner');
+INSERT INTO dealers 
+VALUES('F377','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F378','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F379','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F380','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('X399','Expert');
+INSERT INTO dealers 
+VALUES('X402','Expert');
+INSERT INTO dealers 
+VALUES('X403','Expert');
+INSERT INTO dealers 
+VALUES('F386','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('SW67','Spaceworld');
+INSERT INTO dealers 
+VALUES('F387','REGULAR');
+INSERT INTO dealers 
+VALUES('F388','REGULAR');
+INSERT INTO dealers 
+VALUES('F389','REGULAR');
+INSERT INTO dealers 
+VALUES('F390','REGULAR');
+INSERT INTO dealers 
+VALUES('T159','Telering');
+INSERT INTO dealers 
+VALUES('SW68','Spaceworld');
+INSERT INTO dealers 
+VALUES('NC151','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC125','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC124','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC118','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC167','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC162','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC155','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC131','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC130','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC128','KlartSvar');
+INSERT INTO dealers 
+VALUES('F295 ','Partner');
+INSERT INTO dealers 
+VALUES('T160','Telering');
+INSERT INTO dealers 
+VALUES('T161','Telering');
+INSERT INTO dealers 
+VALUES('HU06','REGULAR');
+INSERT INTO dealers 
+VALUES('60103','REGULAR');
+INSERT INTO dealers 
+VALUES('T162','Telering');
+INSERT INTO dealers 
+VALUES('T163','Telering');
+INSERT INTO dealers 
+VALUES('T164','Telering');
+INSERT INTO dealers 
+VALUES('T165','Telering');
+INSERT INTO dealers 
+VALUES('40605','REGULAR');
+INSERT INTO dealers 
+VALUES('X407','Expert');
+INSERT INTO dealers 
+VALUES('N203','KlartSvar');
+INSERT INTO dealers 
+VALUES('DRFT','TESTSHOP');
+INSERT INTO dealers 
+VALUES('NKV5','REGULAR');
+INSERT INTO dealers 
+VALUES('NKV6','REGULAR');
+INSERT INTO dealers 
+VALUES('X408','Expert');
+INSERT INTO dealers 
+VALUES('NKVC','REGULAR');
+INSERT INTO dealers 
+VALUES('F400','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('X409','Expert');
+INSERT INTO dealers 
+VALUES('F401','REGULAR');
+INSERT INTO dealers 
+VALUES('KE89','Elkjop');
+INSERT INTO dealers 
+VALUES('T167','Telering');
+INSERT INTO dealers 
+VALUES('T168','Telering');
+INSERT INTO dealers 
+VALUES('T169','Telering');
+INSERT INTO dealers 
+VALUES('X411','Expert');
+INSERT INTO dealers 
+VALUES('SW64','Spaceworld');
+INSERT INTO dealers 
+VALUES('F370','REGULAR');
+INSERT INTO dealers 
+VALUES('F371','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F372','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F381','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F382','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F383','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('HE01','REGULAR');
+INSERT INTO dealers 
+VALUES('21600','REGULAR');
+INSERT INTO dealers 
+VALUES('HE02','REGULAR');
+INSERT INTO dealers 
+VALUES('HE07','REGULAR');
+INSERT INTO dealers 
+VALUES('HE04','REGULAR');
+INSERT INTO dealers 
+VALUES('HE03','REGULAR');
+INSERT INTO dealers 
+VALUES('HE05','REGULAR');
+INSERT INTO dealers 
+VALUES('HE06','REGULAR');
+INSERT INTO dealers 
+VALUES('HE08','REGULAR');
+INSERT INTO dealers 
+VALUES('HE09','REGULAR');
+INSERT INTO dealers 
+VALUES('HE10','REGULAR');
+INSERT INTO dealers 
+VALUES('SW66','Spaceworld');
+INSERT INTO dealers 
+VALUES('F384','REGULAR');
+INSERT INTO dealers 
+VALUES('NEUA','REGULAR');
+INSERT INTO dealers 
+VALUES('X400','Expert');
+INSERT INTO dealers 
+VALUES('F385','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F391','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('X404','Expert');
+INSERT INTO dealers 
+VALUES('F392','Partner');
+INSERT INTO dealers 
+VALUES('F393','Partner');
+INSERT INTO dealers 
+VALUES('F394','Partner');
+INSERT INTO dealers 
+VALUES('F395','Partner');
+INSERT INTO dealers 
+VALUES('F396','Partner');
+INSERT INTO dealers 
+VALUES('KE65','Elkjop');
+INSERT INTO dealers 
+VALUES('SW73','Spaceworld');
+INSERT INTO dealers 
+VALUES('T170','Telering');
+INSERT INTO dealers 
+VALUES('T171','Telering');
+INSERT INTO dealers 
+VALUES('T172','Telering');
+INSERT INTO dealers 
+VALUES('SW74','Spaceworld');
+INSERT INTO dealers 
+VALUES('T173','Telering');
+INSERT INTO dealers 
+VALUES('SW75','Spaceworld');
+INSERT INTO dealers 
+VALUES('T174','Telering');
+INSERT INTO dealers 
+VALUES('NEUB','REGULAR');
+INSERT INTO dealers 
+VALUES('F404','REGULAR');
+INSERT INTO dealers 
+VALUES('F408','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F405','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F406','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F407','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F409','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F410','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('N206','REGULAR');
+INSERT INTO dealers 
+VALUES('ID47','REGULAR');
+INSERT INTO dealers 
+VALUES('SW76','REGULAR');
+INSERT INTO dealers 
+VALUES('NEUC','REGULAR');
+INSERT INTO dealers 
+VALUES('F414','REGULAR');
+INSERT INTO dealers 
+VALUES('N207','REGULAR');
+INSERT INTO dealers 
+VALUES('F415','REGULAR');
+INSERT INTO dealers 
+VALUES('T177','REGULAR');
+INSERT INTO dealers 
+VALUES('SW77','REGULAR');
+INSERT INTO dealers 
+VALUES('T182','REGULAR');
+INSERT INTO dealers 
+VALUES('X414','REGULAR');
+INSERT INTO dealers 
+VALUES('X415','REGULAR');
+INSERT INTO dealers 
+VALUES('F418','REGULAR');
+INSERT INTO dealers 
+VALUES('F419','REGULAR');
+INSERT INTO dealers 
+VALUES('T184','REGULAR');
+INSERT INTO dealers 
+VALUES('T183','REGULAR');
+INSERT INTO dealers 
+VALUES('T185','REGULAR');
+INSERT INTO dealers 
+VALUES('T189','REGULAR');
+INSERT INTO dealers 
+VALUES('T190','REGULAR');
+INSERT INTO dealers 
+VALUES('T191','REGULAR');
+INSERT INTO dealers 
+VALUES('T192','REGULAR');
+INSERT INTO dealers 
+VALUES('T193','REGULAR');
+INSERT INTO dealers 
+VALUES('T194','REGULAR');
+INSERT INTO dealers 
+VALUES('N211','REGULAR');
+INSERT INTO dealers 
+VALUES('F424','REGULAR');
+INSERT INTO dealers 
+VALUES('N213','REGULAR');
+INSERT INTO dealers 
+VALUES('ID50','REGULAR');
+INSERT INTO dealers 
+VALUES('X418','REGULAR');
+INSERT INTO dealers 
+VALUES('SW91','REGULAR');
+INSERT INTO dealers 
+VALUES('KSSO','TM_Bedrift');
+INSERT INTO dealers 
+VALUES('F427','REGULAR');
+INSERT INTO dealers 
+VALUES('SW92','REGULAR');
+INSERT INTO dealers 
+VALUES('X419','REGULAR');
+INSERT INTO dealers 
+VALUES('F428','REGULAR');
+INSERT INTO dealers 
+VALUES('X420','REGULAR');
+INSERT INTO dealers 
+VALUES('KE78','REGULAR');
+INSERT INTO dealers 
+VALUES('KE79','REGULAR');
+INSERT INTO dealers 
+VALUES('NKVD','TM_Privat');
+INSERT INTO dealers 
+VALUES('T204','REGULAR');
+INSERT INTO dealers 
+VALUES('KE90','REGULAR');
+INSERT INTO dealers 
+VALUES('KE82','REGULAR');
+INSERT INTO dealers 
+VALUES('KSR1','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSR2','CustomerCentre');
+INSERT INTO dealers 
+VALUES('F431','REGULAR');
+INSERT INTO dealers 
+VALUES('F432','Alertbrick');
+INSERT INTO dealers 
+VALUES('T209','REGULAR');
+INSERT INTO dealers 
+VALUES('F433','REGULAR');
+INSERT INTO dealers 
+VALUES('F434','REGULAR');
+INSERT INTO dealers 
+VALUES('20101','REGULAR');
+INSERT INTO dealers 
+VALUES('21201','REGULAR');
+INSERT INTO dealers 
+VALUES('21202','REGULAR');
+INSERT INTO dealers 
+VALUES('40606','REGULAR');
+INSERT INTO dealers 
+VALUES('60105','REGULAR');
+INSERT INTO dealers 
+VALUES('60106','REGULAR');
+INSERT INTO dealers 
+VALUES('42502','REGULAR');
+INSERT INTO dealers 
+VALUES('X423','REGULAR');
+INSERT INTO dealers 
+VALUES('X424','REGULAR');
+INSERT INTO dealers 
+VALUES('X425','REGULAR');
+INSERT INTO dealers 
+VALUES('X426','REGULAR');
+INSERT INTO dealers 
+VALUES('F435','REGULAR');
+INSERT INTO dealers 
+VALUES('F436','REGULAR');
+INSERT INTO dealers 
+VALUES('F440','REGULAR');
+INSERT INTO dealers 
+VALUES('F441','REGULAR');
+INSERT INTO dealers 
+VALUES('F437','REGULAR');
+INSERT INTO dealers 
+VALUES('F438','REGULAR');
+INSERT INTO dealers 
+VALUES('F439','REGULAR');
+INSERT INTO dealers 
+VALUES('KE83','REGULAR');
+INSERT INTO dealers 
+VALUES('F442','REGULAR');
+INSERT INTO dealers 
+VALUES('F443','REGULAR');
+INSERT INTO dealers 
+VALUES('F444','REGULAR');
+INSERT INTO dealers 
+VALUES('F445','REGULAR');
+INSERT INTO dealers 
+VALUES('KE84','REGULAR');
+INSERT INTO dealers 
+VALUES('T216','REGULAR');
+INSERT INTO dealers 
+VALUES('F447','REGULAR');
+INSERT INTO dealers 
+VALUES('SX11','REGULAR');
+INSERT INTO dealers 
+VALUES('T210','REGULAR');
+INSERT INTO dealers 
+VALUES('T211','REGULAR');
+INSERT INTO dealers 
+VALUES('T212','REGULAR');
+INSERT INTO dealers 
+VALUES('T213','REGULAR');
+INSERT INTO dealers 
+VALUES('T214','REGULAR');
+INSERT INTO dealers 
+VALUES('T215','REGULAR');
+INSERT INTO dealers 
+VALUES('F448','NRK');
+INSERT INTO dealers 
+VALUES('T217','REGULAR');
+INSERT INTO dealers 
+VALUES('F449','REGULAR');
+INSERT INTO dealers 
+VALUES('F451','Trigcom');
+INSERT INTO dealers 
+VALUES('SX12','REGULAR');
+INSERT INTO dealers 
+VALUES('KE92','REGULAR');
+INSERT INTO dealers 
+VALUES('KE93','REGULAR');
+INSERT INTO dealers 
+VALUES('ID48','REGULAR');
+INSERT INTO dealers 
+VALUES('SP01','REGULAR');
+INSERT INTO dealers 
+VALUES('SP02','REGULAR');
+INSERT INTO dealers 
+VALUES('X427','REGULAR');
+INSERT INTO dealers 
+VALUES('X428','REGULAR');
+INSERT INTO dealers 
+VALUES('KSR3','CustomerCentre');
+INSERT INTO dealers 
+VALUES('X429','REGULAR');
+INSERT INTO dealers 
+VALUES('X430','REGULAR');
+INSERT INTO dealers 
+VALUES('HE20','REGULAR');
+INSERT INTO dealers 
+VALUES('T227','Telering');
+INSERT INTO dealers 
+VALUES('T228','Telering');
+INSERT INTO dealers 
+VALUES('X431','Expert');
+INSERT INTO dealers 
+VALUES('Exper','REGULAR');
+INSERT INTO dealers 
+VALUES('N202','KlartSvar');
+INSERT INTO dealers 
+VALUES('X406','Expert');
+INSERT INTO dealers 
+VALUES('T166','Telering');
+INSERT INTO dealers 
+VALUES('SW70','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW71','Spaceworld');
+INSERT INTO dealers 
+VALUES('SW72','Spaceworld');
+INSERT INTO dealers 
+VALUES('T175','Telering');
+INSERT INTO dealers 
+VALUES('HE18','REGULAR');
+INSERT INTO dealers 
+VALUES('KE69','REGULAR');
+INSERT INTO dealers 
+VALUES('SW80','REGULAR');
+INSERT INTO dealers 
+VALUES('SW81','REGULAR');
+INSERT INTO dealers 
+VALUES('SW82','REGULAR');
+INSERT INTO dealers 
+VALUES('LE22','REGULAR');
+INSERT INTO dealers 
+VALUES('SW79','REGULAR');
+INSERT INTO dealers 
+VALUES('KSC1','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSC2','CustomerCentre');
+INSERT INTO dealers 
+VALUES('N210','REGULAR');
+INSERT INTO dealers 
+VALUES('KE71','REGULAR');
+INSERT INTO dealers 
+VALUES('KE72','REGULAR');
+INSERT INTO dealers 
+VALUES('SW89','REGULAR');
+INSERT INTO dealers 
+VALUES('F423','REGULAR');
+INSERT INTO dealers 
+VALUES('X416','REGULAR');
+INSERT INTO dealers 
+VALUES('KSSM','CustomerCentre');
+INSERT INTO dealers 
+VALUES('N212','REGULAR');
+INSERT INTO dealers 
+VALUES('T202','REGULAR');
+INSERT INTO dealers 
+VALUES('KE80','REGULAR');
+INSERT INTO dealers 
+VALUES('SW93','REGULAR');
+INSERT INTO dealers 
+VALUES('KSAP','CustomerCentre');
+INSERT INTO dealers 
+VALUES('T207','REGULAR');
+INSERT INTO dealers 
+VALUES('TB84','Telebutikken');
+INSERT INTO dealers 
+VALUES('SW96','REGULAR');
+INSERT INTO dealers 
+VALUES('N214','REGULAR');
+INSERT INTO dealers 
+VALUES('SX10','REGULAR');
+INSERT INTO dealers 
+VALUES('T218','REGULAR');
+INSERT INTO dealers 
+VALUES('LE26','REGULAR');
+INSERT INTO dealers 
+VALUES('F456','REGULAR');
+INSERT INTO dealers 
+VALUES('F454','REGULAR');
+INSERT INTO dealers 
+VALUES('F453','REGULAR');
+INSERT INTO dealers 
+VALUES('F457','REGULAR');
+INSERT INTO dealers 
+VALUES('F458','REGULAR');
+INSERT INTO dealers 
+VALUES('F459','REGULAR');
+INSERT INTO dealers 
+VALUES('F455','REGULAR');
+INSERT INTO dealers 
+VALUES('N215','REGULAR');
+INSERT INTO dealers 
+VALUES('T221','REGULAR');
+INSERT INTO dealers 
+VALUES('T225','REGULAR');
+INSERT INTO dealers 
+VALUES('SW65','Spaceworld');
+INSERT INTO dealers 
+VALUES('T158','Telering');
+INSERT INTO dealers 
+VALUES('X398','Expert');
+INSERT INTO dealers 
+VALUES('10102','REGULAR');
+INSERT INTO dealers 
+VALUES('10101','REGULAR');
+INSERT INTO dealers 
+VALUES('40801','REGULAR');
+INSERT INTO dealers 
+VALUES('40802','REGULAR');
+INSERT INTO dealers 
+VALUES('NKV3','REGULAR');
+INSERT INTO dealers 
+VALUES('NKV4','REGULAR');
+INSERT INTO dealers 
+VALUES('F374','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F375','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('LE15','Elkjop');
+INSERT INTO dealers 
+VALUES('LE16','Elkjop');
+INSERT INTO dealers 
+VALUES('LE17','Elkjop');
+INSERT INTO dealers 
+VALUES('SAJ','REGULAR');
+INSERT INTO dealers 
+VALUES('HU05','REGULAR');
+INSERT INTO dealers 
+VALUES('SW69','Spaceworld');
+INSERT INTO dealers 
+VALUES('F403','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('KE66','Elkjop');
+INSERT INTO dealers 
+VALUES('N205','KlartSvar');
+INSERT INTO dealers 
+VALUES('KE67','Elkjop');
+INSERT INTO dealers 
+VALUES('T176','Telering');
+INSERT INTO dealers 
+VALUES('LE19','REGULAR');
+INSERT INTO dealers 
+VALUES('F411','REGULAR');
+INSERT INTO dealers 
+VALUES('F416','REGULAR');
+INSERT INTO dealers 
+VALUES('LE21','REGULAR');
+INSERT INTO dealers 
+VALUES('SW78','REGULAR');
+INSERT INTO dealers 
+VALUES('LE20','REGULAR');
+INSERT INTO dealers 
+VALUES('KE68','REGULAR');
+INSERT INTO dealers 
+VALUES('SW83','REGULAR');
+INSERT INTO dealers 
+VALUES('F417','REGULAR');
+INSERT INTO dealers 
+VALUES('T178','REGULAR');
+INSERT INTO dealers 
+VALUES('T179','REGULAR');
+INSERT INTO dealers 
+VALUES('T180','REGULAR');
+INSERT INTO dealers 
+VALUES('T181','REGULAR');
+INSERT INTO dealers 
+VALUES('KE70','REGULAR');
+INSERT INTO dealers 
+VALUES('T187','REGULAR');
+INSERT INTO dealers 
+VALUES('SW84','REGULAR');
+INSERT INTO dealers 
+VALUES('T188','REGULAR');
+INSERT INTO dealers 
+VALUES('SW85','REGULAR');
+INSERT INTO dealers 
+VALUES('SW86','REGULAR');
+INSERT INTO dealers 
+VALUES('HU07','REGULAR');
+INSERT INTO dealers 
+VALUES('F420','REGULAR');
+INSERT INTO dealers 
+VALUES('KE74','REGULAR');
+INSERT INTO dealers 
+VALUES('KE75','REGULAR');
+INSERT INTO dealers 
+VALUES('T196','REGULAR');
+INSERT INTO dealers 
+VALUES('T197','REGULAR');
+INSERT INTO dealers 
+VALUES('T198','REGULAR');
+INSERT INTO dealers 
+VALUES('T199','REGULAR');
+INSERT INTO dealers 
+VALUES('T200','REGULAR');
+INSERT INTO dealers 
+VALUES('SW90','REGULAR');
+INSERT INTO dealers 
+VALUES('F425','REGULAR');
+INSERT INTO dealers 
+VALUES('T201','REGULAR');
+INSERT INTO dealers 
+VALUES('SW95','REGULAR');
+INSERT INTO dealers 
+VALUES('T219','REGULAR');
+INSERT INTO dealers 
+VALUES('F450','REGULAR');
+INSERT INTO dealers 
+VALUES('KE85','REGULAR');
+INSERT INTO dealers 
+VALUES('KE86','REGULAR');
+INSERT INTO dealers 
+VALUES('F452','REGULAR');
+INSERT INTO dealers 
+VALUES('T220','REGULAR');
+INSERT INTO dealers 
+VALUES('HE19','REGULAR');
+INSERT INTO dealers 
+VALUES('SX14','REGULAR');
+INSERT INTO dealers 
+VALUES('SX15','REGULAR');
+INSERT INTO dealers 
+VALUES('SX17','REGULAR');
+INSERT INTO dealers 
+VALUES('KE61','Elkjop');
+INSERT INTO dealers 
+VALUES('ID46','COOP');
+INSERT INTO dealers 
+VALUES('X401','Expert');
+INSERT INTO dealers 
+VALUES('TB81','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB82','Telebutikken');
+INSERT INTO dealers 
+VALUES('N201','KlartSvar');
+INSERT INTO dealers 
+VALUES('HE11','REGULAR');
+INSERT INTO dealers 
+VALUES('HE17','REGULAR');
+INSERT INTO dealers 
+VALUES('HE12','REGULAR');
+INSERT INTO dealers 
+VALUES('HE13','REGULAR');
+INSERT INTO dealers 
+VALUES('HE14','REGULAR');
+INSERT INTO dealers 
+VALUES('HE15','REGULAR');
+INSERT INTO dealers 
+VALUES('HE16','REGULAR');
+INSERT INTO dealers 
+VALUES('KE73','REGULAR');
+INSERT INTO dealers 
+VALUES('T195','REGULAR');
+INSERT INTO dealers 
+VALUES('SW87','REGULAR');
+INSERT INTO dealers 
+VALUES('SW88','REGULAR');
+INSERT INTO dealers 
+VALUES('F422','REGULAR');
+INSERT INTO dealers 
+VALUES('NEOC','REGULAR');
+INSERT INTO dealers 
+VALUES('KE76','REGULAR');
+INSERT INTO dealers 
+VALUES('X417','REGULAR');
+INSERT INTO dealers 
+VALUES('F426','REGULAR');
+INSERT INTO dealers 
+VALUES('X421','REGULAR');
+INSERT INTO dealers 
+VALUES('X422','REGULAR');
+INSERT INTO dealers 
+VALUES('F429','REGULAR');
+INSERT INTO dealers 
+VALUES('T205','REGULAR');
+INSERT INTO dealers 
+VALUES('T206','REGULAR');
+INSERT INTO dealers 
+VALUES('F430','REGULAR');
+INSERT INTO dealers 
+VALUES('SW98','REGULAR');
+INSERT INTO dealers 
+VALUES('SW99','REGULAR');
+INSERT INTO dealers 
+VALUES('TN10','REGULAR');
+INSERT INTO dealers 
+VALUES('KE96','REGULAR');
+INSERT INTO dealers 
+VALUES('KE94','REGULAR');
+INSERT INTO dealers 
+VALUES('KE95','REGULAR');
+INSERT INTO dealers 
+VALUES('F369','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F373','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('40602','REGULAR');
+INSERT INTO dealers 
+VALUES('21500','REGULAR');
+INSERT INTO dealers 
+VALUES('HU01','REGULAR');
+INSERT INTO dealers 
+VALUES('HU02','REGULAR');
+INSERT INTO dealers 
+VALUES('HU03','REGULAR');
+INSERT INTO dealers 
+VALUES('HU04','REGULAR');
+INSERT INTO dealers 
+VALUES('KE62','Elkjop');
+INSERT INTO dealers 
+VALUES('KE63','Elkjop');
+INSERT INTO dealers 
+VALUES('874','Elkjop');
+INSERT INTO dealers 
+VALUES('838','Elkjop');
+INSERT INTO dealers 
+VALUES('813','Elkjop');
+INSERT INTO dealers 
+VALUES('643','Elkjop');
+INSERT INTO dealers 
+VALUES('594','Elkjop');
+INSERT INTO dealers 
+VALUES('F397','REGULAR');
+INSERT INTO dealers 
+VALUES('KE64','Elkjop');
+INSERT INTO dealers 
+VALUES('F398','Partner');
+INSERT INTO dealers 
+VALUES('X405','Expert');
+INSERT INTO dealers 
+VALUES('40604','REGULAR');
+INSERT INTO dealers 
+VALUES('40603','REGULAR');
+INSERT INTO dealers 
+VALUES('60101','REGULAR');
+INSERT INTO dealers 
+VALUES('60102','REGULAR');
+INSERT INTO dealers 
+VALUES('60109','TESTSHOP');
+INSERT INTO dealers 
+VALUES('60199','REGULAR');
+INSERT INTO dealers 
+VALUES('60100','REGULAR');
+INSERT INTO dealers 
+VALUES('LE18','Elkjop');
+INSERT INTO dealers 
+VALUES('N204','KlartSvar');
+INSERT INTO dealers 
+VALUES('F399','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('X410','Expert');
+INSERT INTO dealers 
+VALUES('F402','Partner');
+INSERT INTO dealers 
+VALUES('X412','Expert');
+INSERT INTO dealers 
+VALUES('X413','REGULAR');
+INSERT INTO dealers 
+VALUES('F412','REGULAR');
+INSERT INTO dealers 
+VALUES('F413','REGULAR');
+INSERT INTO dealers 
+VALUES('N209','REGULAR');
+INSERT INTO dealers 
+VALUES('N208','REGULAR');
+INSERT INTO dealers 
+VALUES('T186','REGULAR');
+INSERT INTO dealers 
+VALUES('F421','REGULAR');
+INSERT INTO dealers 
+VALUES('60104','REGULAR');
+INSERT INTO dealers 
+VALUES('41401','REGULAR');
+INSERT INTO dealers 
+VALUES('KE77','REGULAR');
+INSERT INTO dealers 
+VALUES('T203','REGULAR');
+INSERT INTO dealers 
+VALUES('LE23','REGULAR');
+INSERT INTO dealers 
+VALUES('TB83','Telebutikken');
+INSERT INTO dealers 
+VALUES('KE81','REGULAR');
+INSERT INTO dealers 
+VALUES('TB85','Telebutikken');
+INSERT INTO dealers 
+VALUES('SW94','REGULAR');
+INSERT INTO dealers 
+VALUES('LE24','REGULAR');
+INSERT INTO dealers 
+VALUES('LE25','REGULAR');
+INSERT INTO dealers 
+VALUES('T208','REGULAR');
+INSERT INTO dealers 
+VALUES('SW97','REGULAR');
+INSERT INTO dealers 
+VALUES('F446','REGULAR');
+INSERT INTO dealers 
+VALUES('KE91','REGULAR');
+INSERT INTO dealers 
+VALUES('CH02','REGULAR');
+INSERT INTO dealers 
+VALUES('CH03','REGULAR');
+INSERT INTO dealers 
+VALUES('CH04','REGULAR');
+INSERT INTO dealers 
+VALUES('CH05','REGULAR');
+INSERT INTO dealers 
+VALUES('CH06','REGULAR');
+INSERT INTO dealers 
+VALUES('CH07','REGULAR');
+INSERT INTO dealers 
+VALUES('CH08','REGULAR');
+INSERT INTO dealers 
+VALUES('T222','REGULAR');
+INSERT INTO dealers 
+VALUES('T223','REGULAR');
+INSERT INTO dealers 
+VALUES('T224','REGULAR');
+INSERT INTO dealers 
+VALUES('KSWS','CustomerCentre');
+INSERT INTO dealers 
+VALUES('SX13','REGULAR');
+INSERT INTO dealers 
+VALUES('TB86','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB87','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB88','Telebutikken');
+INSERT INTO dealers 
+VALUES('T226','REGULAR');
+INSERT INTO dealers 
+VALUES('P180','REGULAR');
+INSERT INTO dealers 
+VALUES('P181','REGULAR');
+INSERT INTO dealers 
+VALUES('P182','REGULAR');
+INSERT INTO dealers 
+VALUES('P183','REGULAR');
+INSERT INTO dealers 
+VALUES('P184','REGULAR');
+INSERT INTO dealers 
+VALUES('P185','REGULAR');
+INSERT INTO dealers 
+VALUES('P186','REGULAR');
+INSERT INTO dealers 
+VALUES('P187','REGULAR');
+INSERT INTO dealers 
+VALUES('P188','REGULAR');
+INSERT INTO dealers 
+VALUES('P189','REGULAR');
+INSERT INTO dealers 
+VALUES('P190','REGULAR');
+INSERT INTO dealers 
+VALUES('P191','REGULAR');
+INSERT INTO dealers 
+VALUES('P268','REGULAR');
+INSERT INTO dealers 
+VALUES('P269','REGULAR');
+INSERT INTO dealers 
+VALUES('P270','REGULAR');
+INSERT INTO dealers 
+VALUES('P267','REGULAR');
+INSERT INTO dealers 
+VALUES('P271','REGULAR');
+INSERT INTO dealers 
+VALUES('P272','REGULAR');
+INSERT INTO dealers 
+VALUES('P273','REGULAR');
+INSERT INTO dealers 
+VALUES('P274','REGULAR');
+INSERT INTO dealers 
+VALUES('P275','REGULAR');
+INSERT INTO dealers 
+VALUES('P276','REGULAR');
+INSERT INTO dealers 
+VALUES('P277','REGULAR');
+INSERT INTO dealers 
+VALUES('P278','REGULAR');
+INSERT INTO dealers 
+VALUES('P279','REGULAR');
+INSERT INTO dealers 
+VALUES('P280','REGULAR');
+INSERT INTO dealers 
+VALUES('P281','REGULAR');
+INSERT INTO dealers 
+VALUES('P282','REGULAR');
+INSERT INTO dealers 
+VALUES('P283','REGULAR');
+INSERT INTO dealers 
+VALUES('P284','REGULAR');
+INSERT INTO dealers 
+VALUES('P285','REGULAR');
+INSERT INTO dealers 
+VALUES('P286','REGULAR');
+INSERT INTO dealers 
+VALUES('P287','REGULAR');
+INSERT INTO dealers 
+VALUES('P288','REGULAR');
+INSERT INTO dealers 
+VALUES('P289','REGULAR');
+INSERT INTO dealers 
+VALUES('P290','REGULAR');
+INSERT INTO dealers 
+VALUES('P291','REGULAR');
+INSERT INTO dealers 
+VALUES('P292','REGULAR');
+INSERT INTO dealers 
+VALUES('P293','REGULAR');
+INSERT INTO dealers 
+VALUES('P294','REGULAR');
+INSERT INTO dealers 
+VALUES('P295','REGULAR');
+INSERT INTO dealers 
+VALUES('P296','REGULAR');
+INSERT INTO dealers 
+VALUES('P157','REGULAR');
+INSERT INTO dealers 
+VALUES('P298','REGULAR');
+INSERT INTO dealers 
+VALUES('P299','REGULAR');
+INSERT INTO dealers 
+VALUES('P300','REGULAR');
+INSERT INTO dealers 
+VALUES('P301','REGULAR');
+INSERT INTO dealers 
+VALUES('P302','REGULAR');
+INSERT INTO dealers 
+VALUES('P303','REGULAR');
+INSERT INTO dealers 
+VALUES('P304','REGULAR');
+INSERT INTO dealers 
+VALUES('P305','REGULAR');
+INSERT INTO dealers 
+VALUES('P306','REGULAR');
+INSERT INTO dealers 
+VALUES('P307','REGULAR');
+INSERT INTO dealers 
+VALUES('P158','REGULAR');
+INSERT INTO dealers 
+VALUES('P146','REGULAR');
+INSERT INTO dealers 
+VALUES('P147','REGULAR');
+INSERT INTO dealers 
+VALUES('P148','REGULAR');
+INSERT INTO dealers 
+VALUES('P149','REGULAR');
+INSERT INTO dealers 
+VALUES('P150','REGULAR');
+INSERT INTO dealers 
+VALUES('P151','REGULAR');
+INSERT INTO dealers 
+VALUES('P152','REGULAR');
+INSERT INTO dealers 
+VALUES('P153','REGULAR');
+INSERT INTO dealers 
+VALUES('P154','REGULAR');
+INSERT INTO dealers 
+VALUES('P297','REGULAR');
+INSERT INTO dealers 
+VALUES('P155','REGULAR');
+INSERT INTO dealers 
+VALUES('P156','REGULAR');
+INSERT INTO dealers 
+VALUES('P159','REGULAR');
+INSERT INTO dealers 
+VALUES('P160','REGULAR');
+INSERT INTO dealers 
+VALUES('P161','REGULAR');
+INSERT INTO dealers 
+VALUES('P162','REGULAR');
+INSERT INTO dealers 
+VALUES('P163','REGULAR');
+INSERT INTO dealers 
+VALUES('P164','REGULAR');
+INSERT INTO dealers 
+VALUES('P165','REGULAR');
+INSERT INTO dealers 
+VALUES('P166','REGULAR');
+INSERT INTO dealers 
+VALUES('P167','REGULAR');
+INSERT INTO dealers 
+VALUES('P168','REGULAR');
+INSERT INTO dealers 
+VALUES('P169','REGULAR');
+INSERT INTO dealers 
+VALUES('P170','REGULAR');
+INSERT INTO dealers 
+VALUES('P171','REGULAR');
+INSERT INTO dealers 
+VALUES('P172','REGULAR');
+INSERT INTO dealers 
+VALUES('P173','REGULAR');
+INSERT INTO dealers 
+VALUES('P174','REGULAR');
+INSERT INTO dealers 
+VALUES('P175','REGULAR');
+INSERT INTO dealers 
+VALUES('P176','REGULAR');
+INSERT INTO dealers 
+VALUES('P177','REGULAR');
+INSERT INTO dealers 
+VALUES('P178','REGULAR');
+INSERT INTO dealers 
+VALUES('P179','REGULAR');
+INSERT INTO dealers 
+VALUES('NC00','KlartSvar');
+INSERT INTO dealers 
+VALUES('P192','REGULAR');
+INSERT INTO dealers 
+VALUES('P193','REGULAR');
+INSERT INTO dealers 
+VALUES('P194','REGULAR');
+INSERT INTO dealers 
+VALUES('P195','REGULAR');
+INSERT INTO dealers 
+VALUES('P196','REGULAR');
+INSERT INTO dealers 
+VALUES('P197','REGULAR');
+INSERT INTO dealers 
+VALUES('P198','REGULAR');
+INSERT INTO dealers 
+VALUES('P199','REGULAR');
+INSERT INTO dealers 
+VALUES('P200','REGULAR');
+INSERT INTO dealers 
+VALUES('P201','REGULAR');
+INSERT INTO dealers 
+VALUES('P202','REGULAR');
+INSERT INTO dealers 
+VALUES('P203','REGULAR');
+INSERT INTO dealers 
+VALUES('P204','REGULAR');
+INSERT INTO dealers 
+VALUES('P205','REGULAR');
+INSERT INTO dealers 
+VALUES('P206','REGULAR');
+INSERT INTO dealers 
+VALUES('P207','REGULAR');
+INSERT INTO dealers 
+VALUES('P208','REGULAR');
+INSERT INTO dealers 
+VALUES('P209','REGULAR');
+INSERT INTO dealers 
+VALUES('P210','REGULAR');
+INSERT INTO dealers 
+VALUES('P211','REGULAR');
+INSERT INTO dealers 
+VALUES('P212','REGULAR');
+INSERT INTO dealers 
+VALUES('P213','REGULAR');
+INSERT INTO dealers 
+VALUES('P214','REGULAR');
+INSERT INTO dealers 
+VALUES('P215','REGULAR');
+INSERT INTO dealers 
+VALUES('P216','REGULAR');
+INSERT INTO dealers 
+VALUES('P217','REGULAR');
+INSERT INTO dealers 
+VALUES('P218','REGULAR');
+INSERT INTO dealers 
+VALUES('P219','REGULAR');
+INSERT INTO dealers 
+VALUES('P220','REGULAR');
+INSERT INTO dealers 
+VALUES('P221','REGULAR');
+INSERT INTO dealers 
+VALUES('P222','REGULAR');
+INSERT INTO dealers 
+VALUES('P223','REGULAR');
+INSERT INTO dealers 
+VALUES('P224','REGULAR');
+INSERT INTO dealers 
+VALUES('P225','REGULAR');
+INSERT INTO dealers 
+VALUES('P226','REGULAR');
+INSERT INTO dealers 
+VALUES('P227','REGULAR');
+INSERT INTO dealers 
+VALUES('P228','REGULAR');
+INSERT INTO dealers 
+VALUES('P229','REGULAR');
+INSERT INTO dealers 
+VALUES('P230','REGULAR');
+INSERT INTO dealers 
+VALUES('P231','REGULAR');
+INSERT INTO dealers 
+VALUES('P232','REGULAR');
+INSERT INTO dealers 
+VALUES('P233','REGULAR');
+INSERT INTO dealers 
+VALUES('P234','REGULAR');
+INSERT INTO dealers 
+VALUES('P235','REGULAR');
+INSERT INTO dealers 
+VALUES('P236','REGULAR');
+INSERT INTO dealers 
+VALUES('P237','REGULAR');
+INSERT INTO dealers 
+VALUES('P238','REGULAR');
+INSERT INTO dealers 
+VALUES('P239','REGULAR');
+INSERT INTO dealers 
+VALUES('P240','REGULAR');
+INSERT INTO dealers 
+VALUES('P241','REGULAR');
+INSERT INTO dealers 
+VALUES('P242','REGULAR');
+INSERT INTO dealers 
+VALUES('P243','REGULAR');
+INSERT INTO dealers 
+VALUES('P244','REGULAR');
+INSERT INTO dealers 
+VALUES('P245','REGULAR');
+INSERT INTO dealers 
+VALUES('P246','REGULAR');
+INSERT INTO dealers 
+VALUES('P247','REGULAR');
+INSERT INTO dealers 
+VALUES('P248','REGULAR');
+INSERT INTO dealers 
+VALUES('P249','REGULAR');
+INSERT INTO dealers 
+VALUES('P250','REGULAR');
+INSERT INTO dealers 
+VALUES('P251','REGULAR');
+INSERT INTO dealers 
+VALUES('P252','REGULAR');
+INSERT INTO dealers 
+VALUES('P253','REGULAR');
+INSERT INTO dealers 
+VALUES('P254','REGULAR');
+INSERT INTO dealers 
+VALUES('P255','REGULAR');
+INSERT INTO dealers 
+VALUES('P256','REGULAR');
+INSERT INTO dealers 
+VALUES('P257','REGULAR');
+INSERT INTO dealers 
+VALUES('P258','REGULAR');
+INSERT INTO dealers 
+VALUES('P259','REGULAR');
+INSERT INTO dealers 
+VALUES('P260','REGULAR');
+INSERT INTO dealers 
+VALUES('P261','REGULAR');
+INSERT INTO dealers 
+VALUES('P262','REGULAR');
+INSERT INTO dealers 
+VALUES('P263','REGULAR');
+INSERT INTO dealers 
+VALUES('P264','REGULAR');
+INSERT INTO dealers 
+VALUES('P265','REGULAR');
+INSERT INTO dealers 
+VALUES('P266','REGULAR');
+INSERT INTO dealers 
+VALUES('KE43','Elkjop');
+INSERT INTO dealers 
+VALUES('OE12','COOP');
+INSERT INTO dealers 
+VALUES('X331','Expert');
+INSERT INTO dealers 
+VALUES('41400','REGULAR');
+INSERT INTO dealers 
+VALUES('T002','Telering');
+INSERT INTO dealers 
+VALUES('T003','Telering');
+INSERT INTO dealers 
+VALUES('T004','Telering');
+INSERT INTO dealers 
+VALUES('T006','Telering');
+INSERT INTO dealers 
+VALUES('T007','Telering');
+INSERT INTO dealers 
+VALUES('T008','Telering');
+INSERT INTO dealers 
+VALUES('T009','Telering');
+INSERT INTO dealers 
+VALUES('T011','Telering');
+INSERT INTO dealers 
+VALUES('T012','Telering');
+INSERT INTO dealers 
+VALUES('T013','Telering');
+INSERT INTO dealers 
+VALUES('T014','Telering');
+INSERT INTO dealers 
+VALUES('T016','Telering');
+INSERT INTO dealers 
+VALUES('T017','Telering');
+INSERT INTO dealers 
+VALUES('T018','Telering');
+INSERT INTO dealers 
+VALUES('T019','Telering');
+INSERT INTO dealers 
+VALUES('2362','REGULAR');
+INSERT INTO dealers 
+VALUES('S002','REGULAR');
+INSERT INTO dealers 
+VALUES('S003','REGULAR');
+INSERT INTO dealers 
+VALUES('S004','REGULAR');
+INSERT INTO dealers 
+VALUES('S005','REGULAR');
+INSERT INTO dealers 
+VALUES('F147','REGULAR');
+INSERT INTO dealers 
+VALUES('F122','REGULAR');
+INSERT INTO dealers 
+VALUES('F149','REGULAR');
+INSERT INTO dealers 
+VALUES('F133','REGULAR');
+INSERT INTO dealers 
+VALUES('F153','REGULAR');
+INSERT INTO dealers 
+VALUES('F151','REGULAR');
+INSERT INTO dealers 
+VALUES('F152','REGULAR');
+INSERT INTO dealers 
+VALUES('F156','REGULAR');
+INSERT INTO dealers 
+VALUES('NE10','REGULAR');
+INSERT INTO dealers 
+VALUES('NE11','REGULAR');
+INSERT INTO dealers 
+VALUES('NE12','REGULAR');
+INSERT INTO dealers 
+VALUES('NE13','REGULAR');
+INSERT INTO dealers 
+VALUES('F159','REGULAR');
+INSERT INTO dealers 
+VALUES('NE14','REGULAR');
+INSERT INTO dealers 
+VALUES('NE15','REGULAR');
+INSERT INTO dealers 
+VALUES('F160','REGULAR');
+INSERT INTO dealers 
+VALUES('NE16','REGULAR');
+INSERT INTO dealers 
+VALUES('SS02','REGULAR');
+INSERT INTO dealers 
+VALUES('NE17','REGULAR');
+INSERT INTO dealers 
+VALUES('NE18','REGULAR');
+INSERT INTO dealers 
+VALUES('NE19','REGULAR');
+INSERT INTO dealers 
+VALUES('6010','REGULAR');
+INSERT INTO dealers 
+VALUES('NET2','REGULAR');
+INSERT INTO dealers 
+VALUES('NET3','REGULAR');
+INSERT INTO dealers 
+VALUES('S505','REGULAR');
+INSERT INTO dealers 
+VALUES('NET4','REGULAR');
+INSERT INTO dealers 
+VALUES('NET5','REGULAR');
+INSERT INTO dealers 
+VALUES('S506','REGULAR');
+INSERT INTO dealers 
+VALUES('NET6','REGULAR');
+INSERT INTO dealers 
+VALUES('NET7','REGULAR');
+INSERT INTO dealers 
+VALUES('NET8','REGULAR');
+INSERT INTO dealers 
+VALUES('NET9','REGULAR');
+INSERT INTO dealers 
+VALUES('NETM','REGULAR');
+INSERT INTO dealers 
+VALUES('TELE','REGULAR');
+INSERT INTO dealers 
+VALUES('0481','REGULAR');
+INSERT INTO dealers 
+VALUES('NETO','REGULAR');
+INSERT INTO dealers 
+VALUES('NETS','REGULAR');
+INSERT INTO dealers 
+VALUES('0665','REGULAR');
+INSERT INTO dealers 
+VALUES('1572','REGULAR');
+INSERT INTO dealers 
+VALUES('NC31','KlartSvar');
+INSERT INTO dealers 
+VALUES('A307','REGULAR');
+INSERT INTO dealers 
+VALUES('NC32','KlartSvar');
+INSERT INTO dealers 
+VALUES('2487','REGULAR');
+INSERT INTO dealers 
+VALUES('F120','REGULAR');
+INSERT INTO dealers 
+VALUES('NC34','KlartSvar');
+INSERT INTO dealers 
+VALUES('1020','REGULAR');
+INSERT INTO dealers 
+VALUES('NC37','KlartSvar');
+INSERT INTO dealers 
+VALUES('3187','REGULAR');
+INSERT INTO dealers 
+VALUES('3366','REGULAR');
+INSERT INTO dealers 
+VALUES('3368','REGULAR');
+INSERT INTO dealers 
+VALUES('3369','REGULAR');
+INSERT INTO dealers 
+VALUES('3371','REGULAR');
+INSERT INTO dealers 
+VALUES('3372','REGULAR');
+INSERT INTO dealers 
+VALUES('3373','REGULAR');
+INSERT INTO dealers 
+VALUES('3374','REGULAR');
+INSERT INTO dealers 
+VALUES('3375','REGULAR');
+INSERT INTO dealers 
+VALUES('3376','REGULAR');
+INSERT INTO dealers 
+VALUES('3377','REGULAR');
+INSERT INTO dealers 
+VALUES('3378','REGULAR');
+INSERT INTO dealers 
+VALUES('3454','REGULAR');
+INSERT INTO dealers 
+VALUES('9858','REGULAR');
+INSERT INTO dealers 
+VALUES('F107','REGULAR');
+INSERT INTO dealers 
+VALUES('S013','REGULAR');
+INSERT INTO dealers 
+VALUES('S056','REGULAR');
+INSERT INTO dealers 
+VALUES('S058','REGULAR');
+INSERT INTO dealers 
+VALUES('S109','REGULAR');
+INSERT INTO dealers 
+VALUES('TORN','REGULAR');
+INSERT INTO dealers 
+VALUES('DV08','REGULAR');
+INSERT INTO dealers 
+VALUES('DV09','REGULAR');
+INSERT INTO dealers 
+VALUES('1383','REGULAR');
+INSERT INTO dealers 
+VALUES('1384','REGULAR');
+INSERT INTO dealers 
+VALUES('S033','REGULAR');
+INSERT INTO dealers 
+VALUES('S034','REGULAR');
+INSERT INTO dealers 
+VALUES('S035','REGULAR');
+INSERT INTO dealers 
+VALUES('S036','REGULAR');
+INSERT INTO dealers 
+VALUES('S037','REGULAR');
+INSERT INTO dealers 
+VALUES('S038','REGULAR');
+INSERT INTO dealers 
+VALUES('S039','REGULAR');
+INSERT INTO dealers 
+VALUES('S040','REGULAR');
+INSERT INTO dealers 
+VALUES('S041','REGULAR');
+INSERT INTO dealers 
+VALUES('S042','REGULAR');
+INSERT INTO dealers 
+VALUES('S043','REGULAR');
+INSERT INTO dealers 
+VALUES('S044','REGULAR');
+INSERT INTO dealers 
+VALUES('DC11','REGULAR');
+INSERT INTO dealers 
+VALUES('3183','REGULAR');
+INSERT INTO dealers 
+VALUES('3184','REGULAR');
+INSERT INTO dealers 
+VALUES('3185','REGULAR');
+INSERT INTO dealers 
+VALUES('3186','REGULAR');
+INSERT INTO dealers 
+VALUES('A062','REGULAR');
+INSERT INTO dealers 
+VALUES('3235','REGULAR');
+INSERT INTO dealers 
+VALUES('A012','REGULAR');
+INSERT INTO dealers 
+VALUES('3252','REGULAR');
+INSERT INTO dealers 
+VALUES('3256','REGULAR');
+INSERT INTO dealers 
+VALUES('3257','REGULAR');
+INSERT INTO dealers 
+VALUES('3274','REGULAR');
+INSERT INTO dealers 
+VALUES('3335','REGULAR');
+INSERT INTO dealers 
+VALUES('3499','REGULAR');
+INSERT INTO dealers 
+VALUES('3541','REGULAR');
+INSERT INTO dealers 
+VALUES('5145','REGULAR');
+INSERT INTO dealers 
+VALUES('KE26','Elkjop');
+INSERT INTO dealers 
+VALUES('KA02','REGULAR');
+INSERT INTO dealers 
+VALUES('KA03','REGULAR');
+INSERT INTO dealers 
+VALUES('KE02','Elkjop');
+INSERT INTO dealers 
+VALUES('KE05','Elkjop');
+INSERT INTO dealers 
+VALUES('KE18','Elkjop');
+INSERT INTO dealers 
+VALUES('3141','REGULAR');
+INSERT INTO dealers 
+VALUES('3266','REGULAR');
+INSERT INTO dealers 
+VALUES('3270','REGULAR');
+INSERT INTO dealers 
+VALUES('3334','REGULAR');
+INSERT INTO dealers 
+VALUES('KA21','REGULAR');
+INSERT INTO dealers 
+VALUES('KA25','REGULAR');
+INSERT INTO dealers 
+VALUES('KA27','REGULAR');
+INSERT INTO dealers 
+VALUES('S015','REGULAR');
+INSERT INTO dealers 
+VALUES('S031','REGULAR');
+INSERT INTO dealers 
+VALUES('S032','REGULAR');
+INSERT INTO dealers 
+VALUES('NC86','KlartSvar');
+INSERT INTO dealers 
+VALUES('3163','REGULAR');
+INSERT INTO dealers 
+VALUES('3219','REGULAR');
+INSERT INTO dealers 
+VALUES('3220','REGULAR');
+INSERT INTO dealers 
+VALUES('A058','REGULAR');
+INSERT INTO dealers 
+VALUES('GB05','REGULAR');
+INSERT INTO dealers 
+VALUES('KE13','Elkjop');
+INSERT INTO dealers 
+VALUES('3057','REGULAR');
+INSERT INTO dealers 
+VALUES('GS02','REGULAR');
+INSERT INTO dealers 
+VALUES('3269','REGULAR');
+INSERT INTO dealers 
+VALUES('N103','KlartSvar');
+INSERT INTO dealers 
+VALUES('N142','KlartSvar');
+INSERT INTO dealers 
+VALUES('F176','REGULAR');
+INSERT INTO dealers 
+VALUES('N109','KlartSvar');
+INSERT INTO dealers 
+VALUES('N119','KlartSvar');
+INSERT INTO dealers 
+VALUES('N129','KlartSvar');
+INSERT INTO dealers 
+VALUES('N137','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC75','KlartSvar');
+INSERT INTO dealers 
+VALUES('N138','KlartSvar');
+INSERT INTO dealers 
+VALUES('N146','KlartSvar');
+INSERT INTO dealers 
+VALUES('N111','KlartSvar');
+INSERT INTO dealers 
+VALUES('3221','REGULAR');
+INSERT INTO dealers 
+VALUES('BS36','REGULAR');
+INSERT INTO dealers 
+VALUES('BS40','REGULAR');
+INSERT INTO dealers 
+VALUES('BS28','REGULAR');
+INSERT INTO dealers 
+VALUES('KE32','Elkjop');
+INSERT INTO dealers 
+VALUES('0217','REGULAR');
+INSERT INTO dealers 
+VALUES('KE08','Elkjop');
+INSERT INTO dealers 
+VALUES('KE12','Elkjop');
+INSERT INTO dealers 
+VALUES('KE24','Elkjop');
+INSERT INTO dealers 
+VALUES('NC50','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC71','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC73','KlartSvar');
+INSERT INTO dealers 
+VALUES('N101','KlartSvar');
+INSERT INTO dealers 
+VALUES('N120','KlartSvar');
+INSERT INTO dealers 
+VALUES('N126','KlartSvar');
+INSERT INTO dealers 
+VALUES('2998','REGULAR');
+INSERT INTO dealers 
+VALUES('NC11','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC06','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC07','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC08','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC54','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC96','KlartSvar');
+INSERT INTO dealers 
+VALUES('NC90','KlartSvar');
+INSERT INTO dealers 
+VALUES('0940','REGULAR');
+INSERT INTO dealers 
+VALUES('GS01','REGULAR');
+INSERT INTO dealers 
+VALUES('NC14','KlartSvar');
+INSERT INTO dealers 
+VALUES('6172','REGULAR');
+INSERT INTO dealers 
+VALUES('0065','REGULAR');
+INSERT INTO dealers 
+VALUES('3265','REGULAR');
+INSERT INTO dealers 
+VALUES('0013','REGULAR');
+INSERT INTO dealers 
+VALUES('N177','KlartSvar');
+INSERT INTO dealers 
+VALUES('F250','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('X347','Expert');
+INSERT INTO dealers 
+VALUES('X348','Expert');
+INSERT INTO dealers 
+VALUES('X349','Expert');
+INSERT INTO dealers 
+VALUES('X350','Expert');
+INSERT INTO dealers 
+VALUES('CX19','REGULAR');
+INSERT INTO dealers 
+VALUES('TB33','Telebutikken');
+INSERT INTO dealers 
+VALUES('T072','Telering');
+INSERT INTO dealers 
+VALUES('ID39','Ideel');
+INSERT INTO dealers 
+VALUES('49','REGULAR');
+INSERT INTO dealers 
+VALUES('T073','Telering');
+INSERT INTO dealers 
+VALUES('T074','Telering');
+INSERT INTO dealers 
+VALUES('TB34','Telebutikken');
+INSERT INTO dealers 
+VALUES('AX01','REGULAR');
+INSERT INTO dealers 
+VALUES('T075','Telering');
+INSERT INTO dealers 
+VALUES('T076','Telering');
+INSERT INTO dealers 
+VALUES('T077','Telering');
+INSERT INTO dealers 
+VALUES('F251','Partner');
+INSERT INTO dealers 
+VALUES('F252','REGULAR');
+INSERT INTO dealers 
+VALUES('CX20','REGULAR');
+INSERT INTO dealers 
+VALUES('F253','REGULAR');
+INSERT INTO dealers 
+VALUES('F254','REGULAR');
+INSERT INTO dealers 
+VALUES('41800','REGULAR');
+INSERT INTO dealers 
+VALUES('TN01','TelecomNorge');
+INSERT INTO dealers 
+VALUES('TN02','REGULAR');
+INSERT INTO dealers 
+VALUES('TN03','TelecomNorge');
+INSERT INTO dealers 
+VALUES('TN04','REGULAR');
+INSERT INTO dealers 
+VALUES('TN05','TelecomNorge');
+INSERT INTO dealers 
+VALUES('TN06','TelecomNorge');
+INSERT INTO dealers 
+VALUES('TN07','TelecomNorge');
+INSERT INTO dealers 
+VALUES('TN08','REGULAR');
+INSERT INTO dealers 
+VALUES('ECM6','ID_GSM');
+INSERT INTO dealers 
+VALUES('ECM4','ID_GSM');
+INSERT INTO dealers 
+VALUES('ECM5','ID_GSM');
+INSERT INTO dealers 
+VALUES('F255','Partner');
+INSERT INTO dealers 
+VALUES('N178','KlartSvar');
+INSERT INTO dealers 
+VALUES('TN09','TelecomNorge');
+INSERT INTO dealers 
+VALUES('TN00','TelecomNorge');
+INSERT INTO dealers 
+VALUES('N179','KlartSvar');
+INSERT INTO dealers 
+VALUES('T078','Telering');
+INSERT INTO dealers 
+VALUES('LB01','REGULAR');
+INSERT INTO dealers 
+VALUES('F256','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('W001','REGULAR');
+INSERT INTO dealers 
+VALUES('W002','REGULAR');
+INSERT INTO dealers 
+VALUES('W003','REGULAR');
+INSERT INTO dealers 
+VALUES('W009','REGULAR');
+INSERT INTO dealers 
+VALUES('W004','REGULAR');
+INSERT INTO dealers 
+VALUES('W005','REGULAR');
+INSERT INTO dealers 
+VALUES('W006','REGULAR');
+INSERT INTO dealers 
+VALUES('W007','REGULAR');
+INSERT INTO dealers 
+VALUES('W008','REGULAR');
+INSERT INTO dealers 
+VALUES('W010','REGULAR');
+INSERT INTO dealers 
+VALUES('W011','REGULAR');
+INSERT INTO dealers 
+VALUES('W012','REGULAR');
+INSERT INTO dealers 
+VALUES('W013','REGULAR');
+INSERT INTO dealers 
+VALUES('W014','REGULAR');
+INSERT INTO dealers 
+VALUES('W015','REGULAR');
+INSERT INTO dealers 
+VALUES('W016','REGULAR');
+INSERT INTO dealers 
+VALUES('W018','REGULAR');
+INSERT INTO dealers 
+VALUES('W019','REGULAR');
+INSERT INTO dealers 
+VALUES('W020','REGULAR');
+INSERT INTO dealers 
+VALUES('W021','REGULAR');
+INSERT INTO dealers 
+VALUES('W022','REGULAR');
+INSERT INTO dealers 
+VALUES('41900','REGULAR');
+INSERT INTO dealers 
+VALUES('W023','REGULAR');
+INSERT INTO dealers 
+VALUES('W024','REGULAR');
+INSERT INTO dealers 
+VALUES('W025','REGULAR');
+INSERT INTO dealers 
+VALUES('W026','REGULAR');
+INSERT INTO dealers 
+VALUES('W027','REGULAR');
+INSERT INTO dealers 
+VALUES('W028','REGULAR');
+INSERT INTO dealers 
+VALUES('W029','REGULAR');
+INSERT INTO dealers 
+VALUES('W017','REGULAR');
+INSERT INTO dealers 
+VALUES('T079','Telering');
+INSERT INTO dealers 
+VALUES('W030','REGULAR');
+INSERT INTO dealers 
+VALUES('W031','REGULAR');
+INSERT INTO dealers 
+VALUES('W032','REGULAR');
+INSERT INTO dealers 
+VALUES('KSFB','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSFP','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSSS','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSA1','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSA2','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSB1','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSB2','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KSCD','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KST1','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KST2','CustomerCentre');
+INSERT INTO dealers 
+VALUES('KG06','Ideel');
+INSERT INTO dealers 
+VALUES('W036','REGULAR');
+INSERT INTO dealers 
+VALUES('W033','REGULAR');
+INSERT INTO dealers 
+VALUES('W034','REGULAR');
+INSERT INTO dealers 
+VALUES('W035','REGULAR');
+INSERT INTO dealers 
+VALUES('W037','REGULAR');
+INSERT INTO dealers 
+VALUES('W038','REGULAR');
+INSERT INTO dealers 
+VALUES('W039','REGULAR');
+INSERT INTO dealers 
+VALUES('W040','REGULAR');
+INSERT INTO dealers 
+VALUES('W041','REGULAR');
+INSERT INTO dealers 
+VALUES('W042','REGULAR');
+INSERT INTO dealers 
+VALUES('W043','REGULAR');
+INSERT INTO dealers 
+VALUES('W044','REGULAR');
+INSERT INTO dealers 
+VALUES('W045','REGULAR');
+INSERT INTO dealers 
+VALUES('W046','REGULAR');
+INSERT INTO dealers 
+VALUES('W047','REGULAR');
+INSERT INTO dealers 
+VALUES('W048','REGULAR');
+INSERT INTO dealers 
+VALUES('W049','REGULAR');
+INSERT INTO dealers 
+VALUES('W050','REGULAR');
+INSERT INTO dealers 
+VALUES('W051','REGULAR');
+INSERT INTO dealers 
+VALUES('W052','REGULAR');
+INSERT INTO dealers 
+VALUES('W053','REGULAR');
+INSERT INTO dealers 
+VALUES('W054','REGULAR');
+INSERT INTO dealers 
+VALUES('W055','REGULAR');
+INSERT INTO dealers 
+VALUES('W056','REGULAR');
+INSERT INTO dealers 
+VALUES('W057','REGULAR');
+INSERT INTO dealers 
+VALUES('W058','REGULAR');
+INSERT INTO dealers 
+VALUES('W059','REGULAR');
+INSERT INTO dealers 
+VALUES('W060','REGULAR');
+INSERT INTO dealers 
+VALUES('W061','REGULAR');
+INSERT INTO dealers 
+VALUES('W062','REGULAR');
+INSERT INTO dealers 
+VALUES('X351','Elkjeden');
+INSERT INTO dealers 
+VALUES('ORP','REGULAR');
+INSERT INTO dealers 
+VALUES('W063','REGULAR');
+INSERT INTO dealers 
+VALUES('NENI','REGULAR');
+INSERT INTO dealers 
+VALUES('W064','REGULAR');
+INSERT INTO dealers 
+VALUES('W069','REGULAR');
+INSERT INTO dealers 
+VALUES('BIS5','SIBA');
+INSERT INTO dealers 
+VALUES('W067','REGULAR');
+INSERT INTO dealers 
+VALUES('W068','REGULAR');
+INSERT INTO dealers 
+VALUES('T080','Telering');
+INSERT INTO dealers 
+VALUES('42000','REGULAR');
+INSERT INTO dealers 
+VALUES('BIS1','REGULAR');
+INSERT INTO dealers 
+VALUES('BIS2','REGULAR');
+INSERT INTO dealers 
+VALUES('BIS3','REGULAR');
+INSERT INTO dealers 
+VALUES('BIS4','REGULAR');
+INSERT INTO dealers 
+VALUES('BIS6','REGULAR');
+INSERT INTO dealers 
+VALUES('N180','KlartSvar');
+INSERT INTO dealers 
+VALUES('W066','REGULAR');
+INSERT INTO dealers 
+VALUES('X352','Expert');
+INSERT INTO dealers 
+VALUES('W065','REGULAR');
+INSERT INTO dealers 
+VALUES('F257','Salgspartner');
+INSERT INTO dealers 
+VALUES('MCHL','REGULAR');
+INSERT INTO dealers 
+VALUES('T084','Telering');
+INSERT INTO dealers 
+VALUES('T082','Telering');
+INSERT INTO dealers 
+VALUES('T083','Telering');
+INSERT INTO dealers 
+VALUES('T081','Telering');
+INSERT INTO dealers 
+VALUES('F258','REGULAR');
+INSERT INTO dealers 
+VALUES('F259','REGULAR');
+INSERT INTO dealers 
+VALUES('42100','REGULAR');
+INSERT INTO dealers 
+VALUES('Y001','REGULAR');
+INSERT INTO dealers 
+VALUES('Y002','REGULAR');
+INSERT INTO dealers 
+VALUES('Y003','REGULAR');
+INSERT INTO dealers 
+VALUES('Y004','REGULAR');
+INSERT INTO dealers 
+VALUES('Y005','REGULAR');
+INSERT INTO dealers 
+VALUES('Y006','EliteFoto');
+INSERT INTO dealers 
+VALUES('Y007','REGULAR');
+INSERT INTO dealers 
+VALUES('Y008','REGULAR');
+INSERT INTO dealers 
+VALUES('Y009','REGULAR');
+INSERT INTO dealers 
+VALUES('Y010','REGULAR');
+INSERT INTO dealers 
+VALUES('Y011','REGULAR');
+INSERT INTO dealers 
+VALUES('Y012','REGULAR');
+INSERT INTO dealers 
+VALUES('Y013','REGULAR');
+INSERT INTO dealers 
+VALUES('Y014','REGULAR');
+INSERT INTO dealers 
+VALUES('Y015','REGULAR');
+INSERT INTO dealers 
+VALUES('Y016','REGULAR');
+INSERT INTO dealers 
+VALUES('Y018','REGULAR');
+INSERT INTO dealers 
+VALUES('Y019','REGULAR');
+INSERT INTO dealers 
+VALUES('Y020','REGULAR');
+INSERT INTO dealers 
+VALUES('Y021','REGULAR');
+INSERT INTO dealers 
+VALUES('Y022','REGULAR');
+INSERT INTO dealers 
+VALUES('Y023','REGULAR');
+INSERT INTO dealers 
+VALUES('Y024','REGULAR');
+INSERT INTO dealers 
+VALUES('Y025','REGULAR');
+INSERT INTO dealers 
+VALUES('Y026','REGULAR');
+INSERT INTO dealers 
+VALUES('Y027','REGULAR');
+INSERT INTO dealers 
+VALUES('Y028','REGULAR');
+INSERT INTO dealers 
+VALUES('Y029','REGULAR');
+INSERT INTO dealers 
+VALUES('Y030','REGULAR');
+INSERT INTO dealers 
+VALUES('Y031','REGULAR');
+INSERT INTO dealers 
+VALUES('Y032','REGULAR');
+INSERT INTO dealers 
+VALUES('Y033','REGULAR');
+INSERT INTO dealers 
+VALUES('Y034','REGULAR');
+INSERT INTO dealers 
+VALUES('Y035','REGULAR');
+INSERT INTO dealers 
+VALUES('Y036','REGULAR');
+INSERT INTO dealers 
+VALUES('Y037','REGULAR');
+INSERT INTO dealers 
+VALUES('Y038','REGULAR');
+INSERT INTO dealers 
+VALUES('Y039','REGULAR');
+INSERT INTO dealers 
+VALUES('Y040','REGULAR');
+INSERT INTO dealers 
+VALUES('Y041','REGULAR');
+INSERT INTO dealers 
+VALUES('Y042','REGULAR');
+INSERT INTO dealers 
+VALUES('Y043','REGULAR');
+INSERT INTO dealers 
+VALUES('Y044','REGULAR');
+INSERT INTO dealers 
+VALUES('Y045','REGULAR');
+INSERT INTO dealers 
+VALUES('Y046','REGULAR');
+INSERT INTO dealers 
+VALUES('Y048','REGULAR');
+INSERT INTO dealers 
+VALUES('Y049','REGULAR');
+INSERT INTO dealers 
+VALUES('Y050','REGULAR');
+INSERT INTO dealers 
+VALUES('Y051','REGULAR');
+INSERT INTO dealers 
+VALUES('Y052','REGULAR');
+INSERT INTO dealers 
+VALUES('Y053','REGULAR');
+INSERT INTO dealers 
+VALUES('Y054','REGULAR');
+INSERT INTO dealers 
+VALUES('Y055','REGULAR');
+INSERT INTO dealers 
+VALUES('Y056','REGULAR');
+INSERT INTO dealers 
+VALUES('Y057','REGULAR');
+INSERT INTO dealers 
+VALUES('Y058','REGULAR');
+INSERT INTO dealers 
+VALUES('Y059','REGULAR');
+INSERT INTO dealers 
+VALUES('Y060','REGULAR');
+INSERT INTO dealers 
+VALUES('Y061','REGULAR');
+INSERT INTO dealers 
+VALUES('Y062','EliteFoto');
+INSERT INTO dealers 
+VALUES('Y063','REGULAR');
+INSERT INTO dealers 
+VALUES('Y064','REGULAR');
+INSERT INTO dealers 
+VALUES('Y065','REGULAR');
+INSERT INTO dealers 
+VALUES('Y066','REGULAR');
+INSERT INTO dealers 
+VALUES('Y067','REGULAR');
+INSERT INTO dealers 
+VALUES('Y068','REGULAR');
+INSERT INTO dealers 
+VALUES('Y069','REGULAR');
+INSERT INTO dealers 
+VALUES('Y070','REGULAR');
+INSERT INTO dealers 
+VALUES('Y071','REGULAR');
+INSERT INTO dealers 
+VALUES('Y072','REGULAR');
+INSERT INTO dealers 
+VALUES('Y073','EliteFoto');
+INSERT INTO dealers 
+VALUES('Y074','REGULAR');
+INSERT INTO dealers 
+VALUES('Y075','REGULAR');
+INSERT INTO dealers 
+VALUES('Y076','REGULAR');
+INSERT INTO dealers 
+VALUES('Y077','REGULAR');
+INSERT INTO dealers 
+VALUES('Y078','REGULAR');
+INSERT INTO dealers 
+VALUES('Y079','REGULAR');
+INSERT INTO dealers 
+VALUES('Y080','REGULAR');
+INSERT INTO dealers 
+VALUES('Y081','REGULAR');
+INSERT INTO dealers 
+VALUES('Y082','REGULAR');
+INSERT INTO dealers 
+VALUES('Y083','REGULAR');
+INSERT INTO dealers 
+VALUES('Y084','REGULAR');
+INSERT INTO dealers 
+VALUES('Y085','REGULAR');
+INSERT INTO dealers 
+VALUES('Y086','REGULAR');
+INSERT INTO dealers 
+VALUES('Y087','REGULAR');
+INSERT INTO dealers 
+VALUES('Y088','REGULAR');
+INSERT INTO dealers 
+VALUES('Y089','REGULAR');
+INSERT INTO dealers 
+VALUES('Y090','REGULAR');
+INSERT INTO dealers 
+VALUES('Y091','EliteFoto');
+INSERT INTO dealers 
+VALUES('Y092','REGULAR');
+INSERT INTO dealers 
+VALUES('Y093','REGULAR');
+INSERT INTO dealers 
+VALUES('Y094','REGULAR');
+INSERT INTO dealers 
+VALUES('Y095','REGULAR');
+INSERT INTO dealers 
+VALUES('Y096','REGULAR');
+INSERT INTO dealers 
+VALUES('Y097','REGULAR');
+INSERT INTO dealers 
+VALUES('Y098','REGULAR');
+INSERT INTO dealers 
+VALUES('Y099','REGULAR');
+INSERT INTO dealers 
+VALUES('Y100','REGULAR');
+INSERT INTO dealers 
+VALUES('Y101','REGULAR');
+INSERT INTO dealers 
+VALUES('Y102','REGULAR');
+INSERT INTO dealers 
+VALUES('Y103','REGULAR');
+INSERT INTO dealers 
+VALUES('Y104','REGULAR');
+INSERT INTO dealers 
+VALUES('Y105','REGULAR');
+INSERT INTO dealers 
+VALUES('Y106','REGULAR');
+INSERT INTO dealers 
+VALUES('Y107','REGULAR');
+INSERT INTO dealers 
+VALUES('Y108','REGULAR');
+INSERT INTO dealers 
+VALUES('X353','Expert');
+INSERT INTO dealers 
+VALUES('W000','REGULAR');
+INSERT INTO dealers 
+VALUES('Y109','REGULAR');
+INSERT INTO dealers 
+VALUES('Y017','REGULAR');
+INSERT INTO dealers 
+VALUES('N181','KlartSvar');
+INSERT INTO dealers 
+VALUES('F260','REGULAR');
+INSERT INTO dealers 
+VALUES('X354','Expert');
+INSERT INTO dealers 
+VALUES('W070','REGULAR');
+INSERT INTO dealers 
+VALUES('NP01','REGULAR');
+INSERT INTO dealers 
+VALUES('MF01','REGULAR');
+INSERT INTO dealers 
+VALUES('TM01','REGULAR');
+INSERT INTO dealers 
+VALUES('TB35','Telebutikken');
+INSERT INTO dealers 
+VALUES('F261','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F262','REGULAR');
+INSERT INTO dealers 
+VALUES('Y110','REGULAR');
+INSERT INTO dealers 
+VALUES('TB36','Telebutikken');
+INSERT INTO dealers 
+VALUES('Y047','REGULAR');
+INSERT INTO dealers 
+VALUES('F263','REGULAR');
+INSERT INTO dealers 
+VALUES('MS01','REGULAR');
+INSERT INTO dealers 
+VALUES('W071','REGULAR');
+INSERT INTO dealers 
+VALUES('F264','REGULAR');
+INSERT INTO dealers 
+VALUES('F265','Systempartner');
+INSERT INTO dealers 
+VALUES('W072','REGULAR');
+INSERT INTO dealers 
+VALUES('F266','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F267','Systempartner');
+INSERT INTO dealers 
+VALUES('KE49','Elkjop');
+INSERT INTO dealers 
+VALUES('F268','REGULAR');
+INSERT INTO dealers 
+VALUES('TB37','Telebutikken');
+INSERT INTO dealers 
+VALUES('X355','Expert');
+INSERT INTO dealers 
+VALUES('T085','Telering');
+INSERT INTO dealers 
+VALUES('W073','REGULAR');
+INSERT INTO dealers 
+VALUES('SJH','REGULAR');
+INSERT INTO dealers 
+VALUES('NETD','REGULAR');
+INSERT INTO dealers 
+VALUES('X356','Expert');
+INSERT INTO dealers 
+VALUES('W074','REGULAR');
+INSERT INTO dealers 
+VALUES('NETW','Netcomshop');
+INSERT INTO dealers 
+VALUES('W075','REGULAR');
+INSERT INTO dealers 
+VALUES('KE50','Elkjop');
+INSERT INTO dealers 
+VALUES('W076','REGULAR');
+INSERT INTO dealers 
+VALUES('F269','REGULAR');
+INSERT INTO dealers 
+VALUES('F270','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('ID40','Ideel');
+INSERT INTO dealers 
+VALUES('F271','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('W077','REGULAR');
+INSERT INTO dealers 
+VALUES('T086','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('TB38','Telebutikken');
+INSERT INTO dealers 
+VALUES('X357','Expert');
+INSERT INTO dealers 
+VALUES('N182','KlartSvar');
+INSERT INTO dealers 
+VALUES('N183','KlartSvar');
+INSERT INTO dealers 
+VALUES('X358','Expert');
+INSERT INTO dealers 
+VALUES('T087','Telering');
+INSERT INTO dealers 
+VALUES('T088','Telering');
+INSERT INTO dealers 
+VALUES('KE51','Elkjop');
+INSERT INTO dealers 
+VALUES('F272','REGULAR');
+INSERT INTO dealers 
+VALUES('W078','REGULAR');
+INSERT INTO dealers 
+VALUES('Y111','REGULAR');
+INSERT INTO dealers 
+VALUES('F273','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('ID41','COOP');
+INSERT INTO dealers 
+VALUES('BIS7','SIBA');
+INSERT INTO dealers 
+VALUES('BIS8','SIBA');
+INSERT INTO dealers 
+VALUES('BI01','SIBA');
+INSERT INTO dealers 
+VALUES('BI02','SIBA');
+INSERT INTO dealers 
+VALUES('BI03','SIBA');
+INSERT INTO dealers 
+VALUES('F274','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F275','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('W079','REGULAR');
+INSERT INTO dealers 
+VALUES('X359','Expert');
+INSERT INTO dealers 
+VALUES('F276','REGULAR');
+INSERT INTO dealers 
+VALUES('F277','MPX');
+INSERT INTO dealers 
+VALUES('N184','KlartSvar');
+INSERT INTO dealers 
+VALUES('T089','Telering');
+INSERT INTO dealers 
+VALUES('T090','Telering');
+INSERT INTO dealers 
+VALUES('T091','Telering');
+INSERT INTO dealers 
+VALUES('F278','REGULAR');
+INSERT INTO dealers 
+VALUES('Y112','REGULAR');
+INSERT INTO dealers 
+VALUES('T092','Telering');
+INSERT INTO dealers 
+VALUES('ID42','Ideel');
+INSERT INTO dealers 
+VALUES('F279','REGULAR');
+INSERT INTO dealers 
+VALUES('BI04','SIBA');
+INSERT INTO dealers 
+VALUES('BI05','SIBA');
+INSERT INTO dealers 
+VALUES('KE52','Elkjop');
+INSERT INTO dealers 
+VALUES('F280','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('ID43','COOP');
+INSERT INTO dealers 
+VALUES('F281','REGULAR');
+INSERT INTO dealers 
+VALUES('X360','Elkjeden');
+INSERT INTO dealers 
+VALUES('Y113','REGULAR');
+INSERT INTO dealers 
+VALUES('T093','Telering');
+INSERT INTO dealers 
+VALUES('T094','Telering');
+INSERT INTO dealers 
+VALUES('F282','REGULAR');
+INSERT INTO dealers 
+VALUES('F283','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('N185','KlartSvar');
+INSERT INTO dealers 
+VALUES('N186','KlartSvar');
+INSERT INTO dealers 
+VALUES('OT24','KlartSvar');
+INSERT INTO dealers 
+VALUES('F284','REGULAR');
+INSERT INTO dealers 
+VALUES('W080','REGULAR');
+INSERT INTO dealers 
+VALUES('TB39','Telebutikken');
+INSERT INTO dealers 
+VALUES('X361','Expert');
+INSERT INTO dealers 
+VALUES('T095','Telering');
+INSERT INTO dealers 
+VALUES('T096','Telering');
+INSERT INTO dealers 
+VALUES('T097','Telering');
+INSERT INTO dealers 
+VALUES('X362','Expert');
+INSERT INTO dealers 
+VALUES('Y114','REGULAR');
+INSERT INTO dealers 
+VALUES('N187','KlartSvar');
+INSERT INTO dealers 
+VALUES('ID44','COOP');
+INSERT INTO dealers 
+VALUES('KSSP','CustomerCentre');
+INSERT INTO dealers 
+VALUES('TB40','Telebutikken');
+INSERT INTO dealers 
+VALUES('TB41','Telebutikken');
+INSERT INTO dealers 
+VALUES('W081','REGULAR');
+INSERT INTO dealers 
+VALUES('F285','REGULAR');
+INSERT INTO dealers 
+VALUES('F286','REGULAR');
+INSERT INTO dealers 
+VALUES('F287','REGULAR');
+INSERT INTO dealers 
+VALUES('F288','REGULAR');
+INSERT INTO dealers 
+VALUES('F289','REGULAR');
+INSERT INTO dealers 
+VALUES('N188','KlartSvar');
+INSERT INTO dealers 
+VALUES('Y115','REGULAR');
+INSERT INTO dealers 
+VALUES('W082','REGULAR');
+INSERT INTO dealers 
+VALUES('T098','Telering');
+INSERT INTO dealers 
+VALUES('KSDF','CustomerCentre');
+INSERT INTO dealers 
+VALUES('T099','EliteFoto');
+INSERT INTO dealers 
+VALUES('F291','REGULAR');
+INSERT INTO dealers 
+VALUES('42200','REGULAR');
+INSERT INTO dealers 
+VALUES('F290','REGULAR');
+INSERT INTO dealers 
+VALUES('KSPK','CustomerCentre');
+INSERT INTO dealers 
+VALUES('X364','Expert');
+INSERT INTO dealers 
+VALUES('LE09','Elkjop');
+INSERT INTO dealers 
+VALUES('LE10','Elkjop');
+INSERT INTO dealers 
+VALUES('Y118','REGULAR');
+INSERT INTO dealers 
+VALUES('TB43','Telebutikken');
+INSERT INTO dealers 
+VALUES('X368','Expert');
+INSERT INTO dealers 
+VALUES('X367','Expert');
+INSERT INTO dealers 
+VALUES('Y117','REGULAR');
+INSERT INTO dealers 
+VALUES('X366','Expert');
+INSERT INTO dealers 
+VALUES('T102','Telering');
+INSERT INTO dealers 
+VALUES('T103','Telering');
+INSERT INTO dealers 
+VALUES('X363','Expert');
+INSERT INTO dealers 
+VALUES('F294','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('TB42','Telebutikken');
+INSERT INTO dealers 
+VALUES('T100','Telering');
+INSERT INTO dealers 
+VALUES('Y116','REGULAR');
+INSERT INTO dealers 
+VALUES('Y120','REGULAR');
+INSERT INTO dealers 
+VALUES('Y121','REGULAR');
+INSERT INTO dealers 
+VALUES('Y122','REGULAR');
+INSERT INTO dealers 
+VALUES('X365','Expert');
+INSERT INTO dealers 
+VALUES('T101','Telering');
+INSERT INTO dealers 
+VALUES('Y123','REGULAR');
+INSERT INTO dealers 
+VALUES('F292','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('N189','KlartSvar');
+INSERT INTO dealers 
+VALUES('F293','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('Y124','REGULAR');
+INSERT INTO dealers 
+VALUES('TB44','Telebutikken');
+INSERT INTO dealers 
+VALUES('X369','Expert');
+INSERT INTO dealers 
+VALUES('T104','Telering');
+INSERT INTO dealers 
+VALUES('F295','REGULAR');
+INSERT INTO dealers 
+VALUES('Y126','REGULAR');
+INSERT INTO dealers 
+VALUES('F296','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('Y125','REGULAR');
+INSERT INTO dealers 
+VALUES('W083','REGULAR');
+INSERT INTO dealers 
+VALUES('42300','REGULAR');
+INSERT INTO dealers 
+VALUES('DT00','REGULAR');
+INSERT INTO dealers 
+VALUES('DT01','Partner');
+INSERT INTO dealers 
+VALUES('F297','REGULAR');
+INSERT INTO dealers 
+VALUES('T105','Telering');
+INSERT INTO dealers 
+VALUES('T106','Telering');
+INSERT INTO dealers 
+VALUES('T107','Telering');
+INSERT INTO dealers 
+VALUES('T108','Telering');
+INSERT INTO dealers 
+VALUES('NETU','MinSide');
+INSERT INTO dealers 
+VALUES('NETK','REGULAR');
+INSERT INTO dealers 
+VALUES('49900','REGULAR');
+INSERT INTO dealers 
+VALUES('40500','REGULAR');
+INSERT INTO dealers 
+VALUES('80100','REGULAR');
+INSERT INTO dealers 
+VALUES('30300','REGULAR');
+INSERT INTO dealers 
+VALUES('30600','REGULAR');
+INSERT INTO dealers 
+VALUES('30100','REGULAR');
+INSERT INTO dealers 
+VALUES('42400','REGULAR');
+INSERT INTO dealers 
+VALUES('F298','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('F299','Partner');
+INSERT INTO dealers 
+VALUES('T109','Telering');
+INSERT INTO dealers 
+VALUES('20100','REGULAR');
+INSERT INTO dealers 
+VALUES('F300','REGULAR');
+INSERT INTO dealers 
+VALUES('TB45','Telebutikken');
+INSERT INTO dealers 
+VALUES('X370','Expert');
+INSERT INTO dealers 
+VALUES('F301','REGULAR');
+INSERT INTO dealers 
+VALUES('TB46','Telebutikken');
+INSERT INTO dealers 
+VALUES('DT02','REGULAR');
+INSERT INTO dealers 
+VALUES('F303','REGULAR');
+INSERT INTO dealers 
+VALUES('X372','Expert');
+INSERT INTO dealers 
+VALUES('X371','Expert');
+INSERT INTO dealers 
+VALUES('F302','REGULAR');
+INSERT INTO dealers 
+VALUES('20300','REGULAR');
+INSERT INTO dealers 
+VALUES('X373','Expert');
+INSERT INTO dealers 
+VALUES('X374','Expert');
+INSERT INTO dealers 
+VALUES('DT03','REGULAR');
+INSERT INTO dealers 
+VALUES('N190','KlartSvar');
+INSERT INTO dealers 
+VALUES('F304','Bedriftspartner');
+INSERT INTO dealers 
+VALUES('X375','Expert');
+INSERT INTO dealers 
+VALUES('F305','REGULAR');
+INSERT INTO dealers 
+VALUES('SMC5','REGULAR');
+INSERT INTO dealers 
+VALUES('DT05','REGULAR');
+INSERT INTO dealers 
+VALUES('DT04','REGULAR');
+
+commit;

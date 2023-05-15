@@ -1,0 +1,13 @@
+-- List number ranges of certain types...
+SELECT b.*
+  FROM (SELECT a.nr_range, a.ngp, a.nl, a.ctn_status, COUNT(1) AS "ANTALL"
+          FROM (SELECT 'GSM' || SUBSTR(ti.ctn, 1, 9) || 'xx' AS "NR_RANGE", ti.ctn, ti.ngp, ti.nl, ti.ctn_status
+                  FROM tn_inv@fokus ti
+                 WHERE ti.ctn_status IN ( 'AA' )  -- In case you want to look for more than one status...
+                   --AND ti.ngp        IN ( 'A' )   -- In case you want to look for more than one group...
+                   --AND ti.nl         IN ( 'NET' ) -- In case you want to look for more than one location...
+                   AND ROWNUM < 1000001) a        -- In case you don't want to scan the entire table...?
+        GROUP BY a.nr_range, a.ngp, a.nl, a.ctn_status) b
+ WHERE b.antall > 99
+ORDER BY 1,2,3,4
+;
